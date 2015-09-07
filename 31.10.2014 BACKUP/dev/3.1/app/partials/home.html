@@ -1,0 +1,158 @@
+<div class="app-content">
+    <div class="section slider text-center">
+        <div class="slide">
+            <img ng-src="{{::imagesFolder}}people.jpg"/>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="social column large-offset-3 large-6">
+                    <div class="row">
+                        <h1>Analiza las redes sociales<br>Ahora más potente que nunca</h1>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12">
+                            <a class="button bg-blue" href="{{::urlRoot}}facebook-stats">INICIAR TOUR</a>
+                            <a class="button bg-gray" href="{{::urlRoot}}features">COMO FUNCIONA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight bg-blue text-center">
+                <h3>Más de <span id="owloo_user_count">{{::totalOwlooUsers}}</span> profesionales, medios y agencias registradas</h3>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-3 text-center">
+                <div class="row">
+                    <div class="column large-10 end">
+                        <h2>P&aacute;ginas con mayor crecimiento en Facebook en Hispanoam&eacute;rica</h2>
+                        <p>Se mide la cantidad de nuevos fans durante el último mes.</p>
+                        <div class="button small bg-blue">
+                            <a href="{{::urlRoot}}facebook-stats/pages/hispanic/">RANKING DE PAGINAS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-9">
+                <div class="row">
+                    <div class="column large-3" ng-repeat="page in rankPageGrow">
+                        <div class="widget box account-grow">
+                            <div class="body">
+                                <div class="row">
+                                    <div class="column large-12">
+                                        <div class="icon circle medium">
+                                            <img ng-src="{{page.picture}}"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h2>{{page.grow_30}}</h2>
+                                    <p><i class="fa fa-plus"></i>{{page.percent}}%</p>
+                                </div>
+                            </div>
+                            <div class="footer account">
+                                <p><a href="{{::urlRoot}}facebook-stats/pages/{{page.username}}/" title="{{page.name}}">{{page.name}}</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section even">
+        <div class="row">
+            <div class="column large-3 text-center">
+                <div class="row">
+                    <div class="column large-10 end">
+                        <h2>Cuentas con mayor crecimiento en Twitter en Hispanoam&eacute;rica</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="button small bg-blue">
+                            <a href="{{::urlRoot}}twitter-stats">INICIAR TOUR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-9">
+                <div class="row">
+                    <?php foreach ($twitter_higher_growing as $key => $data) { ?>
+                        <div class="column large-3">
+                            <div class="widget box account-grow">
+                                <div class="body">
+                                    <div class="row">
+                                        <div class="column large-12">
+                                            <div class="icon circle medium">
+                                                <img ng-src="<?=$data['picture']?>"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column large-12">
+                                            <h2 class="value"><?=$data['grow']?></h2>
+                                            <p class="percent"><i class="fa fa-plus"></i><?=$data['percent']?>%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <p><?=$data['page']?></p>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-3 text-center">
+                <div class="row">
+                    <div class="column large-10 end">
+                        <h2>Tasa de crecimiento de Facebook por pa&iacute;ses en Hispanoam&eacute;rica</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="button small bg-blue">
+                            <a href="{{::urlRoot}}facebook-stats">INICIAR TOUR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-9">
+                <?php foreach ($hh_higher_growing as $key => $data) { ?>
+                    <?php if ($key == 0 || $key % 4 == 0) { ?> <div class="row"> <?php } ?>
+                        <div class="column large-3">
+                            <div class="widget box country-grow">
+                                <div class="body clearfix">
+                                    <div class="row">
+                                        <div class="column large-6">
+                                            <div class="flag">
+                                                <img ng-src="{{::imagesFolder}}/flags/64/<?=$data['code']?>.png"/>
+                                            </div>
+                                        </div>
+                                        <div class="column large-6 change">
+                                            <h2 class="value"><?=$data['cambio']?></h2>
+                                            <p class="percent"><i class="fa fa-plus"></i><?=owlooFormatPorcent($data['cambio_number'], 112000000)?>%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer country">
+                                    <?=str_replace('República', 'Rca', $data['pais'])?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php if (($key+1) % 4 == 0) { ?> </div> <?php } ?>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+    <div class="section even">
+        <div class="row">
+            <div class="column large-12">
+                <div class="owloo_tw_search_content">
+                    <?php include(FOLDER_INCLUDE.'owloo_tw_search.php'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <owloo-footer></owloo-footer>
+</div>

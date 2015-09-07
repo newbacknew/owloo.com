@@ -1,0 +1,7 @@
+[24-Sep-2014 15:38:42 America/Asuncion] PHP Warning:  mysql_query(): Access denied for user 'owloo'@'localhost' (using password: NO) in /home/owloo/public_html/dev/get_data_location_3_1/get_interest_city.php on line 7
+[24-Sep-2014 15:38:42 America/Asuncion] PHP Warning:  mysql_query(): A link to the server could not be established in /home/owloo/public_html/dev/get_data_location_3_1/get_interest_city.php on line 7
+[24-Sep-2014 15:38:42 America/Asuncion] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/owloo/public_html/dev/get_data_location_3_1/get_interest_city.php on line 9
+[25-Sep-2014 09:49:23 America/Asuncion] PHP Warning:  mysql_real_escape_string(): Access denied for user 'owloo'@'localhost' (using password: NO) in /home/owloo/public_html/dev/get_data_location_3_1/get_region.php on line 20
+[25-Sep-2014 09:49:23 America/Asuncion] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/owloo/public_html/dev/get_data_location_3_1/get_region.php on line 20
+[25-Sep-2014 09:49:23 America/Asuncion] PHP Warning:  mysql_query(): Access denied for user 'owloo'@'localhost' (using password: NO) in /home/owloo/public_html/dev/get_data_location_3_1/get_region.php on line 21
+[25-Sep-2014 09:49:23 America/Asuncion] PHP Warning:  mysql_query(): A link to the server could not be established in /home/owloo/public_html/dev/get_data_location_3_1/get_region.php on line 21

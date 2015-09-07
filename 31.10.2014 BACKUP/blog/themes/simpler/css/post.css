@@ -1,0 +1,297 @@
+/*
+========================================================================
+POST
+========================================================================
+*/
+
+article.post {
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+/*
+========================================================================
+POST :: Head
+========================================================================
+*/
+
+article.post header h1.post-title {
+    color: #505050;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+    font-family: OpenSans-Light;
+}
+
+article.post-content header h1.post-title {
+    display: block;
+    font-size: 27px;
+    line-height: 33px !important;
+    color: #007cc3;
+    font-family: OpenSans-Light;
+}
+
+article.post	header	h1.post-title a {
+	color: #505050;
+}
+
+article.post	header	h1.post-title	a:hover {
+	text-decoration: underline;
+}
+
+article.post header div.post-published {
+    color: #505050;
+    display: inline-block;
+    font-size: 12px;
+    font-family: OpenSans-Bold;
+    line-height: 17px;
+    margin-top: 5px;
+}
+
+article.post	header	div.share_wrap {
+	border-left: 42px solid #00ADE8;
+	color: #666666;
+	display: block;
+	padding-left: 8px;
+	margin-top: 3px;
+}
+
+article.post	header	div.share_wrap	span {
+	margin-right: 5px;
+}
+.category h2 {
+    display: inline-block;
+}
+/*
+========================================================================
+POST :: Content
+========================================================================
+*/
+
+article.post	div.post-content	pre {
+	border: 1px dashed #ccc;
+}
+
+
+article.post	div.post-content	img {
+	max-width:100%;
+}
+
+.post-first-image img{
+	border-radius: 50%;
+}
+
+article.post	div.post-content	blockquote {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+article.post	div.post-content	h1,
+article.post	div.post-content	h2,
+article.post	div.post-content	h3,
+article.post	div.post-content	h4,
+article.post	div.post-content	h5 {
+	font-weight: normal;
+	color: #333333;
+	margin: 22px 0 13px 0;
+	padding: 0;
+}
+
+article.post	div.post-content	h1 {
+	font-size: 1.8em;
+}
+
+article.post div.post-content p {
+    font-size: 1.32em;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+article.post	div.post-content	.video-embed {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin: 13px 0;
+}
+
+article.post	div.post-content	.video-embed iframe,
+article.post	div.post-content	.video-embed object,
+article.post	div.post-content	.video-embed embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+========================================================================
+POST :: Footer
+========================================================================
+*/
+
+article.post	footer {
+	font-size: 0.9em;
+	margin-top: 20px;
+}
+
+article.post	footer	div.readmore {
+	background: #FAFAFA;
+	padding: 8px 15px;
+}
+
+article.post	footer	span {
+	margin: 0 3px;
+}
+
+article.post	footer	a {
+	font-weight: normal;
+}
+
+/*
+========================================================================
+POST :: Footer :: Tags
+========================================================================
+*/
+
+article.post	footer	div.post-tags {
+	margin-bottom: 30px;
+    margin-top: 7px;
+}
+
+article.post	footer	div.post-tags	ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+article.post	footer	div.post-tags	li {
+	display: inline-block;
+}
+
+article.post	footer	div.post-tags	a.tag:hover {
+	text-decoration: underline;
+}
+
+/*
+========================================================================
+POST :: Comments
+========================================================================
+*/
+
+#comments {
+	margin-top: -20px;
+	font-size: 1.32em;
+}
+
+#comment_list {
+	margin-top: 30px;
+}
+
+#comment_list	h2 {
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+#comment_list	div.comment {
+	border-left: 2px solid #f97f40;
+	margin: 0 0 10px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#comment_list	span.author_name {
+	font-weight: bold;
+}
+
+#comment_list	span.date {
+	margin-left: 10px;
+	font-style: italic;
+}
+
+#comment_list	span.content {
+	 display: block;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+#comment_list	img.avatar {
+	float:left;
+	margin-right: 10px;
+	width: 35px;
+}
+
+/*
+========================================================================
+POST :: Comments form
+========================================================================
+*/
+
+#comment_form {
+	margin-top: 30px;
+	width: 70%;
+}
+
+#comment_form .owloo-new-comment {
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+#comment_form	h3.alert {
+    background: #E83E76;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0 0 15px;
+    padding: 12px;
+}
+
+#comment_form	input[type="text"],
+#comment_form	textarea {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #C4C4C4;
+	border-radius: 2px;
+	color: #858585;
+	padding: 8px;
+	outline:none;
+	resize: none;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', helvetica,arial,sans-serif;
+	font-size: 1em;
+}
+
+#comment_form	input[type="submit"] {
+	display: block;
+	clear: left;
+	padding: 3px 8px;
+}
+
+.owloo-need-login-for-comment {
+    color: #007cc3;
+    font-family: OpenSans-light;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.owloo-need-login-for-comment a {
+    font-family: OpenSans;
+}
+
+#comment_form textarea {
+    height: 105px;
+}
+#comment_form .owloo_btn {
+    padding: 10px 20px !important;
+}
+
+/* For Facebook comments */
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+	width: 100% !important;
+}

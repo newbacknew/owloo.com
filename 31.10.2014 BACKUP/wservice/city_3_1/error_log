@@ -1,0 +1,54 @@
+[27-Oct-2014 17:31:06 America/Asuncion] SELECT id_city, key_city, id_country FROM `facebook_city_3_1` WHERE active_fb_get_data = 1 ORDER BY 1;
+[27-Oct-2014 17:31:06 America/Asuncion] SELECT id_country FROM facebook_country_3_1 WHERE supports_city = 1 AND active_fb_get_data = 1 ORDER BY 1;
+[27-Oct-2014 17:31:06 America/Asuncion] record_city_interest (i): 27 10 2014 17:31:06
+[27-Oct-2014 17:31:06 America/Asuncion] SELECT id_city, key_city FROM `facebook_city_3_1` WHERE id_country = 1 AND active_fb_get_data = 1 ORDER BY 1;
+[27-Oct-2014 17:31:06 America/Asuncion] SELECT id_interest id, key_interest 'key' FROM `facebook_interest_3_1` WHERE id_interest IN (SELECT id_interest FROM facebook_interest_city_3_1 WHERE id_country = 1) AND active_fb_get_data = 1 ORDER BY 1;
+[27-Oct-2014 17:31:06 America/Asuncion] [{"id":"1","key":"6003167425934"},{"id":"27","key":"6003349442621"},{"id":"117","key":"6003985771306"},{"id":"141","key":"6008740787350"},{"id":"255","key":"6012547807252"}]
+[27-Oct-2014 17:31:06 America/Asuncion] 1 - 6003167425934
+[28-Oct-2014 02:00:01 America/Asuncion] record_city (i): 28 10 2014 02:00:01
+[28-Oct-2014 02:02:25 America/Asuncion] record_city (f): 28 10 2014 02:02:25
+[28-Oct-2014 02:04:25 America/Asuncion] record_city_age (i): 28 10 2014 02:04:25
+[28-Oct-2014 02:25:28 America/Asuncion] record_city_age (f): 28 10 2014 02:25:28
+[28-Oct-2014 02:32:28 America/Asuncion] record_city_interest (i): 28 10 2014 02:32:28
+[28-Oct-2014 02:53:31 America/Asuncion] record_city_interest (f): 28 10 2014 02:53:31
+[28-Oct-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 28 10 2014 02:58:31
+[28-Oct-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 28 10 2014 03:19:34
+[28-Oct-2014 03:26:34 America/Asuncion] record_city_relationship (i): 28 10 2014 03:26:34
+[28-Oct-2014 04:08:38 America/Asuncion] record_city_relationship (f): 28 10 2014 04:08:38
+[29-Oct-2014 02:00:01 America/Asuncion] record_city (i): 29 10 2014 02:00:01
+[29-Oct-2014 02:02:25 America/Asuncion] record_city (f): 29 10 2014 02:02:25
+[29-Oct-2014 02:04:25 America/Asuncion] record_city_age (i): 29 10 2014 02:04:25
+[29-Oct-2014 02:25:28 America/Asuncion] record_city_age (f): 29 10 2014 02:25:28
+[29-Oct-2014 02:32:28 America/Asuncion] record_city_interest (i): 29 10 2014 02:32:28
+[29-Oct-2014 02:53:31 America/Asuncion] record_city_interest (f): 29 10 2014 02:53:31
+[29-Oct-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 29 10 2014 02:58:31
+[29-Oct-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 29 10 2014 03:19:34
+[29-Oct-2014 03:26:34 America/Asuncion] record_city_relationship (i): 29 10 2014 03:26:34
+[29-Oct-2014 04:08:38 America/Asuncion] record_city_relationship (f): 29 10 2014 04:08:38
+[30-Oct-2014 02:00:01 America/Asuncion] record_city (i): 30 10 2014 02:00:01
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:10 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 27
+[30-Oct-2014 02:02:24 America/Asuncion] record_city (f): 30 10 2014 02:02:24
+[30-Oct-2014 02:04:24 America/Asuncion] record_city_age (i): 30 10 2014 02:04:24
+[30-Oct-2014 02:25:27 America/Asuncion] record_city_age (f): 30 10 2014 02:25:27
+[30-Oct-2014 02:32:27 America/Asuncion] record_city_interest (i): 30 10 2014 02:32:27
+[30-Oct-2014 02:53:31 America/Asuncion] record_city_interest (f): 30 10 2014 02:53:31
+[30-Oct-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 30 10 2014 02:58:31
+[30-Oct-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 30 10 2014 03:19:34
+[30-Oct-2014 03:26:34 America/Asuncion] record_city_relationship (i): 30 10 2014 03:26:34
+[30-Oct-2014 04:08:37 America/Asuncion] record_city_relationship (f): 30 10 2014 04:08:37
+[30-Oct-2014 08:24:52 America/Asuncion] Type: city
+[30-Oct-2014 08:24:52 America/Asuncion] record_city (i - aux): 30 10 2014 08:24:52
+[30-Oct-2014 08:24:52 America/Asuncion] record_city (f - aux): 30 10 2014 08:24:52

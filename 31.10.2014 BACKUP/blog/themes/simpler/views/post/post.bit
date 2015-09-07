@@ -1,0 +1,26 @@
+<article class="post post-content">
+
+	<header>
+		<h1 class="post-title ">
+			<?php echo Post::title() ?>
+		</h1>
+		<div class="post-published"><?php echo Post::published() ?></div>
+	</header>
+
+	<div class="post-content">
+		<?php echo Post::content(true) ?>
+	</div>
+	
+	<?php $tags = Post::tags(); if($tags != '<ul></ul>'){ ?>
+	<footer>
+
+		<div class="post-tags">
+			<?php echo $tags; ?>
+		</div>
+
+	</footer>
+	<?php } ?>
+	
+	<div class="addthis_sharing_toolbox"></div>
+
+</article>

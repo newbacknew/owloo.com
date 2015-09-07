@@ -1,0 +1,114 @@
+<div class="section breadcrumbs">
+	<div class="row small">
+		<div class="column large-12">
+			<a href="{{::urlRoot}}">Owloo</a>
+			<i class="fa fa-angle-right"></i>
+			<a href="{{::urlRoot}}facebook-stats">Estad&iacute;sticas de Facebook</a>
+			<i class="fa fa-angle-right"></i>
+			<a href="{{::urlRoot}}facebook-stats/pages/{{currentWhere}}/">P&aacute;ginas</a>
+		</div>
+	</div>
+</div>
+<div class="app-content">
+	<div class="section ranking-page">
+		<div class="row medium">
+			<div class="column large-12">
+				<h2>Estad&iacute;sticas de P&aacute;ginas de Facebook y N&uacute;mero de Fans</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-3">
+				<div class="ranking sidebar filters">
+					<div class="row small">
+						<div class="column large-12">
+							<label for="country">Pa&iacute;s</label>
+							<div class="select">
+								<input type="text" name="country" class="select" placeholder="Todos">
+								<i class="fa fa-angle-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row small">
+						<div class="column large-12">
+							<label for="category">Categor&iacute;a</label>
+							<div class="select">
+								<input type="text" name="category" class="select" placeholder="Todas">
+								<i class="fa fa-angle-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row small">
+						<div class="column large-12">
+							<p><a href="{{::urlRoot}}facebook-stats/pages/world/{{currentCategory}}" ng-class="{current:currentWhere == 'world'}">Mundial</a>
+							<a href="{{::urlRoot}}facebook-stats/pages/hispanic/{{currentCategory}}" ng-class="{current:currentWhere == 'hispanic'}">Hispano</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column large-9">
+				<div class="ranking main">
+					<div class="row small labels">
+						<div class="column large-6 text-left"><div class="position">#</div>P&aacute;gina</div>
+						<div class="column large-6">
+							<div class="row">
+								<div class="column large-3">
+									Pa&iacute;s
+								</div>
+								<div class="column large-3">
+									Semana
+								</div>
+								<div class="column large-3">
+									PTA
+								</div>
+								<div class="column large-3">
+									Fans totales
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row small"><div class="column large-12"><div class="hr"></div></div></div>
+					<div class="item" ng-repeat="item in rank">
+						<div class="row small">
+							<div class="column large-6 account">
+								<div class="position">
+									{{item.position}}
+								</div>
+								<div class="icon circle small">
+									<img ng-src="{{item.picture}}"/>
+								</div>
+								<div>
+									<img class="verified" ng-if="item.is_verified" ng-src="{{imagesFolder}}owloo_fb_page_verified_12x12.png" title="Cuenta verificada"/>
+									<a href="{{urlRoot}}facebook-stats/pages/{{item.username}}" title="Datos y estadísticas de {{item.name}} en Facebook">{{item.name}}</a>
+								</div>	
+							</div>
+							<div class="column large-6">
+								<div class="row">
+									<div class="column large-3">
+										<a href="{{urlRoot}}facebook-stats/pages/country/{{item.country}}">
+											<img class="flag" ng-src="{{imagesFolder}}flags/64/{{item.country | uppercase}}.png"/>
+										</a>
+									</div>
+									<div class="column large-3">
+										{{item.grow_7}}
+									</div>
+									<div class="column large-3">
+										{{item.pta}}%
+									</div>
+									<div class="column large-3">
+										{{item.likes}}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row small pagination">
+			<div class="column large-offset-3 large-9">
+				<pagination max-size="maxSize" total-items="totalItems" page="currentPage" on-select-page="pageChanged(page)"></pagination>
+			</div>
+		</div>
+	</div>
+    <owloo-footer></owloo-footer>
+</div>

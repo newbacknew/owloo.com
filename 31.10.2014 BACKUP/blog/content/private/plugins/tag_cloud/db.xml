@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin name="Nube de palabras claves" author="Diego Najar" version="3.7" installed_at="1409596633"><position type="integer">4</position><title type="string">Etiquetas</title><min_size type="string">10</min_size><max_size type="integer">32</max_size></plugin>

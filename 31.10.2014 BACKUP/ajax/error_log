@@ -1,0 +1,2 @@
+[02-Oct-2014 18:29:43 America/Asuncion] PHP Warning:  [eAccelerator] Can not create shared memory area in Unknown on line 0
+[02-Oct-2014 18:29:43 America/Asuncion] PHP Fatal error:  Unable to start eAccelerator module in Unknown on line 0

@@ -1,0 +1,68 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* – [F,L]
+
+RewriteCond %{HTTP_HOST} ^198\.204\.242\.84
+RewriteRule (.*) http://www.owloo.com/$1 [R=301,L]
+
+#Usar siempre la www
+RewriteCond %{HTTP_HOST} ^owloo.com
+RewriteRule (.*) http://www.owloo.com/$1 [R=301,L]
+
+#Direcciones amigables
+RewriteRule ^privacy/?$ privacy.php [L]
+RewriteRule ^features/?$ features.php [L]
+RewriteRule ^facebook-stats/?$ fb_index.php [L]
+RewriteRule ^facebook-stats/world-ranking/?$ countries.php [L]
+RewriteRule ^facebook-stats/hispanic-ranking/?$ countries.php?hispanic [L]
+RewriteRule ^facebook-stats/pages/hispanic/?$ fb_pages.php?ranking=hispanic [L]
+RewriteRule ^facebook-stats/pages/world/?$ fb_pages.php?ranking=world [L]
+RewriteRule ^facebook-stats/continents/?$ continents.php [L]
+RewriteRule ^facebook-stats/cities/?$ cities.php [L]
+RewriteRule ^facebook-stats/([a-zA-Z-]*)/?$ country.php?country=$1 [L]
+RewriteRule ^facebook-stats/pages/country/([a-zA-Z]*)/?$ fb_pages_country.php?country_code=$1 [L]
+RewriteRule ^facebook-stats/pages/(.*)/?$ fb_page.php?username=$1 [L]
+RewriteRule ^facebook-stats/cities/([a-zA-Z-]*)/?$ cities_country.php?country=$1 [L]
+RewriteRule ^404.html$ 404.php [L]
+RewriteRule ^500.html$ 500.php [L]
+RewriteRule ^505.html$ 505.php [L]
+RewriteRule ^static/js/owloo.js$ static/js/owloo.php [L]
+RewriteRule ^static/js/owloo_twitter.js$ static/js/owloo_twitter.php [L]
+RewriteRule ^static/js/owloo_growth_charts.js$ static/js/owloo_growth_charts.php [L]
+RewriteRule ^static/js/owloo_country_charts.js$ static/js/owloo_country_charts.php [L]
+RewriteRule ^static/js/owloo_facebook_page.js$ static/js/owloo_facebook_page.php [L]
+RewriteRule ^ajax/social_plugins/([a-zA-Z-]*)/(.*)/?$ ajax/social_plugins.php?page=$1&value=$2 [L]
+RewriteRule ^ajax/social_plugins/([a-zA-Z-]*)/?$ ajax/social_plugins.php?page=$1 [L]
+RewriteRule ^user_count$ wservice/user_count.php [L]
+
+#Twitter
+RewriteRule ^twitter-stats/?$ twitter.php [L]
+RewriteRule ^twitter-stats/hispanic/?$ twitter.php?page=hispanic [L]
+RewriteRule ^twitter-stats/mostmentionedaccounts/?$ twitter.php?page=mostmentionedaccounts [L]
+RewriteRule ^twitter-stats/highestratedaccounts/?$ twitter.php?page=highestratedaccounts [L]
+RewriteRule ^twitter-stats/owloo/?$ twitter.php?page=topchart [L]
+RewriteRule ^twitter-stats/userpage/(.*)/?$ twitter.php?page=userpage&twittername=$1 [L]
+RewriteRule ^twitter-stats/userpageadd/?$ twitter.php?page=userpageadd [L]
+RewriteRule ^static/js/owloo_twitter_charts.js$ static/js/owloo_twitter_charts.php [L]
+RewriteRule ^static/js/owloo_facebook_page_local_fans.js$ static/js/owloo_facebook_page_local_fans.php [L]
+
+#Evitar listado de carpetas
+IndexIgnore *
+
+#Error
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+ErrorDocument 505 /505.html
+
+#Firefox @font-face from external domain:
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+<FilesMatch "\.(ttf|otf|eot)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
+
+#CheckSpelling on

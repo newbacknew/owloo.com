@@ -1,0 +1,104 @@
+<?php
+
+function checkRemoteFile($url){
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL,$url);
+    // don't download content
+    curl_setopt($ch, CURLOPT_NOBODY, 1);
+    curl_setopt($ch, CURLOPT_FAILONERROR, 1);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    if(curl_exec($ch)!==FALSE)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+// If Facebook comments and Disqus are disabled then enabled Nibbleblog comments
+if( Post::allow_comments() && !$Comment->disqus_enabled() && !$Comment->facebook_enabled() )
+{
+
+?>
+
+<section id="comments">
+
+	<div id="comment_list">
+
+		<h2><?php echo Post::num_comments()>0?$Language->get('Comments'):$Language->get('There are no published comments') ?></h2>
+
+		<?php
+			$comments = Post::comments();
+			
+			$comments = array_reverse($comments);
+			
+			foreach($comments as $comment)
+			{
+			
+				$avatar = $site->get_user_avatar($comment['author_email']);
+				
+				if(!empty($avatar['user_avatar'])){
+					if(checkRemoteFile($avatar['user_avatar'])){
+						$avatar = $avatar['user_avatar'];
+					}
+					else{
+						$avatar = Image::get_gravatar($comment['author_email'],64);
+					}
+				}
+				else{
+					$avatar = Image::get_gravatar($comment['author_email'],64);
+				}
+				
+				echo '<div class="comment">';
+					echo '<img class="avatar" src="'.$avatar.'">';
+					echo '<span class="author_name">'.$comment['author_name'].'</span>';
+					echo '<span class="date">'.$comment['pub_date'].'</span>';
+					echo '<span class="content">'.$comment['content'].'</span>';
+				echo '</div>';
+			}
+		?>
+
+	</div>
+	
+	<?php if($site->loggedin){ $user_profile = $site->get_profile(); ?>
+
+	<div id="comment_form">
+
+		<div class="owloo-new-comment"><?php echo$Language->get('New comment') ?></div>
+
+		<?php
+			if(Session::get_error())
+				echo '<h3 class="alert">'.Session::get_alert().'</h3>';
+		?>
+
+		<form method="post" name="form" action="#comment_form">
+
+			<input type="hidden" name="hash" value="<?php echo $Comment->form('hash') ?>">
+
+			<input type="hidden" name="author_name" value="<?php echo (!empty($user_profile['nombre'])?$user_profile['nombre']:$user_profile['user_username']); ?>" placeholder="<?php echo $Language->get('Name') ?>">
+
+			<input type="hidden" name="author_email" value="<?php echo $user_profile['user_email']; ?>" placeholder="<?php echo $Language->get('Email') ?>">
+
+			<textarea name="content" placeholder="<?php echo $Language->get('Type the comment here') ?>"><?php echo $Comment->form('content') ?></textarea>
+
+			<input type="submit" value="<?php echo $Language->get('Publish') ?>" class="owloo_btn owloo_btn_blue">
+
+		</form>
+
+	</div>
+	
+	<?php }else{ ?>
+		<div class="owloo-need-login-for-comment">
+			Para comentar, <a href="<?=URL_ROOT?>userMgmt/login.php">Inicia sesión</a> o <a href="<?=URL_ROOT?>userMgmt/signup.php">regístrate gratis</a>
+		</div>
+	<?php } ?>
+
+</section>
+
+<?php
+
+}
+
+?>

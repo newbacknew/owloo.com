@@ -1,0 +1,43 @@
+# Disable directory browsing
+Options -Indexes
+
+# Disable Magic Quotes
+<IfModule mod_php5.c>
+ php_flag magic_quotes_gpc off
+</IfModule>
+
+# Secure .xml files
+<FilesMatch ".(xml)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+# Secure shadow.php
+<Files shadow.php>
+ order allow,deny
+ deny from all
+</Files>
+
+# Secure keys.php
+<Files keys.php>
+ order allow,deny
+ deny from all
+</Files>
+
+ErrorDocument 404 /blog/index.php?controller=page&action=404
+
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteBase /blog/
+
+ RewriteRule ^category/([^/]+)/page-([0-9]+)$ index.php?controller=blog&action=view&category=$1&number=$2 [L]
+ RewriteRule ^category/([^/]+)/$ index.php?controller=blog&action=view&category=$1&number=0 [L]
+ RewriteRule ^tag/([^/]+)/page-([0-9]+)$ index.php?controller=blog&action=view&tag=$1&number=$2 [L]
+ RewriteRule ^tag/([^/]+)/$ index.php?controller=blog&action=view&tag=$1&number=0 [L]
+ RewriteRule ^page-([0-9]+)$ index.php?controller=blog&action=view&number=$1 [L]
+ RewriteRule ^post/([^/]+)/$ index.php?controller=post&action=view&post=$1 [L]
+ RewriteRule ^post-([0-9]+)/(.*)$ index.php?controller=post&action=view&id_post=$1 [L]
+ RewriteRule ^page/([^/]+)/$ index.php?controller=page&action=view&page=$1 [L]
+ RewriteRule ^feed/$ feed.php [L]
+ RewriteRule ^([^/]+)/$ index.php?controller=page&action=$1 [L]
+</IfModule>

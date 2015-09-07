@@ -1,0 +1,263 @@
+@import url("../../userMgmt/assets/zocial/zocial.css");
+.owloo_user_login_form {
+    padding: 50px 0 0;
+}
+.owloo_user_login_form form {
+	text-align: center;
+}
+#form_login .alert {
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    width: 85%;
+}
+.owloo_login_icons.zocial {
+    display: inline-block;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 7px 9px !important;
+    padding: 2px;
+    position: relative;
+    text-align: left;
+    top: -5px;
+    width: 149px;
+}
+.owloo_login_icons.zocial + .owloo_login_icons.zocial {
+    margin-top: 5px !important;
+}
+.owloo_login_icons img {
+    height: 64px;
+    width: 64px;
+}
+.owloo_login_icons + .owloo_login_icons {
+    margin-left: 10px
+}
+.owloo_user_login_form form > div.owloo_session {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-align: center;
+}
+.owloo_session + .owloo_session {
+    border-left: 1px solid #CCCCCC;
+}
+.owloo_session_login{
+	min-height: 440px;
+}
+.owloo_user_login_form .owloo_session.owloo_session_left {
+    width: 49%;
+}
+.owloo_session input, .owloo_user_login_forgot_form .input_text {
+    border: 1px solid #CCCCCC;
+    font-family: OpenSans;
+    font-size: 14px;
+    margin-bottom: 10px !important;
+    padding: 7px 10px;
+    width: 210px;
+    color: #999;
+}
+.owloo_session input:focus {
+	border-color: #007CC3;
+}
+.owloo_login_input_text_content {
+    margin: 0 auto;
+    text-align: left;
+    width: 223px;
+}
+.owloo_user_login_form form > div.owloo_session > div:first-child{
+	font-family: 'OpenSans-Light';
+    font-size: 25px;
+    line-height: 32px;
+    padding: 15px 100px 50px;
+}
+.owloo_user_login_form .owloo_user_login_forgot{
+	display: inline-block;
+    font-size: 12px;
+    margin-top: 99px;
+}
+.owloo_session_forgot{
+	border-top: 1px solid #EEEEEE;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.owloo_login_explain {
+    color: #777777;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 120px auto 0;
+    text-align: left;
+    width: 80%;
+}
+
+.owloo_user_register_data {
+    display: block;
+    margin: 0 auto;
+    width: 235px;
+}
+
+.owloo_user_register_data div:first-child{
+	font-size: 13px;
+    padding: 8px 0;
+    text-align: left;
+}
+
+.owloo_user_register_data select{
+	color:#999;
+}
+
+.owloo_user_register_data input, .owloo_user_register_data select{
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+
+#formSignup input[name="signup_iagree"]{
+	float:none;
+}
+
+.owloo_session_inv_code{
+	display: inline-block;
+    margin-top: 10px;
+    text-align: left;
+    width: 230px;
+}
+
+.owloo_session_inv_code div:first-child{
+	font-size: 11px;
+    font-weight: bold;
+    padding: 7px 0;
+}
+.owloo_req_login{
+	background-color: #FFFFFF;
+    border: 9px solid #DDDDDD;
+    height: 217px;
+    margin: 100px 0 0 280px;
+    position: absolute;
+    width: 467px;
+}
+.owloo_req_login > div:first-child {
+	background-color: #EDEFF5;
+    color: #4D6B84;
+    font-size: 18px;
+    height: 30px;
+    padding: 17px;
+}
+
+.owloo_req_login > div:last-child {
+	color: #4C4746;
+    font-size: 14px;
+    text-align: center;
+}
+
+.owloo_req_login > div:last-child > div:first-child{
+	padding: 18px 0 11px;
+}
+
+.owloo_req_login > div:last-child > div:last-child{
+	font-size: 12px;
+    padding: 33px 0 0;
+}
+
+.owloo_req_login > div:last-child > div:last-child a{
+	color: #4C4746;
+    text-decoration: underline;
+}
+.owloo_select_placeholder{
+	color:#999 !important;
+}
+.owloo_user_login_forgot h3 {
+    font-family: OpenSans-Light;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 40px 0 15px;
+}
+.owloo_user_login_forgot h6 {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0;
+}
+.owloo_signup_require {
+    margin-top: 40px;
+}
+.owloo_signup_require .control-group {
+    margin-bottom: 10px;
+}
+.owloo_user_login_forgot_form {
+    margin-top: 40px;
+    margin-bottom: 170px;
+}
+input{
+	box-shadow: none !important;
+	margin: 0 !important;
+}
+ul{
+	margin: 0;
+}
+.owloo_btn:hover{
+	color: #FFF;
+}
+.input-prepend select {
+    color: #999;
+    font-family: OpenSans;
+    font-size: 14px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 5px 5px 6px;
+    width: 232px;
+}
+.input-append, .input-prepend {
+    margin-bottom: 0;
+}
+.owloo_session.owloo_session_more{
+	width: 49.5% !important
+}
+.owloo_session.owloo_session_less {
+    min-height: 540px;
+    width: 50% !important;
+}
+.modal-header h3 {
+    font-size: 20px;
+}
+.owloo_terms_conditions p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.owloo_terms_conditions h5 {
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+.owloo_modal_a {
+    color: #007CC3;
+    cursor: pointer;
+}
+.owloo_modal_a:hover {
+	text-decoration: underline;
+}
+.owloo_terms_text {
+    font-size: 13px;
+    vertical-align: middle;
+}
+.owloo_account_msg{
+	border-right:  none !important;
+}
+.alert {
+  padding: 8px 35px 8px 14px;
+  color: #c09853;
+  line-height: 17px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+}
+.owloo_user_register_data .input-prepend {
+    height: 46px;
+}
+#social-connect legend {
+    color: #505050;
+    font-family: OpenSans-bold;
+    font-size: 15px;
+}
+#formSignup .alert {
+    margin: 0 5px 10px;
+}

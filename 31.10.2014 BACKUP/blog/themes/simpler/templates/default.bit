@@ -1,0 +1,110 @@
+<?php 
+    require_once('../owloo_config.php');
+    require_once('../userMgmt/system/initiater.php');
+    set_current_menu('blog');
+    set_current_page('blog');
+?>
+<!DOCTYPE HTML>
+<html lang="<?php echo Blog::language() ?>">
+<head>
+<?php
+	// Charset, title, description, keywords, robots, etc
+	echo Blog::meta_tags();
+
+		// Include Favicon, default path: themes/css/img/favicon.ico
+	echo Blog::favicon();
+
+	// Plugins for <head></head>
+	foreach($plugins as $plugin)
+	{
+		echo $plugin->blog_head();
+	}
+?>
+<?php require_once('../static/include/include_in_header.php'); ?>
+<?php
+	// Include CSS from theme
+	echo Blog::css(array('normalize.css', 'main.css', 'post.css', 'page.css', 'plugins.css', 'rainbow.css'));
+
+	// Include Jquery
+	echo Blog::jquery();
+
+	// Include Javascript from theme
+	echo Blog::javascript('rainbow-custom.min.js');
+?>
+</head>
+<body>
+<?php require_once('../static/include/header.php'); ?>
+<div class="owloo_product_title">
+    <div class="owloo_main">
+    	<?php if($layout['view'] == 'post/view.bit'){ ?>
+    		<a class="owloo_navegator" href="<?=URL_ROOT?>blog/">Owloo blog oficial</a>
+			<span class="owloo_separator">></span>
+			<span class="owloo_navegator"><?=Post::title()?></span>
+    	<?php }else{ ?>
+    		Owloo blog oficial
+    	<?php }?>
+    </div>
+</div>
+<div class="owloo_main owloo_main_content">
+
+	<div id="container">
+	
+		<!-- MAIN -->
+		<section id="main">
+	
+			<!-- PLUGINS -->
+			<?php
+				if(!empty($plugins))
+				{
+					echo '<section id="sidebar">';
+	
+					foreach($plugins_sidebar as $plugin)
+					{
+						$_tags = '';
+						if($plugin->get_slug_name()=='plugin_tag_cloud'){
+							$_tags = '<div class="plugin-box '.$plugin->get_slug_name().'">';
+							$_tags .= $plugin->blog_body();
+							$_tags .= '</div>';
+							continue;
+						}
+						echo '<div class="plugin-box '.$plugin->get_slug_name().'">';
+							echo '<h3 class="plugin-title">'.$plugin->database('title').'</h3>';
+							echo $plugin->blog_body();
+						echo '</div>';
+					}
+	
+					echo '</section>';
+				}
+			?>
+	
+			<!-- VIEW -->
+			<section <?php if(!empty($plugins)) echo 'id=left' ?> >
+				<?php include(THEME_VIEWS.$layout['view']); ?>
+				<?php echo $_tags; ?>
+			</section>
+	
+		</section>
+	
+		<!-- FOOTER -->
+		<footer id="blog-foot">
+			<?php if($layout['view'] == 'blog/view.bit'){ ?>
+			<div class="addthis_sharing_toolbox"></div>
+			<?php } ?>
+			<span class="blog-atom"><a target="_blank" href="<?php echo $layout['feed'] ?>"></a></span>
+			<span class="blog-footer"><a class="top" href="#">Top</a></span>
+			<script>
+			$(".top").click(function(){
+				$("html, body").animate({ scrollTop: 0 }, 600);
+				return false;
+			});
+			</script>
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53ebf54859aaad3f"></script>
+		</footer>
+	
+	</div>
+
+</div>
+<?php require_once('../static/include/footer.php'); ?>
+<?php require_once('../static/include/include_in_footer.php'); ?>
+</body>
+</html>

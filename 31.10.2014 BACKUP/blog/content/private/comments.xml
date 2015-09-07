@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<comments autoinc="10"><moderate type="integer">0</moderate><sanitize type="integer">1</sanitize><monitor_enable type="integer">0</monitor_enable><monitor_api_key type="string"/><monitor_spam_control type="string">0.5</monitor_spam_control><monitor_auto_delete type="integer">0</monitor_auto_delete><disqus_shortname type="string"/><facebook_appid type="string"/></comments>

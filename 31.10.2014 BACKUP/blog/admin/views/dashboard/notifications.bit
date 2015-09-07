@@ -1,0 +1,38 @@
+<?php
+
+echo Html::div_open( array('class'=>'dashboard_box') );
+
+echo Html::div( array('class'=>'dashboard_title', 'content'=>$_LANG['NOTIFICATIONS']) );
+
+	foreach($notifications as $notification)
+	{
+		$date = Date::format($notification['date'], NOTIFICATION_DATE_FORMAT);
+
+		if($notification['category']=='session_fail')
+		{
+			$icon = 'icon-sad';
+			$text = $_LANG['LOGIN_FAILED_ATTEMPT'];
+		}
+		elseif($notification['category']=='session_start')
+		{
+			$icon = 'icon-user';
+			$text = $_LANG['NEW_SESSION_STARTED'];
+		}
+		elseif($notification['category']=='comment')
+		{
+			$icon = 'icon-comment-alt';
+			$text = $_LANG['YOU_HAVE_A_NEW_COMMENT'];
+		}
+
+		echo Html::div_open( array('class'=>'notification') );
+			echo Html::div( array('class'=>'icon '.$icon, 'content'=>'&nbsp;') );
+			echo Html::div( array('class'=>'type', 'content'=>$text) );
+			echo Html::div( array('class'=>'info', 'content'=>$date.' · IP: '.$notification['ip']) );
+		echo Html::div_close();
+	}
+
+echo Html::div_close();
+
+?>
+
+<script>
