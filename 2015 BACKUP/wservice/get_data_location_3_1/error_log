@@ -1,0 +1,1 @@
+[23-Jan-2015 09:15:34 America/Asuncion] PHP Warning:  mysql_connect(): Access denied for user 'MYSQL_DB_USER'@'localhost' (using password: YES) in /home/owloo/public_html/wservice/get_data_location_3_1/get_interest_city.php on line 4

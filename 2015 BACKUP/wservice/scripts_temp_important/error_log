@@ -1,0 +1,2 @@
+[28-Jan-2015 10:11:51 America/Asuncion] PHP Fatal error:  Call to a member function modify() on a non-object in /home/owloo/public_html/wservice/scripts_temp_important/generate_country_history.php on line 30
+[28-Jan-2015 10:12:18 America/Asuncion] PHP Fatal error:  Call to a member function modify() on a non-object in /home/owloo/public_html/wservice/scripts_temp_important/generate_country_history.php on line 30
