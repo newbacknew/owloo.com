@@ -1,0 +1,70 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html lang='en' class='no-js lt-ie9 lt-ie8 lt-ie7'> <![endif]-->
+<!--[if IE 7]>         <html lang='en' class='no-js lt-ie9 lt-ie8'> <![endif]-->
+<!--[if IE 8]>         <html lang='en' class='no-js lt-ie9'> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang='en' class='no-js'> <!--<![endif]-->
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <title>Owloo</title>
+
+    <script src="//use.typekit.net/ayw6oar.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel='stylesheet' type='text/css' href='http://owloo.com/dev/3.1/app/css/app.min.css'/>
+    <base href="http://owloo.com/dev/3.1/">
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <div id="alertMessage"></div>
+    <div class="section header">
+        <nav>
+            <div class="row">
+                <div class="column large-12">
+                    <a href="{{::urlRoot}}">
+                        <img ng-src="{{::imagesFolder}}owloo_logo.png" alt="owloo" class="logo fade" ng-class="{in:imagesFolder.length}"/>
+                    </a>
+                    <div class="menu">
+                        <a class="<?=get_current_menu()=='facebook'?'active':''?>" href="{{::urlRoot}}facebook-stats/">Facebook</a>
+                        <a class="<?=get_current_menu()=='twitter'?'active':''?>" href="{{::urlRoot}}twitter-stats/">Twitter</a>
+                        <a class="<?=get_current_menu()=='instagram'?'active':''?>" href="#">Instagram</a>
+                    </div>
+                    <div class="helpers">
+                        <ul>
+                            <li><a href="{{::urlRoot}}features/">C&oacute;mo funciona</a></li>
+                            <li><a href="{{::urlRoot}}twitter-stats/world/">Cuentas de Twitter</a></li>
+                            <li><a href="{{::urlRoot}}facebook-stats/pages/world/">P&aacute;ginas de Facebook</a></li>
+                            <li class="parent">
+                                <span>Rankings <i class="fa fa-caret-down"></i></span>
+                                <ul class="child">
+                                    <li><span>Facebook</span></li>
+                                    <li><a href="{{::urlRoot}}facebook-stats/pages/world/">P&aacute;ginas</a></li>
+                                    <li><a href="{{::urlRoot}}facebook-stats/world-ranking/">Pa&iacute;ses</a></li>
+                                    <li><a href="{{::urlRoot}}facebook-stats/cities/">Ciudades</a></li>
+                                    <li><a href="{{::urlRoot}}facebook-stats/continents/">Continentes</a></li>
+                                    <li><span>Twitter</span></li>
+                                    <li><a href="{{::urlRoot}}twitter-stats/world/">Ranking mundial</a></li>
+                                    <li><a href="{{::urlRoot}}twitter-stats/hispanic/">Ranking hispano</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="buttons">
+                        <a class="button small bg-orange" href="">CREAR UNA CUENTA</a>
+                        <a class="button small bg-gray" href="">INICIAR SESION</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div ng-view class="view-animate"></div>
+
+    <script src='app/components/requirejs/require.js' data-main='app/js/main'></script>
+
+</body>
+</html>

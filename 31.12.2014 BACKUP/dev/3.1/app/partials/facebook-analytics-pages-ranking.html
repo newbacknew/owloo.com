@@ -1,0 +1,47 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content ranking-page">
+	<div class="tags">
+		<a ng-repeat="tag in content.tags" href="{{content.currentUrl}}/tag/{{tag.name}}" ng-class="{'current':tag.name == filters.tag}">
+			{{'facebook_tag_' + tag.name | translate}}
+		</a>
+	</div>
+	<div class="hr"></div>
+	<div class="section">
+		<div class="row big">
+			<div class="column large-12">
+				<h4>Páginas con mayor crecimiento en 
+					<span ng-if="filters.country != 'world'">{{content.countries[filters.country].name}}</span> 
+					<span ng-if="filters.country == 'world'">todo el mundo</span> 
+					<span ng-if="filters.tag != 'all'">en la categoría {{'facebook_tag_' + filters.tag | translate}}</span>
+					<span ng-if="filters.tag == 'all'">en todas las categorías</span>
+				</h4>
+			</div>
+		</div>
+        <div class="row text-center">
+            <div class="column large-2" ng-repeat="page in content.growRank">
+                <widget-bubble-account picture='{{page.picture}}' grownumber='{{page.grow_30}}' growpercent='{{page.percent}}' 
+                link='{{urlRoot}}/facebook-stats/pages/{{page.username}}' name='{{page.name}}' class='plus'></widget-box-upright>
+            </div>
+        </div>
+    </div>
+	<div class="row"><div class="column large-12"><div class="hr"></div></div></div>
+	<div class="section">
+		<div class="row big">
+			<div class="column large-12">
+				<h4>Páginas más populares en 
+					<span ng-if="filters.country != 'world'">{{content.countries[filters.country].name}}</span> 
+					<span ng-if="filters.country == 'world'">todo el mundo</span> 
+					<span ng-if="filters.tag != 'all'">en la categoría {{'facebook_tag_' + filters.tag | translate}}</span>
+					<span ng-if="filters.tag == 'all'">en todas las categorías</span>
+				</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-12">
+				<ranking data="content.ranking"></ranking>
+			</div>
+		</div>
+	</div>
+    <owloo-footer></owloo-footer>
+</div>

@@ -1,0 +1,20 @@
+<div class="widget bubble-account">
+    <div class="row">
+        <div class="column large-12">
+            <div class="circle-icon medium">
+                <img ng-src="{{picture}}"/>
+            </div>
+        </div>
+    </div>
+    <div ng-if="grownumber" class="row">
+        <div class="column large-12 change {{class}}">
+            <h2>{{growpercent}}%</h2>
+            <p>{{grownumber}}</p>
+        </div>
+    </div>
+    <div ng-if="!grownumber" class="row">
+        <div class="column large-12">
+            <a href="{{link}}" title="{{name}}" class="ng-binding">{{name}}</a>
+        </div>
+    </div>
+</div>

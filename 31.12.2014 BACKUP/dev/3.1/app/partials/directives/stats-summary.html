@@ -1,0 +1,26 @@
+<div class="widget summary">
+	<div class="body">
+		<div ng-repeat="item in summary" class="row" ng-class-even="'even'">
+			<div class="column large-6" >
+				<p>{{item.title | translate}}</p>
+			</div>
+			<div class="column large-6" ng-switch="item.type">
+				<p ng-switch-when="default">
+					{{item.content}}
+				</p>
+				<p ng-switch-when="is_verified">
+					<ng-switch="type">
+						<ng-switch-when="fanpage">
+							<img ng-src="{{imagesFolder}}/owloo_fb_page_verified_17x17.png" class="verified" title="Cuenta verificada"/>
+						</ng-switch-when>
+					</ng-switch>
+				</p>
+				<p ng-switch-when="location">
+					<div class="icon flag small no-float">
+						<img ng-src="{{imagesFolder}}/flags/64/{{item.content | uppercase}}.png"/>
+					</div>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

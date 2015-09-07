@@ -1,0 +1,518 @@
+[11-Dec-2014 09:42:33 America/Asuncion] Type: city_age
+[11-Dec-2014 09:42:38 America/Asuncion] record_city_age (i - aux): 11 12 2014 09:42:38
+[11-Dec-2014 09:44:18 America/Asuncion] record_city_age (f - aux): 11 12 2014 09:44:18
+[11-Dec-2014 09:49:59 America/Asuncion] Type: city_age
+[11-Dec-2014 09:50:03 America/Asuncion] record_city_age (i - aux): 11 12 2014 09:50:03
+[11-Dec-2014 09:50:03 America/Asuncion] Type: city_relationship
+[11-Dec-2014 09:50:06 America/Asuncion] Type: city_comportamiento
+[11-Dec-2014 09:50:08 America/Asuncion] Type: city_interest
+[11-Dec-2014 09:50:09 America/Asuncion] record_city_comportamiento (i - aux): 11 12 2014 09:50:09
+[11-Dec-2014 09:50:10 America/Asuncion] record_city_relationship (i - aux): 11 12 2014 09:50:10
+[11-Dec-2014 09:50:12 America/Asuncion] record_city_interest (i - aux): 11 12 2014 09:50:12
+[11-Dec-2014 09:51:12 America/Asuncion] record_city_interest (f - aux): 11 12 2014 09:51:12
+[11-Dec-2014 09:51:30 America/Asuncion] record_city_comportamiento (f - aux): 11 12 2014 09:51:30
+[11-Dec-2014 09:51:43 America/Asuncion] record_city_age (f - aux): 11 12 2014 09:51:43
+[11-Dec-2014 09:52:50 America/Asuncion] record_city_relationship (f - aux): 11 12 2014 09:52:50
+[12-Dec-2014 02:00:02 America/Asuncion] record_city (i): 12 12 2014 02:00:02
+[12-Dec-2014 02:02:25 America/Asuncion] record_city (f): 12 12 2014 02:02:25
+[12-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 12 12 2014 02:04:25
+[12-Dec-2014 02:25:29 America/Asuncion] record_city_age (f): 12 12 2014 02:25:29
+[12-Dec-2014 02:32:29 America/Asuncion] record_city_interest (i): 12 12 2014 02:32:29
+[12-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 12 12 2014 02:53:32
+[12-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 12 12 2014 02:58:32
+[12-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 12 12 2014 03:19:35
+[12-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 12 12 2014 03:26:35
+[12-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 12 12 2014 04:08:38
+[13-Dec-2014 02:00:01 America/Asuncion] record_city (i): 13 12 2014 02:00:01
+[13-Dec-2014 02:02:24 America/Asuncion] record_city (f): 13 12 2014 02:02:24
+[13-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 13 12 2014 02:04:24
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:04:51 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[13-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 13 12 2014 02:25:27
+[13-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 13 12 2014 02:32:27
+[13-Dec-2014 02:53:30 America/Asuncion] record_city_interest (f): 13 12 2014 02:53:30
+[13-Dec-2014 02:58:30 America/Asuncion] record_city_comportamiento (f): 13 12 2014 02:58:30
+[13-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 13 12 2014 03:19:34
+[13-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 13 12 2014 03:26:34
+[13-Dec-2014 04:08:37 America/Asuncion] record_city_relationship (f): 13 12 2014 04:08:37
+[13-Dec-2014 08:07:26 America/Asuncion] Type: city_age
+[13-Dec-2014 08:07:31 America/Asuncion] record_city_age (i - aux): 13 12 2014 08:07:31
+[13-Dec-2014 08:07:51 America/Asuncion] record_city_age (f - aux): 13 12 2014 08:07:51
+[14-Dec-2014 02:00:01 America/Asuncion] record_city (i): 14 12 2014 02:00:01
+[14-Dec-2014 02:02:24 America/Asuncion] record_city (f): 14 12 2014 02:02:24
+[14-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 14 12 2014 02:04:24
+[14-Dec-2014 02:05:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 02:05:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 02:05:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 02:05:50 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 14 12 2014 02:25:27
+[14-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 14 12 2014 02:32:27
+[14-Dec-2014 02:53:30 America/Asuncion] record_city_interest (f): 14 12 2014 02:53:30
+[14-Dec-2014 02:58:30 America/Asuncion] record_city_comportamiento (f): 14 12 2014 02:58:30
+[14-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 14 12 2014 03:19:34
+[14-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 14 12 2014 03:26:34
+[14-Dec-2014 04:08:37 America/Asuncion] record_city_relationship (f): 14 12 2014 04:08:37
+[14-Dec-2014 16:19:40 America/Asuncion] Type: city_age
+[14-Dec-2014 16:19:44 America/Asuncion] record_city_age (i - aux): 14 12 2014 16:19:44
+[14-Dec-2014 16:20:04 America/Asuncion] record_city_age (f - aux): 14 12 2014 16:20:04
+[15-Dec-2014 02:00:01 America/Asuncion] record_city (i): 15 12 2014 02:00:01
+[15-Dec-2014 02:02:24 America/Asuncion] record_city (f): 15 12 2014 02:02:24
+[15-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 15 12 2014 02:04:24
+[15-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 15 12 2014 02:25:27
+[15-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 15 12 2014 02:32:27
+[15-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 15 12 2014 02:53:31
+[15-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 15 12 2014 02:58:31
+[15-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 15 12 2014 03:19:34
+[15-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 15 12 2014 03:26:34
+[15-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 15 12 2014 04:08:38
+[16-Dec-2014 02:00:01 America/Asuncion] record_city (i): 16 12 2014 02:00:01
+[16-Dec-2014 02:02:25 America/Asuncion] record_city (f): 16 12 2014 02:02:25
+[16-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 16 12 2014 02:04:25
+[16-Dec-2014 02:25:29 America/Asuncion] record_city_age (f): 16 12 2014 02:25:29
+[16-Dec-2014 02:32:29 America/Asuncion] record_city_interest (i): 16 12 2014 02:32:29
+[16-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 16 12 2014 02:53:32
+[16-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 16 12 2014 02:58:32
+[16-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 16 12 2014 03:19:35
+[16-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 16 12 2014 03:26:35
+[16-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 16 12 2014 04:08:38
+[17-Dec-2014 02:00:01 America/Asuncion] record_city (i): 17 12 2014 02:00:01
+[17-Dec-2014 02:02:25 America/Asuncion] record_city (f): 17 12 2014 02:02:25
+[17-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 17 12 2014 02:04:25
+[17-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 17 12 2014 02:25:28
+[17-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 17 12 2014 02:32:28
+[17-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 17 12 2014 02:53:32
+[17-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 17 12 2014 02:58:32
+[17-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 17 12 2014 03:19:35
+[17-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 17 12 2014 03:26:35
+[17-Dec-2014 04:08:39 America/Asuncion] record_city_relationship (f): 17 12 2014 04:08:39
+[18-Dec-2014 02:00:01 America/Asuncion] record_city (i): 18 12 2014 02:00:01
+[18-Dec-2014 02:02:24 America/Asuncion] record_city (f): 18 12 2014 02:02:24
+[18-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 18 12 2014 02:04:24
+[18-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 18 12 2014 02:25:27
+[18-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 18 12 2014 02:32:27
+[18-Dec-2014 02:53:30 America/Asuncion] record_city_interest (f): 18 12 2014 02:53:30
+[18-Dec-2014 02:58:30 America/Asuncion] record_city_comportamiento (f): 18 12 2014 02:58:30
+[18-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 18 12 2014 03:19:34
+[18-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 18 12 2014 03:26:34
+[18-Dec-2014 04:08:37 America/Asuncion] record_city_relationship (f): 18 12 2014 04:08:37
+[19-Dec-2014 02:00:01 America/Asuncion] record_city (i): 19 12 2014 02:00:01
+[19-Dec-2014 02:02:25 America/Asuncion] record_city (f): 19 12 2014 02:02:25
+[19-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 19 12 2014 02:04:25
+[19-Dec-2014 02:25:29 America/Asuncion] record_city_age (f): 19 12 2014 02:25:29
+[19-Dec-2014 02:32:29 America/Asuncion] record_city_interest (i): 19 12 2014 02:32:29
+[19-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 19 12 2014 02:53:32
+[19-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 19 12 2014 02:58:32
+[19-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 19 12 2014 03:19:35
+[19-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 19 12 2014 03:26:35
+[19-Dec-2014 04:08:39 America/Asuncion] record_city_relationship (f): 19 12 2014 04:08:39
+[20-Dec-2014 02:00:01 America/Asuncion] record_city (i): 20 12 2014 02:00:01
+[20-Dec-2014 02:02:25 America/Asuncion] record_city (f): 20 12 2014 02:02:25
+[20-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 20 12 2014 02:04:25
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:05:11 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[20-Dec-2014 02:25:29 America/Asuncion] record_city_age (f): 20 12 2014 02:25:29
+[20-Dec-2014 02:32:29 America/Asuncion] record_city_interest (i): 20 12 2014 02:32:29
+[20-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 20 12 2014 02:53:32
+[20-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 20 12 2014 02:58:32
+[20-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 20 12 2014 03:19:35
+[20-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 20 12 2014 03:26:35
+[20-Dec-2014 04:08:39 America/Asuncion] record_city_relationship (f): 20 12 2014 04:08:39
+[20-Dec-2014 08:08:49 America/Asuncion] Type: city_age
+[20-Dec-2014 08:08:52 America/Asuncion] Type: city_comportamiento
+[20-Dec-2014 08:08:54 America/Asuncion] record_city_age (i - aux): 20 12 2014 08:08:54
+[20-Dec-2014 08:08:55 America/Asuncion] record_city_comportamiento (i - aux): 20 12 2014 08:08:55
+[20-Dec-2014 08:09:14 America/Asuncion] record_city_age (f - aux): 20 12 2014 08:09:14
+[20-Dec-2014 08:09:15 America/Asuncion] record_city_comportamiento (f - aux): 20 12 2014 08:09:15
+[21-Dec-2014 02:00:01 America/Asuncion] record_city (i): 21 12 2014 02:00:01
+[21-Dec-2014 02:02:24 America/Asuncion] record_city (f): 21 12 2014 02:02:24
+[21-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 21 12 2014 02:04:24
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:30 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:46 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:05:47 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[21-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 21 12 2014 02:25:27
+[21-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 21 12 2014 02:32:27
+[21-Dec-2014 02:53:30 America/Asuncion] record_city_interest (f): 21 12 2014 02:53:30
+[21-Dec-2014 02:58:30 America/Asuncion] record_city_comportamiento (f): 21 12 2014 02:58:30
+[21-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 21 12 2014 03:19:34
+[21-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 21 12 2014 03:26:34
+[21-Dec-2014 04:08:37 America/Asuncion] record_city_relationship (f): 21 12 2014 04:08:37
+[21-Dec-2014 23:17:34 America/Asuncion] Type: city_age
+[21-Dec-2014 23:17:39 America/Asuncion] record_city_age (i - aux): 21 12 2014 23:17:39
+[21-Dec-2014 23:18:19 America/Asuncion] record_city_age (f - aux): 21 12 2014 23:18:19
+[22-Dec-2014 02:00:01 America/Asuncion] record_city (i): 22 12 2014 02:00:01
+[22-Dec-2014 02:02:25 America/Asuncion] record_city (f): 22 12 2014 02:02:25
+[22-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 22 12 2014 02:04:25
+[22-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 22 12 2014 02:25:28
+[22-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 22 12 2014 02:32:28
+[22-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 22 12 2014 02:53:31
+[22-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 22 12 2014 02:58:31
+[22-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 22 12 2014 03:19:34
+[22-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 22 12 2014 03:26:34
+[22-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 22 12 2014 04:08:38
+[22-Dec-2014 08:53:04 America/Asuncion] Type: city_relationship
+[22-Dec-2014 08:53:10 America/Asuncion] record_city_relationship (i - aux): 22 12 2014 08:53:10
+[22-Dec-2014 08:58:31 America/Asuncion] record_city_relationship (f - aux): 22 12 2014 08:58:31
+[22-Dec-2014 09:52:50 America/Asuncion] Type: city_relationship
+[22-Dec-2014 09:52:57 America/Asuncion] record_city_relationship (i - aux): 22 12 2014 09:52:57
+[22-Dec-2014 09:56:17 America/Asuncion] record_city_relationship (f - aux): 22 12 2014 09:56:17
+[23-Dec-2014 02:00:01 America/Asuncion] record_city (i): 23 12 2014 02:00:01
+[23-Dec-2014 02:02:24 America/Asuncion] record_city (f): 23 12 2014 02:02:24
+[23-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 23 12 2014 02:04:24
+[23-Dec-2014 02:05:29 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[23-Dec-2014 02:05:29 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[23-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 23 12 2014 02:25:28
+[23-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 23 12 2014 02:32:28
+[23-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 23 12 2014 02:53:31
+[23-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 23 12 2014 02:58:31
+[23-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 23 12 2014 03:19:35
+[23-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 23 12 2014 03:26:35
+[23-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 23 12 2014 04:08:38
+[23-Dec-2014 08:40:17 America/Asuncion] Type: city_age
+[23-Dec-2014 08:40:21 America/Asuncion] record_city_age (i - aux): 23 12 2014 08:40:21
+[23-Dec-2014 08:40:41 America/Asuncion] record_city_age (f - aux): 23 12 2014 08:40:41
+[23-Dec-2014 09:01:29 America/Asuncion] Type: city_relationship
+[23-Dec-2014 09:01:37 America/Asuncion] record_city_relationship (i - aux): 23 12 2014 09:01:37
+[23-Dec-2014 09:02:17 America/Asuncion] record_city_relationship (f - aux): 23 12 2014 09:02:17
+[23-Dec-2014 09:03:19 America/Asuncion] Type: city_relationship
+[23-Dec-2014 09:03:25 America/Asuncion] record_city_relationship (i - aux): 23 12 2014 09:03:25
+[23-Dec-2014 09:04:05 America/Asuncion] record_city_relationship (f - aux): 23 12 2014 09:04:05
+[23-Dec-2014 19:13:02 America/Asuncion] Type: city_relationship
+[23-Dec-2014 19:13:08 America/Asuncion] record_city_relationship (i - aux): 23 12 2014 19:13:08
+[23-Dec-2014 19:13:46 America/Asuncion] Type: city_relationship
+[23-Dec-2014 19:13:48 America/Asuncion] record_city_relationship (f - aux): 23 12 2014 19:13:48
+[23-Dec-2014 19:13:53 America/Asuncion] record_city_relationship (i - aux): 23 12 2014 19:13:53
+[23-Dec-2014 19:14:33 America/Asuncion] record_city_relationship (f - aux): 23 12 2014 19:14:33
+[23-Dec-2014 22:01:20 America/Asuncion] Type: city_relationship
+[23-Dec-2014 22:01:27 America/Asuncion] record_city_relationship (i - aux): 23 12 2014 22:01:27
+[23-Dec-2014 22:02:07 America/Asuncion] record_city_relationship (f - aux): 23 12 2014 22:02:07
+[24-Dec-2014 02:00:01 America/Asuncion] record_city (i): 24 12 2014 02:00:01
+[24-Dec-2014 02:02:24 America/Asuncion] record_city (f): 24 12 2014 02:02:24
+[24-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 24 12 2014 02:04:24
+[24-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 24 12 2014 02:25:27
+[24-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 24 12 2014 02:32:27
+[24-Dec-2014 02:53:30 America/Asuncion] record_city_interest (f): 24 12 2014 02:53:30
+[24-Dec-2014 02:58:30 America/Asuncion] record_city_comportamiento (f): 24 12 2014 02:58:30
+[24-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 24 12 2014 03:19:34
+[24-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 24 12 2014 03:26:34
+[24-Dec-2014 04:08:37 America/Asuncion] record_city_relationship (f): 24 12 2014 04:08:37
+[25-Dec-2014 02:00:01 America/Asuncion] record_city (i): 25 12 2014 02:00:01
+[25-Dec-2014 02:02:24 America/Asuncion] record_city (f): 25 12 2014 02:02:24
+[25-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 25 12 2014 02:04:24
+[25-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 25 12 2014 02:25:28
+[25-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 25 12 2014 02:32:28
+[25-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 25 12 2014 02:53:32
+[25-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 25 12 2014 02:58:32
+[25-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 25 12 2014 03:19:35
+[25-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 25 12 2014 03:26:35
+[25-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 25 12 2014 04:08:38
+[26-Dec-2014 02:00:01 America/Asuncion] record_city (i): 26 12 2014 02:00:01
+[26-Dec-2014 02:02:24 America/Asuncion] record_city (f): 26 12 2014 02:02:24
+[26-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 26 12 2014 02:04:24
+[26-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 26 12 2014 02:25:27
+[26-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 26 12 2014 02:32:27
+[26-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 26 12 2014 02:53:31
+[26-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 26 12 2014 02:58:31
+[26-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 26 12 2014 03:19:34
+[26-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 26 12 2014 03:26:34
+[26-Dec-2014 04:08:37 America/Asuncion] record_city_relationship (f): 26 12 2014 04:08:37
+[27-Dec-2014 02:00:01 America/Asuncion] record_city (i): 27 12 2014 02:00:01
+[27-Dec-2014 02:02:25 America/Asuncion] record_city (f): 27 12 2014 02:02:25
+[27-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 27 12 2014 02:04:25
+[27-Dec-2014 02:05:31 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[27-Dec-2014 02:05:31 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[27-Dec-2014 02:25:29 America/Asuncion] record_city_age (f): 27 12 2014 02:25:29
+[27-Dec-2014 02:32:29 America/Asuncion] record_city_interest (i): 27 12 2014 02:32:29
+[27-Dec-2014 02:53:33 America/Asuncion] record_city_interest (f): 27 12 2014 02:53:33
+[27-Dec-2014 02:58:33 America/Asuncion] record_city_comportamiento (f): 27 12 2014 02:58:33
+[27-Dec-2014 03:19:36 America/Asuncion] record_city_comportamiento (f): 27 12 2014 03:19:36
+[27-Dec-2014 03:26:36 America/Asuncion] record_city_relationship (i): 27 12 2014 03:26:36
+[27-Dec-2014 04:08:40 America/Asuncion] record_city_relationship (f): 27 12 2014 04:08:40
+[27-Dec-2014 17:59:54 America/Asuncion] Type: city_age
+[27-Dec-2014 17:59:59 America/Asuncion] record_city_age (i - aux): 27 12 2014 17:59:59
+[27-Dec-2014 18:00:19 America/Asuncion] record_city_age (f - aux): 27 12 2014 18:00:19
+[28-Dec-2014 02:00:02 America/Asuncion] record_city (i): 28 12 2014 02:00:02
+[28-Dec-2014 02:02:25 America/Asuncion] record_city (f): 28 12 2014 02:02:25
+[28-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 28 12 2014 02:04:25
+[28-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 28 12 2014 02:25:28
+[28-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 28 12 2014 02:32:28
+[28-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 28 12 2014 02:53:31
+[28-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 28 12 2014 02:58:31
+[28-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 28 12 2014 03:19:35
+[28-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 28 12 2014 03:26:35
+[28-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 28 12 2014 04:08:38
+[29-Dec-2014 02:00:01 America/Asuncion] record_city (i): 29 12 2014 02:00:01
+[29-Dec-2014 02:02:24 America/Asuncion] record_city (f): 29 12 2014 02:02:24
+[29-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 29 12 2014 02:04:24
+[29-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 29 12 2014 02:25:28
+[29-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 29 12 2014 02:32:28
+[29-Dec-2014 02:53:32 America/Asuncion] record_city_interest (f): 29 12 2014 02:53:32
+[29-Dec-2014 02:58:32 America/Asuncion] record_city_comportamiento (f): 29 12 2014 02:58:32
+[29-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 29 12 2014 03:19:35
+[29-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 29 12 2014 03:26:35
+[29-Dec-2014 04:08:39 America/Asuncion] record_city_relationship (f): 29 12 2014 04:08:39
+[30-Dec-2014 02:00:01 America/Asuncion] record_city (i): 30 12 2014 02:00:01
+[30-Dec-2014 02:02:25 America/Asuncion] record_city (f): 30 12 2014 02:02:25
+[30-Dec-2014 02:04:25 America/Asuncion] record_city_age (i): 30 12 2014 02:04:25
+[30-Dec-2014 02:25:28 America/Asuncion] record_city_age (f): 30 12 2014 02:25:28
+[30-Dec-2014 02:32:28 America/Asuncion] record_city_interest (i): 30 12 2014 02:32:28
+[30-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 30 12 2014 02:53:31
+[30-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 30 12 2014 02:58:31
+[30-Dec-2014 03:19:35 America/Asuncion] record_city_comportamiento (f): 30 12 2014 03:19:35
+[30-Dec-2014 03:26:35 America/Asuncion] record_city_relationship (i): 30 12 2014 03:26:35
+[30-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 30 12 2014 04:08:38
+[31-Dec-2014 02:00:01 America/Asuncion] record_city (i): 31 12 2014 02:00:01
+[31-Dec-2014 02:02:24 America/Asuncion] record_city (f): 31 12 2014 02:02:24
+[31-Dec-2014 02:04:24 America/Asuncion] record_city_age (i): 31 12 2014 02:04:24
+[31-Dec-2014 02:25:27 America/Asuncion] record_city_age (f): 31 12 2014 02:25:27
+[31-Dec-2014 02:32:27 America/Asuncion] record_city_interest (i): 31 12 2014 02:32:27
+[31-Dec-2014 02:53:31 America/Asuncion] record_city_interest (f): 31 12 2014 02:53:31
+[31-Dec-2014 02:58:31 America/Asuncion] record_city_comportamiento (f): 31 12 2014 02:58:31
+[31-Dec-2014 03:19:34 America/Asuncion] record_city_comportamiento (f): 31 12 2014 03:19:34
+[31-Dec-2014 03:26:34 America/Asuncion] record_city_relationship (i): 31 12 2014 03:26:34
+[31-Dec-2014 04:08:38 America/Asuncion] record_city_relationship (f): 31 12 2014 04:08:38

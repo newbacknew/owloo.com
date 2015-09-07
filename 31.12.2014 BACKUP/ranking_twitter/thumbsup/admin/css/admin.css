@@ -1,0 +1,101 @@
+/**
+ * ThumbsUp
+ *
+ * @author     Geert De Deckere <geert@idoe.be>
+ * @link       http://geertdedeckere.be/shop/thumbsup/
+ * @copyright  Copyright 2009-2010
+ */
+
+/* Reset */
+html, body, h1, p, ul, ol, li, table, form, input, select, textarea { margin:0; padding:0; }
+
+/* Body */
+body { min-width:760px; font:15px/20px sans-serif; }
+
+/* Links */
+a img { border:0; }
+a { color:#060; text-decoration:none; }
+a:hover, a:focus { color:#090; text-decoration:underline; }
+
+/* Tables */
+table { width:100%; border-collapse:collapse; }
+th, td { padding:8px 4px; text-align:left; }
+.extra-padding { padding:8px; }
+
+/* Forms */
+input, select, textarea { font:inherit; }
+input[type="submit"], input[type="button"], button { font-size:13px; cursor:pointer; }
+input[disabled], button[disabled] { cursor:default; }
+.stretch { width:100%; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+
+/* General classes */
+.left { text-align:left; }
+.right { text-align:right; }
+.center { text-align:center; }
+
+/* Login box */
+body.login { background:#d6e0d6; }
+#login { margin:100px auto 0; width:300px; background:#fff; }
+#login h1 { padding:8px 20px 6px; background:#030; font-size:100%; color:#85a385; text-transform:uppercase; }
+#login .error { padding:20px; background:#c00; color:#fff; }
+#login label { display:inline-block; width:90px; }
+#login p { margin:20px; }
+#login p.submit { padding:0 0 20px 90px; }
+#login input { width:150px; }
+
+/* Header */
+#header { position:fixed; top:0; width:100%; min-width:760px; background:#030; border-bottom:3px solid #295229; -moz-box-shadow:0 0 30px #ccc; -webkit-box-shadow:0 0 30px #ccc; box-shadow:0 0 30px #ccc; }
+
+/* Top bar with title and logout link */
+#admin-header { padding:8px 20px 6px; border-bottom:3px solid #002900; overflow:hidden; }
+#admin-header a { color:#85a385; }
+#admin-header a:hover { color:#fff; }
+#admin-header h1 { float:left; font-size:100%; text-transform:uppercase; }
+#admin-header h1 a { text-decoration:none; }
+#admin-header li { float:right; margin-left:1em; list-style:none; }
+
+/* Header cells with filter below */
+#items-header { background:#363; color:#d6e0d6; text-shadow:0 1px 0 rgba(0,0,0,0.4); }
+#items-header th { border:1px solid #2e5c2e; border-width:0 1px 1px 0; }
+#items-header input { padding:3px; background:#fff; border:1px inset #999; }
+#items-header input:focus { background:#ff9; }
+
+/* Table with items */
+#items { margin:127px 0 65px; border-top:1px solid #eee; }
+#items a { text-decoration:underline; }
+#items td { background:#fff; border-bottom:1px solid #eee; }
+#items .alt1 td { background:#fcfcfc; }
+#items .closed select { display:none; }
+#items .date { font-size:13px; }
+#items .action { font-size:13px; }
+#items a.edit { padding:8px; }
+#items a.delete { float:right; padding:2px 4px 0; color:#666; text-decoration:none; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; }
+#items a.delete:hover { background-color:#c00; color:#fff; }
+#items input { padding:4px; background:transparent; border:0; color:#000; }
+#items tr.editing td { background:#d6e0d6; }
+#items .editing .closed select { display:inline; }
+#items .editing .closed span { display:none; }
+#items .editing input { padding:3px; background:#fff; border:1px inset #999; }
+#items .editing input:focus { background:#ff9; }
+#items tr td.error { background:#c00; }
+#items div.error { font-size:13px; color:#fff; text-shadow:0 1px 0 rgba(0,0,0,0.4); }
+#items .action div.save { display:none; }
+
+/* Hide non-essential columns if window gets too small */
+@media screen and (max-width:1160px) { col.pct_down, th.pct_down, td.pct_down { display:none; } }
+@media screen and (max-width:1080px) { col.pct_up, th.pct_up, td.pct_up { display:none; } }
+@media screen and (max-width:1000px) { col.balance, th.balance, td.balance { display:none; } }
+@media screen and (max-width:920px) { col.total, th.total, td.total { display:none; } }
+@media screen and (max-width:800px) { col.date, th.date, td.date { display:none; } }
+
+/* No items found */
+#nothing-found { position:absolute; top:50%; width:100%; font-size:80px; color:#ccc; text-align:center; }
+
+/* Footer */
+#footer { position:fixed; bottom:0; width:100%; min-width:760px; background:#363; border-top:3px solid #295229; color:#d6e0d6; text-shadow:0 1px 0 rgba(0,0,0,0.4); -moz-box-shadow:0 0 30px #ccc; -webkit-box-shadow:0 0 30px #ccc; box-shadow:0 0 30px #ccc; }
+#footer a { color:inherit; }
+#footer > div { float:left; padding:15px 20px; border-right:1px solid #2e5c2e; }
+#footer > .credits { float:right; border:none; font-size:11px; line-height:1; color:#85a385; text-align:right; }
+#page { font-weight:bold; text-align:center; }
+#prev, #next { display:inline-block; width:15px; background:#030; color:#fff; font-weight:bold; text-align:center; cursor:pointer; text-shadow:none; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; }
+#prev:hover, #next:hover { background:#002900; text-decoration:none; }

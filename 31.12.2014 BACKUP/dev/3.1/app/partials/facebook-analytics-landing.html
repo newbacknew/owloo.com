@@ -1,0 +1,103 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content">
+    <div class="section text-center">
+        <div class="row">
+            <div class="column large-12">
+                <h1>{{'FACEBOOK_ANALYTICS_TITLE' | translate}}</h1>
+                <div class="row">
+                    <div class="column large-offset-3 large-6">
+                        <p>{{'FACEBOOK_ANALYTICS_SUBTITLE' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr center"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-1 large-5">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'FACEBOOK_ANALYTICS_FEATURE1_TITLE' | translate}}</h3>
+                        <p>{{'FACEBOOK_ANALYTICS_FEATURE1_DESC' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-5 end">
+                <img ng-src="{{::imagesFolder}}/ill/794632a2de8779437dd3a886ec2d4938.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section text-center">
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-offset-3 large-6">
+                    <h2>{{'FACEBOOK_ANALYTICS_GROW' | translate}}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-2" ng-repeat="page in content.facebookGrowRank">
+                    <widget-bubble-account picture='{{page.picture}}' grownumber='{{page.grow_30}}' growpercent='{{page.percent}}' 
+                    link='{{urlRoot}}/facebook-stats/pages/{{page.username}}' name='{{page.name}}' class='plus'></widget-box-upright>
+                </div>
+            </div>
+        </div>
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-12">
+                    <h3><a href="{{::url.facebook.analytics.pages}}">{{'FACEBOOK_ANALYTICS_SEE_MORE' | translate}}</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-12">
+                    <img ng-src="{{::imagesFolder}}/ill/f323da827b0d2a2cf138ed66f65e86f0.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section gray text-center">
+        <img class="middle-icon" ng-src="{{::imagesFolder}}/ill/f1a98f16fb2de6fd342b249d0b2b69db.png">
+        <div class="row big">
+            <div class="column large-offset-2 large-8">
+                <h3>{{'FACEBOOK_ANALYTICS_ADD_PAGE' | translate}}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-offset-2 large-8">
+                <widget-add-account-input placeholder="Tu página de Facebook es..."></widget-add-account-input>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-1 large-5">
+                <img ng-src="{{::imagesFolder}}/ill/40d8ab17c8463d3c916ed5b0c1a305a5.png"/>
+            </div>
+            <div class="column large-5 end">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'FACEBOOK_ANALYTICS_FEATURE2_TITLE' | translate}}</h3>
+                        <p>{{'FACEBOOK_ANALYTICS_FEATURE2_DESC' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-5 large-7 text-right">
+                <h3>{{'FACEBOOK_ANALYTICS_FEATURE3_TITLE' | translate}}</h3>
+                <p>{{'FACEBOOK_ANALYTICS_FEATURE3_DESC1' | translate}}</p>
+                <p>{{'FACEBOOK_ANALYTICS_FEATURE3_DESC2' | translate}}</p>
+                <p>{{'FACEBOOK_ANALYTICS_FEATURE3_DESC3' | translate}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <owloo-footer></owloo-footer>
+</div>

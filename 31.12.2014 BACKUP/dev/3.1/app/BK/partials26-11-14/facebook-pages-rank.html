@@ -1,0 +1,40 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content">
+	<div class="section ranking-page">
+		<div class="row">
+			<div class="column large-3">
+				<div class="ranking sidebar filters">
+					<div class="row small">
+						<div class="column large-12">
+							<label for="country">Pa&iacute;s</label>
+							<div class="select">
+								<input type="text" name="country" class="select" placeholder="Todos">
+								<i class="fa fa-angle-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row small">
+						<div class="column large-12">
+							<label for="category">Categor&iacute;a</label>
+							<div class="select">
+								<input type="text" name="category" class="select" placeholder="Todas">
+								<i class="fa fa-angle-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row small">
+						<div class="column large-12">
+							<p><a href="{{urlRoot}}/facebook-stats/pages/world/{{category}}" ng-class="{current:where == 'world'}">Mundial</a>
+							<a href="{{urlRoot}}/facebook-stats/pages/hispanic/{{category}}" ng-class="{current:where == 'hispanic'}">Hispano</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column large-9">
+				<ranking rank="rank"></ranking>
+			</div>
+		</div>
+	</div>
+    <owloo-footer></owloo-footer>
+</div>

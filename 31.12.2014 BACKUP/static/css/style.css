@@ -1,0 +1,1855 @@
+@charset "utf-8";
+/***** IMPORTS *****/
+@import url('reset.css');
+@import url('tooltipster.css');
+@import url('ws-combo.css');
+/***** END IMPORTS *****/
+@font-face {
+  font-family: 'OpenSans';
+  src: url('font/opensansregular.eot');
+  src: url('font/opensansregular.eot?#iefix') format('embedded-opentype'),
+     url('font/opensansregular.woff') format('woff'),
+     url('font/opensansregular.ttf') format('truetype'),
+     url('font/opensansregular.svg#opensansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('font/opensanslight.eot');
+  src: url('font/opensanslight.eot?#iefix') format('embedded-opentype'),
+     url('font/opensanslight.woff') format('woff'),
+     url('font/opensanslight.ttf') format('truetype'),
+     url('font/opensanslight.svg#opensanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('font/opensansbold.eot');
+  src: url('font/opensansbold.eot?#iefix') format('embedded-opentype'),
+     url('font/opensansbold.woff') format('woff'),
+     url('font/opensansbold.ttf') format('truetype'),
+     url('font/opensansbold.svg#opensansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body{
+	font-family: "OpenSans",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #505050;
+}
+strong, b{
+	font-family: "OpenSans-Bold";
+}
+em, i{
+	font-style: italic;
+}
+.owloo_main {
+    margin: 0 auto;
+    width: 970px;
+}
+.owloo_main_content {
+    margin-bottom: 70px;
+}
+.owloo_clear{
+	clear: both;
+}
+.owloo_align_left{
+	text-align: left !important;
+}
+.owloo_align_right{
+	text-align: right !important;
+}
+.owloo_align_center{
+	text-align: center !important;
+}
+/***** ELEMENTS *****/
+.owloo_btn {
+	display: inline-block;
+	padding: 9px 18px 8px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	color: #FFF;
+	cursor: pointer;
+	line-height: 12px;
+}
+.owloo_btn_big{
+	font-size: 20px;
+    line-height: 20px;
+    padding: 17px 30px;
+}
+.owloo_btn:hover{
+	text-decoration: none;
+}
+/* blue */
+.owloo_btn_blue {
+	border: 1px solid #007cc3;
+	background: #007cc3;
+}
+.owloo_btn_blue:hover {
+	border: 1px solid #0071b1;
+	background: #0071b1;
+}
+/* orange */
+.owloo_btn_orange {
+	border: 1px solid #f97f40;
+	background-color: #f97f40;
+}
+.owloo_btn_orange:hover{
+	background-color: #e96c2c;
+	border: 1px solid #e96c2c;
+}
+.owloo_msj_alert {
+    background-color: #FCF8E3;
+    border-left: 3px solid #F0AD4E;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 10px 10px 20px;
+}
+/***** END ELEMENTS *****/
+/***** HEADER *****/
+.owloo_header {
+    /*overflow: hidden;*/
+    padding: 20px 0;
+}
+.owloo_header .owloo_logo {
+    float: left;
+    overflow: hidden;
+}
+.owloo_header .owloo_logo_owloo {
+    border-right: 1px solid #E3E3E3;
+    float: left;
+    overflow: hidden;
+    padding-right: 13px;
+}
+.owloo_header .owloo_logo_owloo img {
+    height: 55px;
+}
+.owloo_header .owloo_logo_latam {
+    float: left;
+    padding: 11px 10px 11px 13px;
+}
+.owloo_header .owloo_logo_latam img {
+	height: 28px;
+}
+.owloo_header .owloo_search {
+    /*overflow: hidden;*/
+    padding-top: 10px;
+}
+.owloo_header .owloo_view_fb_tw_ranking {
+	color: #505050;
+    float: right;
+    font-family: OpenSans-Bold;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.owloo_header .owloo_select {
+    float: right;
+    margin-left: 20px;
+}
+/***** END HEADER *****/
+/***** MENU *****/
+.owloo_menu_content {
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    position: relative;
+    z-index: 1;
+}
+.owloo_menu ul {
+	float: left;
+	overflow: hidden;
+}
+.owloo_menu ul li {
+    float: left;
+    overflow: hidden;
+}
+.owloo_menu ul li a {
+	border-left: 1px solid #EBEBEB;
+	border-right: 1px solid transparent;
+	color: #505050;
+	display: block;
+    font-family: 'OpenSans';
+    font-size: 12px;
+    padding: 15px 20px;
+    line-height: 12px;
+}
+.owloo_menu ul li a.owloo_first {
+	border-left: 1px solid transparent;
+}
+.owloo_menu ul li a.owloo_active, .owloo_menu ul li a:hover {
+	background-color: #F1F1F1;
+	text-decoration: none;
+}
+.owloo_menu ul li a.owloo_first.owloo_active, .owloo_menu ul li a.owloo_first:hover {
+	border-left: 1px solid #EBEBEB;
+}
+.owloo_menu ul li a.owloo_last.owloo_active, .owloo_menu ul li a.owloo_last:hover {
+	border-right: 1px solid #EBEBEB;
+}
+.owloo_menu .owloo_login_content {
+    float: right;
+}
+.owloo_login_content .owloo_btn {
+    margin-top: 6px;
+}
+#owloo_login ul.nav {
+	min-width: 180px;
+	overflow: visible;
+}
+#owloo_login .usernav {
+    background-color: #FCFCFC;
+    border-left: 1px solid #F5F1F1;
+    border-right: 1px solid #F5F1F1;
+    color: #007CC3;
+    font-family: 'OpenSans';
+    height: 20px;
+    line-height: 20px;
+    padding: 12px 12px 10px;
+}
+#owloo_login .usernav:hover, #owloo_login .usernav.owloo_active {
+    color: #256992;
+    background-color: #F3F3F3;
+}
+#owloo_login .dropdown-menu {
+    background-color: #FCFCFC;
+    display: none;
+    padding: 5px 0;
+    position: absolute;
+    width: 100%;
+}
+#owloo_login .dropdown-menu.owloo_active {
+    display: block;
+}
+#owloo_login .dropdown {
+    position: relative;
+    float: none;
+    overflow: visible;
+}
+#owloo_login .dropdown-menu li {
+    float: none;
+}
+#owloo_login .dropdown-menu li a {
+    background-color: #FCFCFC;
+    color: #007CC3;
+    font-family: 'OpenSans';
+    padding: 7px 15px;
+}
+#owloo_login .dropdown-menu li:hover {
+	text-decoration: underline;
+	background-color: #FCFCFC;
+}
+#owloo_login .dropdown-menu li a:hover {
+	text-decoration: underline;
+	color: #256992;
+}
+.caret {
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #000000;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+}
+.navbar .nav .dropdown-toggle .caret {
+    float: right;
+    margin-top: 4px;
+}
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-bottom-color: #777777;
+    border-top-color: #777777;
+}
+.owloo_login_content .navbar {
+    float: right;
+}
+/***** END MENU *****/
+
+/***** FOOTER *****/
+.owloo_footer {
+    background-color: #007CC3;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 30px 0;
+}
+.owloo_footer .owloo_about_us {
+    color: #BBB;
+}
+.owloo_footer_links {
+    margin: 20px 0 30px;
+}
+.owloo_footer_links ul li a {
+    color: #FFFFFF;
+}
+.owloo_footer_links ul li {
+    padding-bottom: 10px;
+}
+.owloo_footer .owloo_description {
+    font-style: italic;
+    line-height: 18px;
+}
+.owloo_footer_copyright {
+    background-color: #0071b1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.owloo_footer_copyright a {
+    color: #FFFFFF;
+}
+.owloo_footer_copyright a:hover {
+    color: #FFFFFF !important;
+    text-decoration: underline;
+}
+.owloo_footer_copyright .owloo_privacy_link {
+    float: right;
+}
+.owloo_isologo_footer {
+    height: 0;
+    position: relative;
+    text-align: center;
+    top: -18px;
+}
+.owloo_footer_sections {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+.owloo_footer_sections + .owloo_footer_sections {
+    margin-left: 80px;
+}
+/***** END FOOTER *****/
+
+.owloo_index_zone_1 {
+    background: url("../images/slide-jun2014.png") no-repeat scroll center bottom #FFF;
+    height: 350px;
+}
+.owloo_index_zone_1 h1 {
+    color: #007CC3;
+    font-family: OpenSans-Light;
+    font-size: 24px;
+    padding-top: 40px;
+    text-align: center;
+}
+.owloo_index_zone_2 {
+    background-color: #0071B1;
+    color: #FFFFFF;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 35px 0;
+    text-align: center;
+}
+.owloo_index_zone_2 h3 {
+    font-family: OpenSans-Light;
+}
+.owloo_index_zone_3 {
+    background-color: #505050;
+    color: #FFFFFF;
+    overflow: hidden;
+    padding: 40px 0;
+}
+.owloo_index_zone_3 .owloo_left {
+    float: left;
+    line-height: 23px;
+    text-align: right;
+    width: 53%;
+}
+.owloo_index_zone_3 .owloo_title {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.owloo_index_zone_3 .owloo_description {
+    font-size: 15px;
+    margin-top: 25px;
+    padding-left: 80px;
+}
+.owloo_index_zone_3 .owloo_right {
+    float: right;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.owloo_index_zone_3 .owloo_image {
+    background-color: #FFFFFF;
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+.owloo_index_zone_3 .owloo_btn {
+    font-size: 20px;
+    margin: 30px 0 30px 20px;
+    padding: 17px 30px;
+    line-height: 20px;
+}
+.owloo_product_title {
+    background-color: #007CC3;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.owloo_product_title a.owloo_navegator {
+    color: #FFFFFF;
+}
+.owloo_product_title .owloo_separator {
+    position: relative;
+    top: 2px;
+}
+.owloo_main_title_h1 {
+    color: #007CC3;
+    font-family: 'OpenSans-Light';
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 50px 0;
+    text-align: center;
+}
+.owloo_main_title_h1.owloo_index {
+    margin: 70px 0;
+}
+.owloo_ranking_content {
+    overflow: hidden;
+    position: relative;
+}
+.owloo_ranking_tab {
+    float: left;
+    position: relative;
+    width: 20%;
+    z-index: 1;
+}
+.owloo_country_section .owloo_ranking_tab {
+    width: 15%;
+}
+.owloo_ranking_tab ul li a, .owloo_ranking_tab ul li span {
+    display: block;
+    font-size: 13px;
+    padding: 10px 0 10px 10px;
+}
+.owloo_ranking_tab ul li span {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+}
+.owloo_ranking_tab ul li span.owloo_active_city i {
+    color: #AAAAAA;
+    margin-right: 3px;
+}
+.owloo_ranking {
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    float: left;
+    left: -1px;
+    position: relative;
+    width: 79%;
+}
+.owloo_ranking.owloo_hide_data {
+    position: relative;
+    text-shadow: 0 0 10px #000000;
+    min-height: 350px;
+}
+.owloo_country_content.owloo_hide_data {
+    position: relative;
+    text-shadow: 0 0 10px #000000;
+}
+.owloo_country_content.owloo_hide_data .owloo_req_login {
+    margin: 45px auto 0;
+}
+.owloo_country_section .owloo_country_content.owloo_hide_data .owloo_right, .owloo_country_section .owloo_country_content.owloo_hide_data .owloo_left {
+    color: #BBBBBB;
+}
+.owloo_country_content.owloo_hide_data tspan {
+    color: #BBBBBB !important;
+    fill: #BBBBBB !important;
+}
+.owloo_country_content.owloo_hide_data_tw_down .owloo_tw_download {
+    min-height: 250px;
+}
+.owloo_country_content.owloo_hide_data_tw_down .owloo_req_login {
+    margin-top: 35px;
+}
+.owloo_hide_data_bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.owloo_ranking.owloo_hide_data .owloo_ranking_item,
+.owloo_ranking.owloo_hide_data .owloo_rank,
+.owloo_ranking.owloo_hide_data .owloo_trend_up_content {
+    color: #BBBBBB !important;
+}
+#owloo_tw_charts_content .owloo_country_content {
+    padding: 30px 25px 50px;
+    text-align: center;
+}
+.owloo-tw-info-new {
+    display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 30px;
+}
+.owloo_country_section .owloo_ranking {
+    width: 84%;
+}
+#owloo_ranking {
+    padding: 5px 0 0 20px;
+}
+.owloo_ranking_item {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+.owloo_ranking_item.owloo_ranking_resumen {
+    background-color: #FCFCFC;
+}
+.owloo_ranking_item .owloo_rank {
+    color: #888888;
+    float: left;
+    margin-top: 3px;
+    width: 30px;
+}
+.owloo_ranking_item .owloo_rank.owloo_no_margin {
+    margin: 0;
+}
+.owloo_ranking_item .owloo_text {
+    float: left;
+    width: 95%;
+}
+.owloo_ranking_item .owloo_title {
+    margin-bottom: 8px;
+    overflow: hidden;
+    position: relative;
+    top: -2px;
+}
+.owloo_fb_ranking_item_change_audition .owloo_title {
+    width: 73px;
+}
+.owloo_ranking_item .owloo_title.owloo_title_strong {
+    margin-bottom: 10px;
+    top: 0;
+    overflow: visible;
+}
+.owloo_ranking .owloo_title a {
+    float: left;
+    margin-top: 6px;
+}
+.owloo_ranking .owloo_title strong {
+    font-family: 'OpenSans-Bold';
+    position: relative;
+    top: 5px;
+}
+.owloo_ranking .owloo_title.owloo_title_strong strong {
+    top: 0;
+}
+.owloo_ranking .owloo_country_flag, .owloo_country_flag_fb_page.owloo_country_flag, .owloo_country_flag_fb_local_fans.owloo_country_flag {
+    background-image: url("../images/country_flags_20x20.png");
+    background-repeat:  no-repeat;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-right: 7px;
+    width: 20px;
+}
+.owloo_country_flag_fb_page.owloo_country_flag {
+    float: right;
+    margin: 0;
+}
+.owloo_ranking .owloo_twitter_profile {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-right: 7px;
+    width: 20px;
+}
+.owloo_ranking .owloo_twitter_profile img {
+    height: 20px;
+    width: 20px;
+}
+.owloo_create_account {
+    background-color: #404040;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.owloo_create_account .owloo_text {
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: right;
+    width: 50%;
+}
+.owloo_create_account .owloo_button {
+    float: right;
+    margin-right: 155px;
+    margin-top: 2px;
+}
+.owloo_create_account .owloo_button .owloo_btn {
+    font-size: 20px;
+    padding: 17px 30px;
+    line-height: 20px;
+}
+.owloo_ranking .owloo_change_audition {
+    position: absolute;
+    right: 1px;
+    margin-top: 14px;
+}
+.owloo_ranking .owloo_change_audition.owloo_no_link {
+    margin-top: 10px;
+}
+.owloo_change_audition.owloo_arrow_up {
+    background: url("../images/owloo_arrow_up.png") no-repeat scroll right 4px transparent;
+    color: #9FC569;
+    padding-right: 18px;
+}
+.owloo_arrow_up_porcent {
+    color: #9FC569;
+}
+.owloo_arrow_down_porcent {
+    color: #D86D6D;
+}
+.owloo_change_audition.owloo_arrow_down {
+    background: url("../images/owloo_arrow_down.png") no-repeat scroll right 4px transparent;
+    color: #D86D6D;
+    padding-right: 18px;
+}
+.owloo_ranking .owloo_change_audition em {
+    color: #AAAAAA;
+    font-style: italic;
+}
+.owloo_index_charts {
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+.owloo_index_charts_item {
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 220px;
+}
+.owloo_index_charts_title {
+    font-size: 14px;
+    text-align: left;
+}
+.owloo_index_charts_description {
+    color: #CCCCCC;
+    text-align: center;
+}
+.owloo_index_charts_country {
+    margin: 5px 0;
+    text-align: left;
+}
+.owloo_index_charts_country a, .owloo_index_charts_country span  {
+    font-size: 16px;
+}
+.owloo_index_charts_country span{
+	color: #007CC3;
+}
+.owloo_index_chart_audience {
+    bottom: 10px;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    width: 220px;
+    height: 50px;
+}
+.owloo_index_charts_item .owloo_qmark {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+.owloo_qmark_country_content {
+	position: relative;
+}
+.owloo_qmark_country_content .owloo_msj_popup {
+    position: absolute;
+    right: 10px;
+    top: -20px;
+}
+.owloo_index_charts_number {
+    color: #FFF;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 12px;
+    padding: 5px 5px 5px 12px;
+    margin-left: 3px;
+}
+.owloo_index_charts_porcent {
+    display: inline-block;
+    font-family: OpenSans-Bold;
+    font-size: 25px;
+    line-height: 22px;
+    vertical-align: top;
+}
+.owloo_index_charts_number.owloo_index_charts_up {
+	background: url("../images/owloo_arrow_up_white.png") no-repeat scroll 3px center #9FC569;
+    
+}
+.owloo_index_charts_number.owloo_index_charts_down {
+	background: url("../images/owloo_arrow_down_white.png") no-repeat scroll 3px center #D86D6D;
+}
+.owloo_index_charts_no_change {
+    background-color: #CCCCCC;
+    padding: 5px 10px;
+}
+.owloo_country_main_title .owloo_country_flag {
+    float: right;
+    position: relative;
+    top: -18px;
+}
+.owloo_country_section h2 {
+    background-color: #FCFCFC;
+    font-family: OpenSans-Light;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    font-size: 18px;
+    padding: 20px;
+}
+.owloo_country_section h2 .owloo_qmark_country {
+    float: right;
+}
+.owloo_country_content {
+    overflow: hidden;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.owloo_country_section .owloo_left {
+    float: left;
+    width: 49%;
+}
+.owloo_country_section .owloo_right {
+    float: right;
+    width: 49%;
+}
+.owloo_country_width_40 {
+    width: 40% !important;
+}
+.owloo_country_width_34 {
+    width: 34% !important;
+}
+.owloo_country_width_56 {
+    width: 56% !important;
+}
+.owloo_country_section .owloo_right p, .owloo_country_section .owloo_left p {
+    line-height: 20px;
+}
+.owloo_country_section .owloo_right p + p {
+    margin-top: 10px;
+}
+.owloo_country_section table td {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 9px;
+    vertical-align: middle;
+    text-align: right;
+}
+.owloo_country_section table th {
+    padding: 9px;
+    vertical-align: middle;
+    text-align: right;
+}
+.owloo_country_section table th:first-child, .owloo_country_section table td:first-child {
+    text-align: left;
+}
+.owloo_country_section table tr.owloo_tr_hidden {
+    display: none;
+}
+.owloo_country_section table td .owloo_not_change_audition {
+    color: #AAAAAA;
+}
+.owloo_country_section table .owloo_country_table_th {
+    border-top: 2px solid #666666;
+}
+.owloo_country_section table th {
+    border-bottom: 2px solid #666666;
+}
+.owloo_country_section table.owloo_table_no_border th, .owloo_country_section table.owloo_table_no_border td {
+    border: medium none;
+}
+.owloo_country_section .owloo_country_table_1 {
+    width: 130px;
+}
+.owloo_country_section .owloo_country_table_2 {
+    width: 100px;
+}
+.owloo_country_section .owloo_country_table_3{
+	width: 120px;
+}
+.owloo_country_section .owloo_country_table_4 {
+    width: 100px;
+}
+.owloo_country_section .owloo_country_table_5 {
+    width: 110px;
+}
+.owloo_country_section .owloo_fb_page_table_1 {
+    min-width: 100px;
+}
+.owloo_country_section .owloo_country_table_2_content{
+	width: 32%;
+}
+.owloo_country_section .owloo_country_table_chart_audience{
+	width: 63%;
+}
+.owloo_country_section .owloo_chart_audiencie {
+    height: 220px;
+}
+.owloo_country_section .owloo_audience_gender {
+    margin-bottom: 45px;
+    overflow: hidden;
+}
+.owloo_country_section .owloo_audience_gender > div {
+    background-color: #FCFCFC;
+    border: 1px solid #DDDDDD;
+    float: left;
+    padding: 15px;
+    font-size: 18px;
+}
+.owloo_country_section .owloo_audience_gender .owloo_icon {
+    height: 40px;
+    width: 16px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.owloo_country_section .owloo_audience_gender .owloo_female .owloo_icon {
+    background: url("../images/owloo_gender.png") no-repeat scroll 0 0 transparent;
+}
+.owloo_country_section .owloo_audience_gender .owloo_male .owloo_icon {
+    background: url("../images/owloo_gender.png") no-repeat scroll -16px 0 rgba(0, 0, 0, 0);
+}
+.owloo_country_section .owloo_audience_gender .owloo_male {
+    margin-left: 20px;
+}
+.owloo_country_section .owloo_audience_gender .owloo_title {
+    color: #007CC3;
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    text-align: center;
+     margin-bottom: 15px;
+}
+.owloo_country_section .owloo_audience_gender .owloo_gender_number {
+    margin-left: 10px;
+    display: inline;
+}
+.owloo_country_more_info, .owloo_country_more_info_link {
+    color: #007CC3;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+.owloo_country_more_info:hover, .owloo_country_more_info_link:hover {
+	text-decoration: underline;
+}
+.owloo_country_chart_circle_item {
+	margin-top: -5px;
+    position: relative;
+    text-align: center;
+}
+.owloo_country_chart_circle_item .owloo_icon_title {
+    font-family: 'OpenSans-Bold';
+    font-size: 25px;
+    margin-top: 37px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.owloo_country_chart_circle_item .owloo_icon_title.owloo_redCircle {
+    color: #ED7A53;
+}
+.owloo_country_chart_circle_item .owloo_icon_title.owloo_purpleCircle {
+    color: #CAD110;
+}
+.owloo_country_chart_circle_item .owloo_icon_title.owloo_greenCircle {
+    color: #9FC569;
+}
+.owloo_country_chart_circle_item .owloo_icon_title.owloo_blueCircle {
+    color: #007CC3;
+}
+.owloo_country_section .owloo_ranking_tab ul li span {
+    background: none;
+    border: none;
+    color: #007CC3;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.owloo_country_section .owloo_ranking_tab ul li span:hover {
+	text-decoration: underline;
+}
+.owloo_country_section .owloo_ranking_tab ul li span.owloo_active {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: #505050;
+}
+.owloo_country_section .owloo_ranking_tab ul li span.owloo_active:hover {
+    text-decoration: none;
+}
+.owloo_country_ranking_content {
+    display: none;
+    padding: 5px 0 0 20px;
+}
+.owloo_country_ranking_content.owloo_active {
+    display: block;
+}
+.owloo_trend_up_content {
+    overflow: hidden;
+}
+.owloo_trend_up {
+    background-color: #FCFCFC;
+    border: 1px solid #DDDDDD;
+    font-size: 18px;
+    float: left;
+    margin-top: 20px;
+    padding: 15px;
+}
+.owloo_trend_up + .owloo_trend_up{
+	margin-left: 20px;
+}
+.owloo_trend_up > span {
+    font-family: 'OpenSans-Light';
+}
+.owloo_trend_up_name {
+    float: right;
+    margin-left: 10px;
+}
+.owloo_trenp_up_porcent {
+    color: #9FC569;
+}
+.owloo_ads_box{
+	display: inline-block;
+	background: url('../images/owloo_isologo_30x30.png') no-repeat center center #FFF;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+.owloo_ads_300x250 {
+    height: 250px;
+    line-height: 250px;
+    width: 300px;
+}
+.owloo_ads_728x90 {
+    height: 90px;
+    line-height: 90px;
+    width: 728px;
+}
+.owloo_index_ads_728x90 {
+    text-align: center;
+    margin: 115px 0;
+}
+.owloo_ads_160x600 {
+    height: 600px;
+    line-height: 600px;
+    width: 160px;
+}
+.owloo_ads_content_160x600 {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.owloo_ads_468x60 {
+    height: 60px;
+    line-height: 60px;
+    width: 468px;
+}
+.owloo_ads_content_468x60 {
+    margin-top: 55px;
+}
+.highcharts-axis-labels tspan {
+    font-size: 9px;
+}
+.highcharts-yaxis-labels text {
+    font-size: 9px !important;
+}
+.owloo_msj_popup {
+	float: right;
+	display: inline-block;
+    background: url("../images/owloo_qmark.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.owloo_main_title_h1.owloo_index .owloo_msj_popup {
+    float: none;
+    margin-left: 0;
+}
+#owloo_msj_popup {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#owloo_msj_popup table, #owloo_msj_popup table td {
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+#owloo_msj_popup .owloo_msj_popup_content {
+	background: url('../images/owloo_isologo_30x30.png') no-repeat right 10px bottom 10px #FFFFFF;
+    background-color: #FFFFFF;
+    height: 290px;
+    margin: 0 auto;
+    line-height: 24px;
+    padding: 25px;
+    width: 550px;
+    position: relative;
+}
+#owloo_msj_popup .owloo_msj_popup_text {
+    font-size: 13px;
+    text-align: left;
+}
+.owloo_req_login {
+    background-color: #FFFFFF;
+    border: 9px solid #DDDDDD;
+    height: 230px;
+    margin: 65px auto 0;
+    text-shadow: none;
+    width: 543px;
+}
+.owloo_req_login .owloo_btn.owloo_btn_orange {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 18px;
+}
+.owloo_req_login > div:first-child {
+    color: #007CC3;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    padding: 17px;
+    text-align: center;
+}
+.owloo_user_login_forgot {
+    margin-bottom: 40px;
+}
+.owloo_req_login > div:last-child {
+    color: #4C4746;
+    font-size: 14px;
+    text-align: center;
+}
+.owloo_req_login > div:last-child > div:first-child {
+    padding: 16px 0 22px;
+}
+.owloo_req_login > div:last-child > div:last-child {
+    font-size: 12px;
+    padding: 30px 0 10px;
+}
+.owloo_req_login > div:last-child > div:last-child a {
+    color: #4C4746;
+    text-decoration: underline;
+}
+.owloo_hide {
+    display: none !important;
+}
+.nav_avatar {
+    display: inline-block;
+    height: 20px !important;
+    max-height: 20px !important;
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+.navbar .nav .dropdown-toggle .caret {
+    float: right;
+    margin-top: 10px;
+}
+.owloo_features_title {
+    font-family: OpenSans-Light;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 50px 0 30px;
+    text-align: center;
+}
+.owloo_features_title_p {
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 90%;
+}
+.owloo_features_title_p + .owloo_features_title_p {
+    margin-top: 10px;
+}
+.owloo_tools_content {
+	overflow: hidden;
+}
+.owloo_tools {
+    background-color: #FCFCFC;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    float: right;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    width: 220px;
+}
+.owloo_tools .owloo_text {
+    color: #999999;
+    font-size: 11px;
+    left: 45px;
+    position: relative;
+    top: -5px;
+}
+.owloo_favorite_icon {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    background: url('../images/icon_favorite_32x32.png') no-repeat left center #FFFFFF;
+}
+.owloo_favorite_icon.owloo_active {
+    background-position: right center;
+}
+.owloo_admin_tools {
+    margin-left: 10px;
+}
+.owloo_tools .owloo_favorite_icon {
+    float: right;
+}
+.owloo_tools .owloo_msj_popup {
+    float: none;
+    margin: 8px 0 0;
+}
+.owloo_admin_tools .owloo_title {
+    color: #007CC3;
+    text-align: center;
+}
+.owloo_tools_no_favorites {
+    color: #C9C9C9;
+    margin: 60px auto 0;
+    text-align: center;
+    width: 550px;
+}
+.owloo_tools_no_favorites p {
+    margin-bottom: 5px;
+}
+.owloo_tools_no_favorites .owloo_favorite_icon {
+    margin: 20px auto 50px;
+}
+.owloo_tools_favorites .owloo_title {
+    color: #505050;
+    text-align: left;
+}
+.owloo_tools_favorites_tw_content {
+    padding: 10px 0;
+}
+.owloo_tools_favorites_tw_item {
+    display: inline-block;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 230px;
+}
+.owloo_tools_favorites_tw_item > div {
+    margin-top: 7px;
+}
+.owloo_tools_favorites_tw_item img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.owloo_tools_favorites_tw_item > div > a {
+    display: block;
+}
+.owloo_tools_favorites .owloo_delete_favorite {
+    color: #CF6363;
+    font-size: 11px;
+    position: relative;
+    top: -3px;
+}
+.owloo_tools_favorites .owloo_delete_favorite:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.owloo_tools_favorites_tw_item a.owloo_country_flag {
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 40px;
+}
+.owloo_tools_favorites_tw_item a.owloo_country_flag img {
+    left: -12px;
+    max-width: none;
+    position: relative;
+    top: -12px;
+    width: 64px !important;
+}
+.owloo_tools_favorites {
+    margin-top: 25px;
+}
+.owloo_tools_favorites_tw{
+	border-bottom: 1px solid #EEEEEE;
+}
+.owloo_tools_favorites_tw.owloo_tools_favorites_country{
+	border-bottom: 0 none;
+    margin-top: 15px;
+}
+.owloo_tools_favorites_tw.owloo_tools_favorites_page {
+    margin-top: 15px;
+}
+#alertMessage {
+    cursor: pointer;
+    font-size: 13px;
+    left: 0;
+    min-height: 38px;
+    position: fixed;
+    top: -40px;
+    width: 100%;
+    z-index: 999999999;
+}
+#alertMessage .alert {
+    margin-bottom: 0;
+    text-align: center;
+}
+#alertMessage .alert {
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    color: #C09853;
+    margin-bottom: 20px;
+    padding: 11px 35px 13px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+#alertMessage .alert h4 {
+    margin: 0;
+}
+#alertMessage .alert .close {
+    line-height: 20px;
+    position: relative;
+    right: -21px;
+    top: -4px;
+}
+#alertMessage .close {
+    color: #000000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#alertMessage .close:hover {
+    color: #000000;
+    cursor: pointer;
+    opacity: 0.4;
+    text-decoration: none;
+}
+#alertMessage .alert-success {
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+    color: #468847;
+}
+#alertMessage .alert-danger, #alertMessage  .alert-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}
+#alertMessage .alert-info {
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    color: #3A87AD;
+}
+#alertMessage .alert-block {
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+#alertMessage .alert-block > p, #alertMessage  .alert-block > ul {
+    margin-bottom: 0;
+}
+#alertMessage .alert-block p + p {
+    margin-top: 5px;
+}
+.owloo_404_error {
+    font-family: OpenSans-Light;
+    margin: 50px 0 150px;
+    text-align: center;
+}
+.owloo_404_error .owloo_title {
+    color: #007CC3;
+    font-size: 140px;
+}
+.owloo_404_error .owloo_description {
+    color: #AAAAAA;
+    font-size: 23px;
+    margin: 30px 0 40px;
+    line-height: 30px;
+}
+.owloo_404_error .owloo_link {
+    font-size: 16px;
+}
+
+
+
+
+
+
+/***** FACEBOOK PAGES *****/
+.owloo_fb_username {
+    float: left;
+}
+.owloo_fb_username .owloo_fb_avatar {
+    border: 1px solid #EEEEEE;
+    float: left;
+    height: 40px;
+    font-size: 0;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.owloo_fb_username .owloo_fb_avatar img {
+    vertical-align: middle;
+	max-height: 40px;
+    max-width: 40px;
+}
+.owloo_fb_username > a {
+    display: inline-block;
+    left: 10px;
+    position: relative;
+    top: 16px;
+}
+.owloo_fb_ranking_item {
+    float: right;
+    height: 30px;
+    padding: 6px 15px;
+}
+.owloo_fb_ranking_item + .owloo_fb_ranking_item {
+    border-right: 1px solid #DDDDDD;
+}
+.owloo_fb_ranking_item .owloo_change_audition {
+    margin: 0;
+    position: relative;
+}
+.owloo_fb_num_green {
+    color: #9FC569;
+}
+.owloo_fb_ranking_item .owloo_country_flag {
+    margin: 5px 0 0;
+}
+.owloo_fb_ranking_item .owloo_fb_flag {
+    width: 20px;
+}
+.owloo_fb_page_verified {
+    background: url("../images/owloo_fb_page_verified_12x12.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+.owloo_fb_ranking_item .owloo_fb_page_verified {
+    margin-top: 9px;
+}
+.owloo_fb_ranking_item.owloo_no_border {
+    border: none !important;
+}
+.owloo_fb_add_last_page_content {
+    overflow: hidden;
+}
+.owloo_fb_index {
+    text-align: center;
+    margin: 70px auto 100px;
+}
+.owloo_fb_index_item {
+    float: left;
+    width: 49%;
+}
+.owloo_fb_index_item + .owloo_fb_index_item {
+    border-left: 1px solid #CCC;
+}
+.owloo_fb_index_title h1 {
+    font-size: 26px;
+    line-height: 35px;
+    margin: 70px auto;
+    text-align: center;
+    width: 80%;
+}
+.owloo_fb_index h2 {
+    font-family: OpenSans-Light;
+    font-size: 21px;
+    line-height: 35px;
+    margin: 20px auto 0;
+    width: 65%;
+}
+.owloo_fb_index .owloo_btn {
+    margin: 90px auto;
+    font-family: 'OpenSans-Light';
+	font-size: 17px;
+}
+.owloo_fb_index h3 {
+    color: #007CC3;
+    font-family: OpenSans-Light;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px auto 40px;
+}
+.owloo_fb_index_item.owloo_first {
+    width: 50%;
+}
+.owloo_fb_fan_page_country_description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.owloo_fb_fan_page_country_description hr {
+    border: none;
+    border-top: 1px solid #CCCCCC;
+    margin-top: 35px;
+    width: 60%;
+}
+.owloo_fb_fan_page_country_description a {
+    font-family: OpenSans-Light;
+    font-size: 15px;
+}
+.owloo_main_title_h1.owloo_fb_engagement_title {
+    margin-top: 70px;
+}
+.owloo_fb_pta_td {
+    width: 62px;
+}
+.owloo_country_main_title .owloo_country_flag.owloo_fb_page_picture {
+    top: 4px;
+}
+#owloo_fb_table_local_fans td {
+	padding-left: 34px;
+	position: relative;
+}
+.owloo_country_flag_fb_local_fans.owloo_country_flag {
+	margin: -4px 0 0 -25px;
+	position: absolute;
+}
+.owloo_fb_others_countries {
+	left: -25px;
+	position: relative;
+}
+.owloo_fb_add_last_page_content {
+	overflow: hidden;
+}
+.owloo_fb_alert_msj {
+	margin-top: 50px;
+}
+p.owloo_fb_page_about {
+    color: #888888;
+    margin-top: 30px !important;
+}
+.owloo_fb_page_select_text {
+    margin-left: 218px;
+}
+.owloo_chart_pta_content {
+    position: relative;
+    margin-top: 20px;
+}
+#owloo_chart_pta{
+	width: 300px;
+	height: 200px;
+}
+.owloo_chart_pta_content .owloo_title {
+    font-size: 14px;
+    left: 86px;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    z-index: 1;
+    color: #CCC;
+}
+.owloo_gauge_chart_min, .owloo_gauge_chart_max {
+    bottom: 25px;
+    font-family: OpenSans-Light;
+    left: 47px;
+    position: absolute;
+    font-size: 9px;
+}
+.owloo_gauge_chart_max {
+    left: 240px;
+}
+#owloo_chart_pta svg {
+    position: relative;
+    z-index: 2;
+}
+/***** END - FACEBOOK PAGES *****/
+
+
+
+
+
+/***** TWITTER *****/
+.owloo_wrap_tw_last_add_content {
+    overflow: hidden;
+}
+.owloo_wrap_tw_last_add {
+    float: left;
+    width: 25%;
+}
+.owloo_wrap_tw_last_add > div {
+    float: left;
+}
+.owloo_wrap_tw_last_add > div:first-child {
+    text-align: center;
+}
+.owloo_wrap_tw_last_add > div:last-child {
+    margin-left: 7px;
+    width: 170px;
+}
+.owloo_wrap_tw_last_add > div:last-child > div:first-child a {
+    color: #007CC3;
+    font-size: 13px;
+}
+.owloo_wrap_tw_last_add > div:last-child > div:first-child a:hover {
+    text-decoration: underline;
+}
+.owloo_wrap_tw_last_add > div:last-child > div:last-child {
+    color: #505050;
+    font-family: 'OpenSans-Light';
+    font-size: 11px;
+    height: 50px;
+    line-height: 16px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.owloo_tw_last_add_follow{
+    border: 1px solid #007CC3;
+    border-left: none;
+    color: #FFFFFF;
+    float: left;
+    font-size: 10px;
+    padding: 1px 3px 3px 4px;
+	background-color: #007CC3;
+}
+.owloo_tw_last_add_follow:hover{
+	text-decoration: none;
+}
+.owloo_tw_last_add_follow_pre {
+    background-color: #FFFFFF;
+    border: 1px solid #39556A;
+    color: #4D7492;
+    float: left;
+    font-family: 'OpenSans-Bold';
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 2px;
+}
+.owloo_wrap_tw_last_add > div:first-child > div {
+    text-align: center;
+}
+.owloo_tw_last_add_img {
+    border: 1px solid #CCCCCC;
+    height: 48px;
+    overflow: hidden;
+    width: 48px;
+}
+.owloo_tw_search_content {
+    margin: 55px auto 0;
+    width: 100%;
+}
+.owloo_tw_search {
+	background: url('../images/add-twitter-account.png') no-repeat 15px center transparent;
+    border: 1px solid #DEDEDE;
+    border-top-color: #bfbfbf;
+    margin: 0 auto;
+    padding: 5px 5px 5px 50px;
+    position: relative;
+    width: 80%;
+}
+.owloo_tw_search_submit, .owloo_fb_search_submit {
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 47px;
+    z-index: 1;
+}
+.owloo_tw_search form input {
+    border: medium none;
+    font-family: 'OpenSans-Light';
+    font-size: 18px;
+    color: #999;
+    padding: 15px 0;
+    width: 100%;
+}
+.owloo_ranking .owloo_user_twitter_verified {
+    position: absolute;
+    right: 80px;
+    margin-top: 13px;
+}
+.owloo_ranking .owloo_user_twitter_verified.owloo_no_margin_right {
+    right: 1px;
+}
+.owloo_tw_title_content {
+    position: relative;
+}
+.owloo_search_twitter_profile {
+    float: right;
+    margin-left: 20px;
+}
+.owloo_search_twitter_profile .owloo_text_search {
+	background: url("../images/search_icon_18x18.png") no-repeat scroll 8px 8px transparent;
+    border: 1px solid #DEDEDE;
+    border-top-color: #bfbfbf;
+    color: #999;
+    font-family: OpenSans;
+    font-size: 14px;
+    float: left;
+    line-height: 15px;
+    padding: 7px 7px 6px 32px;
+    width: 259px;
+}
+.owloo_tw_profile {
+    line-height: 17px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.owloo_tw_profile img {
+    float: left;
+    margin-right: 7px;
+}
+.owloo_resume_tw_user_title {
+    font-family: 'OpenSans-Bold';
+}
+.owloo_tw_download {
+    text-align: center;
+}
+.owloo_tw_download h3 {
+    color: #007CC3;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.owloo_tw_download .owloo_btn {
+    margin: 20px 0 10px;
+}
+.owloo_tw_download #owloo_tw_dow .owloo_btn {
+    margin: 0;
+}
+.owloo_tw_download h4 {
+    color: #B2B2B2;
+    font-size: 10px;
+}
+.owloo_tw_charts_content, .owloo_country_content_tw_chart .owloo_tw_table_content {
+    height: 250px;
+}
+.owloo_left.owloo_tw_table_chart_more, .owloo_right.owloo_tw_table_chart_more {
+    width: 63%;
+}
+.owloo_left.owloo_tw_table_chart_less, .owloo_right.owloo_tw_table_chart_less {
+    width: 32%;
+}
+.owloo_country_content_tw_chart{
+	background: url('../images/loader-96x96.gif') no-repeat center center transparent;
+}
+.owloo_tw_download_content{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.owloo_tw_download_content > table, .owloo_tw_download_content > table td {
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.owloo_tw_download_content .owloo_tw_download {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 373px;
+    margin: 0 auto;
+    padding: 25px;
+    line-height: 24px;
+    position: relative;
+    width: 550px;
+}
+.owloo_tw_download_content .owloo_tw_download .owloo_close, #owloo_msj_popup .owloo_msj_popup_content .owloo_close {
+    border-radius: 3px;
+    color: #888888;
+    cursor: pointer;
+    float: right;
+    font-family: OpenSans-Bold;
+    font-size: 15px;
+    line-height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.owloo_tw_download_content .owloo_tw_download .owloo_close:hover,#owloo_msj_popup .owloo_msj_popup_content .owloo_close:hover {
+    color: #505050;
+}
+.owloo_tw_download_content .owloo_ads_box {
+    margin: 30px;
+}
+.owloo_tw_download_content .owloo_loading{
+	background: url('../images/loader-24x24.gif') no-repeat center bottom transparent;
+	color: #007CC3;
+    font-size: 18px;
+    height: 60px;
+}
+.owloo_tw_download_content .owloo_msj_error {
+    background-color: #D86D6D;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: auto 50px;
+    padding: 15px;
+}
+.owloo_tw_download_content .owloo_btn {
+    margin: 0;
+}
+.owloo_tw_download .owloo_description {
+    font-family: OpenSans-Light;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 80px 40px 40px;
+}
+.owloo_social_plugin {
+    margin-top: 85px;
+    text-align: center;
+}
+.owloo_social_plugin > h3 {
+    font-family: OpenSans-Light;
+    font-size: 15px;
+}
+.owloo_social_plugin > .owloo_social_plugin_content {
+    margin-top: 20px;
+    height: 25px;
+}
+.owloo_social_plugin .owloo_social_plugin_item {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.owloo_social_plugin_item.owloo_social_plugin_fb {
+    left: 20px;
+}
+.owloo_social_plugin_item.owloo_social_plugin_twitter {
+    left: 32px;
+}
+.owloo_social_plugin_item.owloo_social_plugin_gplus {
+    left: 12px;
+}
+.owloo_social_plugin[data="index"] .owloo_social_plugin_item.owloo_social_plugin_gplus {
+    left: 22px;
+}
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    color: #333;
+}
+:-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    opacity:  1 !important;
+}
+
+#back-top {
+    bottom: 10px;
+    right: 20px;
+    position: fixed;
+    display: none;
+}
+#back-top a {
+    color: #BBBBBB;
+    display: block;
+    font: 11px/100% Arial,Helvetica,sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease 0s;
+    width: 60px;
+}
+#back-top span {
+    background: url("../images/up-arrow.png") no-repeat scroll center center #DDDDDD;
+    display: block;
+    height: 60px;
+    margin-bottom: 7px;
+    transition: all 1s ease 0s;
+    width: 60px;
+}
+.feedback-btn.owloo_last {
+    display: block !important;
+    position: inherit;
+}
+.feedback-btn.feedback-btn-gray {
+    display: none !important;
+}
+
+
+
+
+
+
+/***** END TWITTER *****/
+
+/***** Ajax loader *****/
+#owloo_ajax_loader {
+	background: url('../images/loader-96x96.gif') no-repeat scroll center center rgba(255, 255, 255, 0.8);
+    display: none;
+    height: 101%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 3px;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+/***** FIN Ajax loader *****/
+/***** Pager *****/
+.owloo_nav_container{
+ padding: 20px 0;
+    float: right;
+ overflow:auto;
+}
+.owloo_nav {
+    border: 1px solid #F0F0F0;
+    color: #007CC3;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    margin: 0 2px;
+    padding: 6px 10px 5px;
+    text-align: center;
+    width: auto;
+}
+.owloo_page-space {
+    border: medium none;
+    cursor: default;
+    padding: 14px 0 0;
+}
+.owloo_pactive{
+	background: none repeat scroll 0 0 #007CC3;
+    border: 1px solid #007CC3;
+    color: #FFFFFF;
+    cursor: default;
+}
+.owloo_inactive {
+ display: none;
+}
+#owloo_aux{
+ position:absolute;
+ left:-1000px;
+}
+#owloo_preload_01 {
+	background: url('../images/loader-96x96.gif') no-repeat -9999px -9999px;
+}
+/***** END Pager *****/

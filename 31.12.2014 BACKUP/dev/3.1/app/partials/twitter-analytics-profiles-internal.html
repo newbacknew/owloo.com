@@ -1,0 +1,604 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content stats-page">
+
+	<div style=" height: 200px;overflow: hidden;" >
+		<img style=" width: 100%; position: relative; top: -100px; " ng-src="{{content.profile.cover}}">
+	</div>
+
+	<div class="section">
+		<div class="row header">
+			<div class="column large-4 who">
+				<div class="picture" style="float:left;">
+					<div class="circle-icon flag">
+						<img ng-src="{{::content.profile.picture}}"/>
+					</div>
+					<div class="is-verified" ng-if="content.profile.is_verified == 1">
+						<img ng-src="{{::imagesFolder}}/owloo_user_verified_account.png" title="Cuenta verificada" />
+					</div>
+				</div>
+				<div class="name">
+					<div class="ng-scope" ng-if="is_verified"></div>
+					<h1 style="font-size: 20px;">{{::content.profile.name}}</h1>
+				</div>
+			</div>
+			<div class="column large-7 overview">
+				<div class="row">
+					<div class="column large-4">
+						<h4>Rank position</h4>
+						<p>{{::content.profile.general_ranking}}</p>
+					</div>
+
+					<div class="column large-4">
+						<h4>Followers</h4>
+						<p>{{::content.profile.followers_count_str}}</p>
+					</div>
+
+					<div class="column large-4">
+						<h4>Growth</h4>
+						<p class="grow">
+							<span class="{{::content.profile.followers_grow.grow_30.percent}}"></span>
+							{{::content.profile.followers_grow.grow_30.percent}}%
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-12">
+				<div class="hr"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-7">
+				<p>{{::content.profile.description}}</p>
+			</div>
+		</div>
+	</div> <!-- fin section -->
+
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Growth of total followers for {{::content.profile.name}} in last 30 days</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="chart">
+						<div class="charts-container main-container" style="height: 300px; position: relative;">
+							<div class="max">
+								<h4>Mayor crecimiento: {{::content.profile.charts.followers.series_data_max | number | replace:',':'.'}}</h4>
+							</div>
+							<div id="followers" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+							<div class="image">
+								<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+							</div>
+							<div class="grid-content">
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-3 text-right">
+					<p>Este gráfico muestra el incremento o la disminución diaria de followers durante el período de 30 días.</p>
+					<p>Abajo se muestra la mayor variación en el número de followers, durante un período de tiempo seleccionado y el valor numérico de dicha variación de ese día.</p>
+				</div>
+				<div class="column large-9">
+					<div class="circle-data">
+						<div class="circle {{::content.profile.followers_grow.grow_1.class}}">
+							<div class="data">
+								<p>{{::content.profile.followers_grow.grow_1.value}}</p>
+							</div>
+						</div>
+						<h4>Growth last 24 hours</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle {{::content.profile.followers_grow.grow_7.class}}">
+							<div class="data">
+								<p>{{::content.profile.followers_grow.grow_7.value}}</p>
+							</div>
+						</div>
+						<h4>Growth last 7 days</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle {{::content.profile.followers_grow.grow_15.class}}">
+							<div class="data">
+								<p>{{::content.profile.followers_grow.grow_15.value}}</p>
+							</div>
+						</div>
+						<h4>Growth last 15 days</h4>
+					</div>
+					<div class="circle-data" >
+						<div class="circle {{::content.profile.followers_grow.grow_30.class}}">
+							<div class="data">
+								<p>{{::content.profile.followers_grow.grow_30.value}}</p>
+							</div>
+						</div>
+						<h4>Growth in last month</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- fin section -->
+
+	<!-- divisor -->
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag left blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="row" >
+			<div class="column large-12">
+				<div class="row">
+					<div class="column large-6">
+						<div class="row">
+							<div class="column large-10 large-offset-1 text-center">
+								<div class="chart-circle">
+									<div id="klout-metric"></div>
+									<p class="text">Klout Score</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column large-8 large-offset-2">
+								<div class="widget box upright">
+									<div class="footer">
+										<p>Klout mide el grado de influencia de una persona o una marca en Twitter. Para determinar el Klout score se analizan más de 400 parámetros distintos y se asigna una puntuación entre 1 y 100 a los usuarios.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column large-6">
+						<div class="row">
+							<div class="column large-10 large-offset-1 text-center">
+								<div class="chart-circle">
+									<div id="ff-ratio"></div>
+									<p class="text">FF Ratio</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column large-8 large-offset-2">
+								<div class="widget box upright">
+									<div class="footer">
+										<p>El FF Ratio es una métrica que mide la forma en la que nos estamos comunicando en Twitter. Se califica un ratio positivo entre 0.90 y 1.50, que significa que escuchas y eres escuchado.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- fin section -->
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag right blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Growth of total followers by day for {{::content.profile.name}} in last 30 days</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="chart">
+						<div class="charts-container main-container" style="height: 300px; position: relative;">
+							<div class="max">
+								<h4>Max growth: {{::content.profile.charts.daily_followers_grow.max_change_of_followers_on | number | replace:',':'.'}}</h4>
+							</div>
+							<div id="followers_grow_by_day" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+							<div class="image">
+								<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+							</div>
+							<div class="grid-content">
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-3 text-right">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="column large-9">
+					<div class="circle-data">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{::content.profile.charts.daily_followers_grow.avg_change_per_day}}</p>
+							</div>
+						</div>
+						<h4>Avg change per day</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{::content.profile.charts.daily_followers_grow.max_change_of_followers_on | number | replace:',':'.'}}</p>
+							</div>
+						</div>
+						<h4>Max change of followers on</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{::content.profile.charts.daily_followers_grow.min_change_of_followers_on | number | replace:',':'.'}}</p>
+							</div>
+						</div>
+						<h4>Min change of followers on</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag left blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Growth of Total Following by day for {{::content.profile.name}} in last 30 days</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="chart">
+						<div class="charts-container main-container" style="height: 300px; position: relative;">
+							<div class="max">
+								<h4>Max growth: {{::content.profile.charts.daily_following_grow.max_change_of_following_on | number | replace:',':'.'}}</h4>
+							</div>
+							<div id="followings_grow_by_day" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+							<div class="image">
+								<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+							</div>
+							<div class="grid-content">
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="column large-9">
+					<div class="circle-data">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{::content.profile.charts.daily_following_grow.avg_change_per_day}}</p>
+							</div>
+						</div>
+						<h4>Avg change per day</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{::content.profile.charts.daily_following_grow.max_change_of_following_on | number | replace:',':'.'}}</p>
+							</div>
+						</div>
+						<h4>Max change of followers on</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{::content.profile.charts.daily_following_grow.min_change_of_following_on | number | replace:',':'.'}}</p>
+							</div>
+						</div>
+						<h4>Min change of followers on</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag right blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-10 large-offset-1">
+					<div class="row">
+						<div class="column large-6" ng-repeat="mention in content.profile.most_mentions.big">
+							<div class="account-simple big">
+								<div class="picture">
+									<img ng-src="{{mention.picture}}">
+								</div>
+								<p>{{mention.name}}</p>
+								<p><span>{{mention.count}} menciones</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="column large-3" ng-repeat="mention in content.profile.most_mentions.normal">
+						<div class="account-simple small">
+							<div class="picture">
+								<img ng-src="{{mention.picture}}">
+							</div>
+							<p>{{mention.name}}</p>
+							<p><span>{{mention.count}} menciones</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- fin section -->
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag left blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Tweets made by Day of the week for {{::content.profile.name}} (all time)</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="chart">
+						<div class="charts-container main-container" style="height: 300px; position: relative;">
+							<div class="max horizontal">
+								<h4>MAX: {{::content.profile.charts.tweets_made_by_day_of_the_week.series_data_max | number | replace:',':'.'}}</h4>
+							</div>
+							<div id="tweets_made_by_day_of_the_week" style="min-width: 300px; height: 300px; position: relative; z-index: 2;"></div>
+							<div class="image horizontal">
+								<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+							</div>
+							<div class="grid-content-horizontal">
+						        <div class="grid-row-horizontal">
+						            <div class="grid-column-horizontal"></div>
+						            <div class="grid-column-horizontal"></div>
+						            <div class="grid-column-horizontal"></div>
+						            <div class="grid-column-horizontal"></div>
+						            <div class="grid-column-horizontal"></div>
+						        </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-8">
+					<div ng-repeat="day_week in content.profile.charts.tweets_made_by_day_of_the_week.data" class="circle-data day-week">
+						<div class="circle equal">
+							<div class="data">
+								<p>{{day_week.value}}</p>
+							</div>
+						</div>
+						<h4>{{day_week.name}}</h4>
+					</div>
+				</div>
+				<div class="column large-4 text-right">
+					<p>This graph shows the growth in total number of tweets made by the profile for each day of the week during a selected time range.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag right blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Top 7 #hashtags by {{::content.profile.name}} on Twitter</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12 text-center">
+					<div class="circle-hashtags">
+						<div class="circle-data hashtags {{hashtag.class}}" ng-repeat="hashtag in content.profile.most_hashtags">
+							<div class="circle blue">
+								<div class="data double">
+									<p>{{hashtag.count}}</p>
+									<p>#{{hashtag.name}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column large-12 text-center">
+					Mostramos los #hashtags más utilizados y populares de {{::content.profile.name}} en Twitter durante todo el periodo.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="divider with-picture">
+				<div class="circle-icon flag left blue">
+					<img ng-src="{{::content.profile.picture}}"/>
+				</div>
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Resumen de las estadísticas</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row header">
+				<div class="column large-12 overview">
+					<div class="column large-2">
+						<h4>En Owloo desde</h4>
+						<p>{{::content.profile.in_owloo_from}}</p>
+					</div>
+					
+					<div class="column large-2">
+						<h4>En Twitter desde</h4>
+						<p>{{::content.profile.in_twitter_from}}</p>
+					</div>
+					
+					<div class="column large-2">
+						<h4>Rank position</h4>
+						<p>{{::content.profile.general_ranking}}</p>
+					</div>
+
+					<div class="column large-2">
+						<h4>Seguidores</h4>
+						<p>{{::content.profile.followers_count_str}}</p>
+					</div>
+
+					<div class="column large-2">
+						<h4>Siguiendo</h4>
+						<p>{{::content.profile.following_count_str}}</p>
+					</div>
+					
+					<div class="column large-2">
+						<h4>Tweets</h4>
+						<p>{{::content.profile.tweet_count_str}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column large-12">
+			<div class="hr"></div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="row">
+			<div class="column large-12 text-center">
+				<p>{{::content.profile.name}} cuenta con <strong>{{::content.profile.followers_count}} seguidores</strong> en todo el mundo, con <strong> {{::content.profile.tweet_count}} tweets publicados</strong>.<br/> Actualmente le está <strong>siguiendo a {{::content.profile.following_count}}</strong> perfiles.
+				</p>
+			</div>
+		</div>
+	</div>
+
+<owloo-footer></owloo-footer>
+</div> <!-- fin app content -->

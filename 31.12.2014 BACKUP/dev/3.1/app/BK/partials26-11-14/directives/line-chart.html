@@ -1,0 +1,31 @@
+<div class="graph" style="width: {{graph_width}}px; height: {{graph_height + 20 + legend_height}}px;" ng-class="{ 'inline': inline, 'no-summary': !summary }">
+	<ul ng-show="legend" class="legend">
+		<li ng-repeat="label in labels" class='label{{$index}}'
+				title="{{label}}">
+			<span></span>{{label | truncate:10}}
+		</li>
+	</ul>
+	<div class="inner" style="width: {{graph_width}}px; height: {{graph_height}}px;">
+		<div ng-show="summary"
+				 class="top"
+				 style="width: {{graph_width}}px; height: {{graph_height}}px;">
+			<div class="summary frame light">
+				<div class="caption" ng-show="caption">{{caption}}</div>
+				<div class="element" ng-repeat="s in summary">
+					<div class="name">{{s.name}}</div>
+					<div class="value">{{s.value}}</div>
+				</div>
+			</div>
+			<div class="help">{{help}}</div>
+		</div>
+		<div class="plot frame loading" ng-show="show_loading" style="width: {{graph_width}}px; height: {{graph_height}}px;">
+			Cargando...
+		</div>
+		<div class="plot frame loaded" ng-hide="show_loading" style="width: {{graph_width}}px; height: {{graph_height}}px;">
+			<div class="bubble">
+				<div class="tail"></div>
+				<div class="content"></div>
+			</div>
+		</div>
+	</div>
+</div>

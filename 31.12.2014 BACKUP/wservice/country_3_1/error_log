@@ -1,0 +1,332 @@
+[12-Dec-2014 00:00:01 America/Asuncion] record_country (i): 12 12 2014 00:00:01
+[12-Dec-2014 00:00:14 America/Asuncion] record_country (f): 12 12 2014 00:00:14
+[12-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 12 12 2014 00:01:14
+[12-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 12 12 2014 00:02:11
+[12-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 12 12 2014 00:03:11
+[12-Dec-2014 00:08:45 America/Asuncion] record_country_language (f): 12 12 2014 00:08:45
+[12-Dec-2014 00:11:45 America/Asuncion] record_country_relationship (i): 12 12 2014 00:11:45
+[12-Dec-2014 00:13:05 America/Asuncion] record_country_relationship (f): 12 12 2014 00:13:05
+[12-Dec-2014 00:15:05 America/Asuncion] record_country_generation (i): 12 12 2014 00:15:05
+[12-Dec-2014 00:15:18 America/Asuncion] record_country_generation (f): 12 12 2014 00:15:18
+[12-Dec-2014 00:16:18 America/Asuncion] record_country_interest (i): 12 12 2014 00:16:18
+[12-Dec-2014 00:43:53 America/Asuncion] record_country_interest (f): 12 12 2014 00:43:53
+[12-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 12 12 2014 00:53:53
+[12-Dec-2014 01:05:47 America/Asuncion] record_country_comportamiento (f): 12 12 2014 01:05:47
+[13-Dec-2014 00:00:01 America/Asuncion] record_country (i): 13 12 2014 00:00:01
+[13-Dec-2014 00:00:15 America/Asuncion] record_country (f): 13 12 2014 00:00:15
+[13-Dec-2014 00:01:15 America/Asuncion] record_country_age (i): 13 12 2014 00:01:15
+[13-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 13 12 2014 00:02:11
+[13-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 13 12 2014 00:03:11
+[13-Dec-2014 00:08:45 America/Asuncion] record_country_language (f): 13 12 2014 00:08:45
+[13-Dec-2014 00:11:45 America/Asuncion] record_country_relationship (i): 13 12 2014 00:11:45
+[13-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 13 12 2014 00:13:04
+[13-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 13 12 2014 00:15:04
+[13-Dec-2014 00:15:18 America/Asuncion] record_country_generation (f): 13 12 2014 00:15:18
+[13-Dec-2014 00:16:18 America/Asuncion] record_country_interest (i): 13 12 2014 00:16:18
+[13-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 13 12 2014 00:43:52
+[13-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 13 12 2014 00:53:53
+[13-Dec-2014 01:05:46 America/Asuncion] record_country_comportamiento (f): 13 12 2014 01:05:46
+[14-Dec-2014 00:00:01 America/Asuncion] record_country (i): 14 12 2014 00:00:01
+[14-Dec-2014 00:00:14 America/Asuncion] record_country (f): 14 12 2014 00:00:14
+[14-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 14 12 2014 00:01:14
+[14-Dec-2014 00:02:09 America/Asuncion] record_country_age (f): 14 12 2014 00:02:09
+[14-Dec-2014 00:03:09 America/Asuncion] record_country_language (i): 14 12 2014 00:03:09
+[14-Dec-2014 00:08:42 America/Asuncion] record_country_language (f): 14 12 2014 00:08:42
+[14-Dec-2014 00:11:42 America/Asuncion] record_country_relationship (i): 14 12 2014 00:11:42
+[14-Dec-2014 00:13:03 America/Asuncion] record_country_relationship (f): 14 12 2014 00:13:03
+[14-Dec-2014 00:15:03 America/Asuncion] record_country_generation (i): 14 12 2014 00:15:03
+[14-Dec-2014 00:15:16 America/Asuncion] record_country_generation (f): 14 12 2014 00:15:16
+[14-Dec-2014 00:16:16 America/Asuncion] record_country_interest (i): 14 12 2014 00:16:16
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:28:20 America/Asuncion] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/owloo/public_html/wservice/config.php on line 37
+[14-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 14 12 2014 00:43:52
+[14-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 14 12 2014 00:53:52
+[14-Dec-2014 01:05:45 America/Asuncion] record_country_comportamiento (f): 14 12 2014 01:05:45
+[14-Dec-2014 16:19:26 America/Asuncion] Type: country_interest
+[14-Dec-2014 16:19:34 America/Asuncion] record_country_interest (i - aux): 14 12 2014 16:19:34
+[14-Dec-2014 16:20:56 America/Asuncion] record_country_interest (f - aux): 14 12 2014 16:20:56
+[15-Dec-2014 00:00:01 America/Asuncion] record_country (i): 15 12 2014 00:00:01
+[15-Dec-2014 00:00:14 America/Asuncion] record_country (f): 15 12 2014 00:00:14
+[15-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 15 12 2014 00:01:14
+[15-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 15 12 2014 00:02:10
+[15-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 15 12 2014 00:03:10
+[15-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 15 12 2014 00:08:44
+[15-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 15 12 2014 00:11:44
+[15-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 15 12 2014 00:13:04
+[15-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 15 12 2014 00:15:04
+[15-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 15 12 2014 00:15:17
+[15-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 15 12 2014 00:16:17
+[15-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 15 12 2014 00:43:52
+[15-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 15 12 2014 00:53:52
+[15-Dec-2014 01:05:46 America/Asuncion] record_country_comportamiento (f): 15 12 2014 01:05:46
+[16-Dec-2014 00:00:01 America/Asuncion] record_country (i): 16 12 2014 00:00:01
+[16-Dec-2014 00:00:14 America/Asuncion] record_country (f): 16 12 2014 00:00:14
+[16-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 16 12 2014 00:01:14
+[16-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 16 12 2014 00:02:10
+[16-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 16 12 2014 00:03:10
+[16-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 16 12 2014 00:08:44
+[16-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 16 12 2014 00:11:44
+[16-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 16 12 2014 00:13:04
+[16-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 16 12 2014 00:15:04
+[16-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 16 12 2014 00:15:17
+[16-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 16 12 2014 00:16:17
+[16-Dec-2014 00:43:51 America/Asuncion] record_country_interest (f): 16 12 2014 00:43:51
+[16-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 16 12 2014 00:53:52
+[16-Dec-2014 01:05:45 America/Asuncion] record_country_comportamiento (f): 16 12 2014 01:05:45
+[17-Dec-2014 00:00:01 America/Asuncion] record_country (i): 17 12 2014 00:00:01
+[17-Dec-2014 00:00:13 America/Asuncion] record_country (f): 17 12 2014 00:00:13
+[17-Dec-2014 00:01:13 America/Asuncion] record_country_age (i): 17 12 2014 00:01:13
+[17-Dec-2014 00:02:09 America/Asuncion] record_country_age (f): 17 12 2014 00:02:09
+[17-Dec-2014 00:03:09 America/Asuncion] record_country_language (i): 17 12 2014 00:03:09
+[17-Dec-2014 00:08:43 America/Asuncion] record_country_language (f): 17 12 2014 00:08:43
+[17-Dec-2014 00:11:43 America/Asuncion] record_country_relationship (i): 17 12 2014 00:11:43
+[17-Dec-2014 00:13:02 America/Asuncion] record_country_relationship (f): 17 12 2014 00:13:02
+[17-Dec-2014 00:15:02 America/Asuncion] record_country_generation (i): 17 12 2014 00:15:02
+[17-Dec-2014 00:15:15 America/Asuncion] record_country_generation (f): 17 12 2014 00:15:15
+[17-Dec-2014 00:16:15 America/Asuncion] record_country_interest (i): 17 12 2014 00:16:15
+[17-Dec-2014 00:43:50 America/Asuncion] record_country_interest (f): 17 12 2014 00:43:50
+[17-Dec-2014 00:53:50 America/Asuncion] record_country_comportamiento (i): 17 12 2014 00:53:50
+[17-Dec-2014 01:10:25 America/Asuncion] record_country_comportamiento (f): 17 12 2014 01:10:25
+[18-Dec-2014 00:00:01 America/Asuncion] record_country (i): 18 12 2014 00:00:01
+[18-Dec-2014 00:00:14 America/Asuncion] record_country (f): 18 12 2014 00:00:14
+[18-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 18 12 2014 00:01:14
+[18-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 18 12 2014 00:02:10
+[18-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 18 12 2014 00:03:10
+[18-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 18 12 2014 00:08:44
+[18-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 18 12 2014 00:11:44
+[18-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 18 12 2014 00:13:04
+[18-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 18 12 2014 00:15:04
+[18-Dec-2014 00:15:16 America/Asuncion] record_country_generation (f): 18 12 2014 00:15:16
+[18-Dec-2014 00:16:16 America/Asuncion] record_country_interest (i): 18 12 2014 00:16:16
+[18-Dec-2014 00:43:51 America/Asuncion] record_country_interest (f): 18 12 2014 00:43:51
+[18-Dec-2014 00:53:51 America/Asuncion] record_country_comportamiento (i): 18 12 2014 00:53:51
+[18-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 18 12 2014 01:10:26
+[18-Dec-2014 08:37:15 America/Asuncion] Type: country_interest
+[18-Dec-2014 08:37:24 America/Asuncion] record_country_interest (i - aux): 18 12 2014 08:37:24
+[18-Dec-2014 08:37:24 America/Asuncion] record_country_interest (f - aux): 18 12 2014 08:37:24
+[19-Dec-2014 00:00:01 America/Asuncion] record_country (i): 19 12 2014 00:00:01
+[19-Dec-2014 00:00:14 America/Asuncion] record_country (f): 19 12 2014 00:00:14
+[19-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 19 12 2014 00:01:14
+[19-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 19 12 2014 00:02:10
+[19-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 19 12 2014 00:03:10
+[19-Dec-2014 00:08:45 America/Asuncion] record_country_language (f): 19 12 2014 00:08:45
+[19-Dec-2014 00:11:45 America/Asuncion] record_country_relationship (i): 19 12 2014 00:11:45
+[19-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 19 12 2014 00:13:04
+[19-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 19 12 2014 00:15:04
+[19-Dec-2014 00:15:18 America/Asuncion] record_country_generation (f): 19 12 2014 00:15:18
+[19-Dec-2014 00:16:18 America/Asuncion] record_country_interest (i): 19 12 2014 00:16:18
+[19-Dec-2014 00:43:53 America/Asuncion] record_country_interest (f): 19 12 2014 00:43:53
+[19-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 19 12 2014 00:53:53
+[19-Dec-2014 01:10:28 America/Asuncion] record_country_comportamiento (f): 19 12 2014 01:10:28
+[20-Dec-2014 00:00:01 America/Asuncion] record_country (i): 20 12 2014 00:00:01
+[20-Dec-2014 00:00:15 America/Asuncion] record_country (f): 20 12 2014 00:00:15
+[20-Dec-2014 00:01:15 America/Asuncion] record_country_age (i): 20 12 2014 00:01:15
+[20-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 20 12 2014 00:02:10
+[20-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 20 12 2014 00:03:10
+[20-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 20 12 2014 00:08:44
+[20-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 20 12 2014 00:11:44
+[20-Dec-2014 00:13:05 America/Asuncion] record_country_relationship (f): 20 12 2014 00:13:05
+[20-Dec-2014 00:15:05 America/Asuncion] record_country_generation (i): 20 12 2014 00:15:05
+[20-Dec-2014 00:15:18 America/Asuncion] record_country_generation (f): 20 12 2014 00:15:18
+[20-Dec-2014 00:16:18 America/Asuncion] record_country_interest (i): 20 12 2014 00:16:18
+[20-Dec-2014 00:43:53 America/Asuncion] record_country_interest (f): 20 12 2014 00:43:53
+[20-Dec-2014 00:53:54 America/Asuncion] record_country_comportamiento (i): 20 12 2014 00:53:54
+[20-Dec-2014 01:10:28 America/Asuncion] record_country_comportamiento (f): 20 12 2014 01:10:28
+[20-Dec-2014 08:08:40 America/Asuncion] Type: country_language
+[20-Dec-2014 08:08:41 America/Asuncion] record_country_language (i - aux): 20 12 2014 08:08:41
+[20-Dec-2014 08:08:42 America/Asuncion] record_country_language (f - aux): 20 12 2014 08:08:42
+[20-Dec-2014 08:08:42 America/Asuncion] Type: country_relationship
+[20-Dec-2014 08:08:43 America/Asuncion] record_country_relationship (i - aux): 20 12 2014 08:08:43
+[20-Dec-2014 08:08:43 America/Asuncion] record_country_relationship (f - aux): 20 12 2014 08:08:43
+[20-Dec-2014 08:08:44 America/Asuncion] Type: country_generation
+[20-Dec-2014 08:08:44 America/Asuncion] record_country_generation (i - aux): 20 12 2014 08:08:44
+[20-Dec-2014 08:08:44 America/Asuncion] record_country_generation (f - aux): 20 12 2014 08:08:44
+[21-Dec-2014 00:00:01 America/Asuncion] record_country (i): 21 12 2014 00:00:01
+[21-Dec-2014 00:00:15 America/Asuncion] record_country (f): 21 12 2014 00:00:15
+[21-Dec-2014 00:01:15 America/Asuncion] record_country_age (i): 21 12 2014 00:01:15
+[21-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 21 12 2014 00:02:11
+[21-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 21 12 2014 00:03:11
+[21-Dec-2014 00:08:45 America/Asuncion] record_country_language (f): 21 12 2014 00:08:45
+[21-Dec-2014 00:11:45 America/Asuncion] record_country_relationship (i): 21 12 2014 00:11:45
+[21-Dec-2014 00:13:05 America/Asuncion] record_country_relationship (f): 21 12 2014 00:13:05
+[21-Dec-2014 00:15:05 America/Asuncion] record_country_generation (i): 21 12 2014 00:15:05
+[21-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 21 12 2014 00:15:17
+[21-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 21 12 2014 00:16:17
+[21-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 21 12 2014 00:43:52
+[21-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 21 12 2014 00:53:52
+[21-Dec-2014 01:10:27 America/Asuncion] record_country_comportamiento (f): 21 12 2014 01:10:27
+[21-Dec-2014 14:51:51 America/Asuncion] Type: country_age
+[21-Dec-2014 14:51:52 America/Asuncion] record_country_age (i - aux): 21 12 2014 14:51:52
+[21-Dec-2014 14:51:52 America/Asuncion] record_country_age (f - aux): 21 12 2014 14:51:52
+[21-Dec-2014 23:15:36 America/Asuncion] Type: country_age
+[21-Dec-2014 23:15:36 America/Asuncion] record_country_age (i - aux): 21 12 2014 23:15:36
+[21-Dec-2014 23:15:36 America/Asuncion] record_country_age (f - aux): 21 12 2014 23:15:36
+[21-Dec-2014 23:17:29 America/Asuncion] Type: country_age
+[21-Dec-2014 23:17:30 America/Asuncion] record_country_age (i - aux): 21 12 2014 23:17:30
+[21-Dec-2014 23:17:30 America/Asuncion] record_country_age (f - aux): 21 12 2014 23:17:30
+[21-Dec-2014 23:17:30 America/Asuncion] Type: country_language
+[21-Dec-2014 23:17:31 America/Asuncion] Type: country_relationship
+[21-Dec-2014 23:17:31 America/Asuncion] record_country_relationship (i - aux): 21 12 2014 23:17:31
+[21-Dec-2014 23:17:31 America/Asuncion] record_country_language (i - aux): 21 12 2014 23:17:31
+[21-Dec-2014 23:17:31 America/Asuncion] record_country_relationship (f - aux): 21 12 2014 23:17:31
+[21-Dec-2014 23:17:31 America/Asuncion] record_country_language (f - aux): 21 12 2014 23:17:31
+[22-Dec-2014 00:00:01 America/Asuncion] record_country (i): 22 12 2014 00:00:01
+[22-Dec-2014 00:00:14 America/Asuncion] record_country (f): 22 12 2014 00:00:14
+[22-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 22 12 2014 00:01:14
+[22-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 22 12 2014 00:02:11
+[22-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 22 12 2014 00:03:11
+[22-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 22 12 2014 00:08:44
+[22-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 22 12 2014 00:11:44
+[22-Dec-2014 00:13:05 America/Asuncion] record_country_relationship (f): 22 12 2014 00:13:05
+[22-Dec-2014 00:15:05 America/Asuncion] record_country_generation (i): 22 12 2014 00:15:05
+[22-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 22 12 2014 00:15:17
+[22-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 22 12 2014 00:16:17
+[22-Dec-2014 00:43:51 America/Asuncion] record_country_interest (f): 22 12 2014 00:43:51
+[22-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 22 12 2014 00:53:53
+[22-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 22 12 2014 01:10:26
+[23-Dec-2014 00:00:01 America/Asuncion] record_country (i): 23 12 2014 00:00:01
+[23-Dec-2014 00:00:14 America/Asuncion] record_country (f): 23 12 2014 00:00:14
+[23-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 23 12 2014 00:01:14
+[23-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 23 12 2014 00:02:10
+[23-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 23 12 2014 00:03:10
+[23-Dec-2014 00:08:43 America/Asuncion] record_country_language (f): 23 12 2014 00:08:43
+[23-Dec-2014 00:11:43 America/Asuncion] record_country_relationship (i): 23 12 2014 00:11:43
+[23-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 23 12 2014 00:13:04
+[23-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 23 12 2014 00:15:04
+[23-Dec-2014 00:15:16 America/Asuncion] record_country_generation (f): 23 12 2014 00:15:16
+[23-Dec-2014 00:16:16 America/Asuncion] record_country_interest (i): 23 12 2014 00:16:16
+[23-Dec-2014 00:43:51 America/Asuncion] record_country_interest (f): 23 12 2014 00:43:51
+[23-Dec-2014 00:53:51 America/Asuncion] record_country_comportamiento (i): 23 12 2014 00:53:51
+[23-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 23 12 2014 01:10:26
+[24-Dec-2014 00:00:02 America/Asuncion] record_country (i): 24 12 2014 00:00:02
+[24-Dec-2014 00:00:14 America/Asuncion] record_country (f): 24 12 2014 00:00:14
+[24-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 24 12 2014 00:01:14
+[24-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 24 12 2014 00:02:10
+[24-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 24 12 2014 00:03:10
+[24-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 24 12 2014 00:08:44
+[24-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 24 12 2014 00:11:44
+[24-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 24 12 2014 00:13:04
+[24-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 24 12 2014 00:15:04
+[24-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 24 12 2014 00:15:17
+[24-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 24 12 2014 00:16:17
+[24-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 24 12 2014 00:43:52
+[24-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 24 12 2014 00:53:52
+[24-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 24 12 2014 01:10:26
+[25-Dec-2014 00:00:01 America/Asuncion] record_country (i): 25 12 2014 00:00:01
+[25-Dec-2014 00:00:13 America/Asuncion] record_country (f): 25 12 2014 00:00:13
+[25-Dec-2014 00:01:13 America/Asuncion] record_country_age (i): 25 12 2014 00:01:13
+[25-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 25 12 2014 00:02:10
+[25-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 25 12 2014 00:03:10
+[25-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 25 12 2014 00:08:44
+[25-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 25 12 2014 00:11:44
+[25-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 25 12 2014 00:13:04
+[25-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 25 12 2014 00:15:04
+[25-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 25 12 2014 00:15:17
+[25-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 25 12 2014 00:16:17
+[25-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 25 12 2014 00:43:52
+[25-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 25 12 2014 00:53:52
+[25-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 25 12 2014 01:10:26
+[26-Dec-2014 00:00:01 America/Asuncion] record_country (i): 26 12 2014 00:00:01
+[26-Dec-2014 00:00:15 America/Asuncion] record_country (f): 26 12 2014 00:00:15
+[26-Dec-2014 00:01:15 America/Asuncion] record_country_age (i): 26 12 2014 00:01:15
+[26-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 26 12 2014 00:02:11
+[26-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 26 12 2014 00:03:11
+[26-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 26 12 2014 00:08:44
+[26-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 26 12 2014 00:11:44
+[26-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 26 12 2014 00:13:04
+[26-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 26 12 2014 00:15:04
+[26-Dec-2014 00:15:18 America/Asuncion] record_country_generation (f): 26 12 2014 00:15:18
+[26-Dec-2014 00:16:18 America/Asuncion] record_country_interest (i): 26 12 2014 00:16:18
+[26-Dec-2014 00:43:53 America/Asuncion] record_country_interest (f): 26 12 2014 00:43:53
+[26-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 26 12 2014 00:53:53
+[26-Dec-2014 01:10:27 America/Asuncion] record_country_comportamiento (f): 26 12 2014 01:10:27
+[27-Dec-2014 00:00:02 America/Asuncion] record_country (i): 27 12 2014 00:00:02
+[27-Dec-2014 00:00:15 America/Asuncion] record_country (f): 27 12 2014 00:00:15
+[27-Dec-2014 00:01:15 America/Asuncion] record_country_age (i): 27 12 2014 00:01:15
+[27-Dec-2014 00:02:12 America/Asuncion] record_country_age (f): 27 12 2014 00:02:12
+[27-Dec-2014 00:03:12 America/Asuncion] record_country_language (i): 27 12 2014 00:03:12
+[27-Dec-2014 00:08:46 America/Asuncion] record_country_language (f): 27 12 2014 00:08:46
+[27-Dec-2014 00:11:46 America/Asuncion] record_country_relationship (i): 27 12 2014 00:11:46
+[27-Dec-2014 00:13:06 America/Asuncion] record_country_relationship (f): 27 12 2014 00:13:06
+[27-Dec-2014 00:15:06 America/Asuncion] record_country_generation (i): 27 12 2014 00:15:06
+[27-Dec-2014 00:15:20 America/Asuncion] record_country_generation (f): 27 12 2014 00:15:20
+[27-Dec-2014 00:16:20 America/Asuncion] record_country_interest (i): 27 12 2014 00:16:20
+[27-Dec-2014 00:43:54 America/Asuncion] record_country_interest (f): 27 12 2014 00:43:54
+[27-Dec-2014 00:53:55 America/Asuncion] record_country_comportamiento (i): 27 12 2014 00:53:55
+[27-Dec-2014 01:10:29 America/Asuncion] record_country_comportamiento (f): 27 12 2014 01:10:29
+[27-Dec-2014 18:01:47 America/Asuncion] Type: country_comportamiento
+[27-Dec-2014 18:01:50 America/Asuncion] record_country_comportamiento (i - aux): 27 12 2014 18:01:50
+[27-Dec-2014 18:01:50 America/Asuncion] record_country_comportamiento (f - aux): 27 12 2014 18:01:50
+[27-Dec-2014 18:03:08 America/Asuncion] Type: country_comportamiento
+[27-Dec-2014 18:03:12 America/Asuncion] record_country_comportamiento (i - aux): 27 12 2014 18:03:12
+[27-Dec-2014 18:03:12 America/Asuncion] record_country_comportamiento (f - aux): 27 12 2014 18:03:12
+[28-Dec-2014 00:00:01 America/Asuncion] record_country (i): 28 12 2014 00:00:01
+[28-Dec-2014 00:00:14 America/Asuncion] record_country (f): 28 12 2014 00:00:14
+[28-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 28 12 2014 00:01:14
+[28-Dec-2014 00:02:10 America/Asuncion] record_country_age (f): 28 12 2014 00:02:10
+[28-Dec-2014 00:03:10 America/Asuncion] record_country_language (i): 28 12 2014 00:03:10
+[28-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 28 12 2014 00:08:44
+[28-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 28 12 2014 00:11:44
+[28-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 28 12 2014 00:13:04
+[28-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 28 12 2014 00:15:04
+[28-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 28 12 2014 00:15:17
+[28-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 28 12 2014 00:16:17
+[28-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 28 12 2014 00:43:52
+[28-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 28 12 2014 00:53:53
+[28-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 28 12 2014 01:10:26
+[29-Dec-2014 00:00:02 America/Asuncion] record_country (i): 29 12 2014 00:00:02
+[29-Dec-2014 00:00:14 America/Asuncion] record_country (f): 29 12 2014 00:00:14
+[29-Dec-2014 00:01:14 America/Asuncion] record_country_age (i): 29 12 2014 00:01:14
+[29-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 29 12 2014 00:02:11
+[29-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 29 12 2014 00:03:11
+[29-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 29 12 2014 00:08:44
+[29-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 29 12 2014 00:11:44
+[29-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 29 12 2014 00:13:04
+[29-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 29 12 2014 00:15:04
+[29-Dec-2014 00:15:18 America/Asuncion] record_country_generation (f): 29 12 2014 00:15:18
+[29-Dec-2014 00:16:18 America/Asuncion] record_country_interest (i): 29 12 2014 00:16:18
+[29-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 29 12 2014 00:43:52
+[29-Dec-2014 00:53:52 America/Asuncion] record_country_comportamiento (i): 29 12 2014 00:53:52
+[29-Dec-2014 01:10:25 America/Asuncion] record_country_comportamiento (f): 29 12 2014 01:10:25
+[30-Dec-2014 00:00:01 America/Asuncion] record_country (i): 30 12 2014 00:00:01
+[30-Dec-2014 00:00:13 America/Asuncion] record_country (f): 30 12 2014 00:00:13
+[30-Dec-2014 00:01:13 America/Asuncion] record_country_age (i): 30 12 2014 00:01:13
+[30-Dec-2014 00:02:09 America/Asuncion] record_country_age (f): 30 12 2014 00:02:09
+[30-Dec-2014 00:03:09 America/Asuncion] record_country_language (i): 30 12 2014 00:03:09
+[30-Dec-2014 00:08:44 America/Asuncion] record_country_language (f): 30 12 2014 00:08:44
+[30-Dec-2014 00:11:44 America/Asuncion] record_country_relationship (i): 30 12 2014 00:11:44
+[30-Dec-2014 00:13:04 America/Asuncion] record_country_relationship (f): 30 12 2014 00:13:04
+[30-Dec-2014 00:15:04 America/Asuncion] record_country_generation (i): 30 12 2014 00:15:04
+[30-Dec-2014 00:15:17 America/Asuncion] record_country_generation (f): 30 12 2014 00:15:17
+[30-Dec-2014 00:16:17 America/Asuncion] record_country_interest (i): 30 12 2014 00:16:17
+[30-Dec-2014 00:43:53 America/Asuncion] record_country_interest (f): 30 12 2014 00:43:53
+[30-Dec-2014 00:53:54 America/Asuncion] record_country_comportamiento (i): 30 12 2014 00:53:54
+[30-Dec-2014 01:10:28 America/Asuncion] record_country_comportamiento (f): 30 12 2014 01:10:28
+[31-Dec-2014 00:00:01 America/Asuncion] record_country (i): 31 12 2014 00:00:01
+[31-Dec-2014 00:00:15 America/Asuncion] record_country (f): 31 12 2014 00:00:15
+[31-Dec-2014 00:01:15 America/Asuncion] record_country_age (i): 31 12 2014 00:01:15
+[31-Dec-2014 00:02:11 America/Asuncion] record_country_age (f): 31 12 2014 00:02:11
+[31-Dec-2014 00:03:11 America/Asuncion] record_country_language (i): 31 12 2014 00:03:11
+[31-Dec-2014 00:08:45 America/Asuncion] record_country_language (f): 31 12 2014 00:08:45
+[31-Dec-2014 00:11:45 America/Asuncion] record_country_relationship (i): 31 12 2014 00:11:45
+[31-Dec-2014 00:13:06 America/Asuncion] record_country_relationship (f): 31 12 2014 00:13:06
+[31-Dec-2014 00:15:06 America/Asuncion] record_country_generation (i): 31 12 2014 00:15:06
+[31-Dec-2014 00:15:19 America/Asuncion] record_country_generation (f): 31 12 2014 00:15:19
+[31-Dec-2014 00:16:19 America/Asuncion] record_country_interest (i): 31 12 2014 00:16:19
+[31-Dec-2014 00:43:52 America/Asuncion] record_country_interest (f): 31 12 2014 00:43:52
+[31-Dec-2014 00:53:53 America/Asuncion] record_country_comportamiento (i): 31 12 2014 00:53:53
+[31-Dec-2014 01:10:26 America/Asuncion] record_country_comportamiento (f): 31 12 2014 01:10:26

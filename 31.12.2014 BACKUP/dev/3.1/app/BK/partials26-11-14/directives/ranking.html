@@ -1,0 +1,59 @@
+<div class="ranking main">
+	<div class="row small labels">
+		<div class="column large-6 text-left"><div class="position">#</div>{{rank.main_column}}</div>
+		<div class="column large-6">
+			<div class="row">
+			    <div ng-repeat="column in rank.second_column" class="column large-{{rank.large_column}}">
+					<p>{{column}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row small"><div class="column large-12"><div class="hr"></div></div></div>
+	<div class="item" ng-repeat="item in rank.items">
+		<div class="row small">
+			<div class="column large-6 account">
+				<div class="position">
+					<p>{{item.position}}</p>
+				</div>
+				<div ng-if="rank.type == 'fb_page'" class="icon circle small">
+					<img ng-src="{{item.picture}}"/>
+				</div>
+				<div ng-if="rank.subtype == 'fb_country'" class="icon circle small">
+					<img ng-src="{{imagesFolder}}flags/64/{{item.code | uppercase}}.png"/>
+				</div>
+				<div ng-if="rank.type == 'fb_page'">
+					<img class="verified" ng-if="rank.subtype != 'tw_profile' && item.is_verified" ng-src="{{imagesFolder}}owloo_fb_page_verified_12x12.png" title="Cuenta verificada"/>
+					<img class="verified" ng-if="rank.subtype == 'tw_profile' && item.is_verified" ng-src="{{imagesFolder}}owloo_user_verified_account.png" title="Cuenta verificada"/>
+					<a href="{{urlRoot}}/{{rank.link}}/{{item.username}}" title="Datos y estadísticas de {{item.name}} en Facebook">{{item.name}}</a>
+				</div>
+				<div ng-if="rank.subtype == 'fb_city'">
+					<a href="{{urlRoot}}/{{rank.link}}/{{item.country_url_name}}" title="Datos y estadísticas de {{item.name}} en Facebook">
+						{{item.name}}
+					</a>
+				</div>
+				<div ng-if="rank.subtype == 'fb_country'">
+					<a href="{{urlRoot}}/{{rank.link}}/{{item.link}}" title="Datos y estadísticas de {{item.name}} en Facebook">
+						{{item.name}}
+					</a>
+				</div>
+			</div>
+			<div class="column large-6">
+				<div class="row">
+					<div ng-if="rank.subtype != 'fb_country_page' && rank.subtype != 'tw_profile'" class="column large-{{rank.large_column}}">
+						<a ng-if="rank.type == 'fb_page'" href="{{urlRoot}}/facebook-stats/pages/country/{{item.country}}">
+							<img class="flag" ng-src="{{imagesFolder}}flags/64/{{item.country | uppercase}}.png"/>
+						</a>
+						<a ng-if="rank.subtype == 'fb_city'" href="{{urlRoot}}/facebook-stats/cities/{{item.country_url_name}}">
+							<img class="flag" ng-src="{{imagesFolder}}flags/64/{{item.country_code | uppercase}}.png"/>
+						</a>
+					</div>
+					
+					<div ng-repeat="column in item.second_column" class="column large-{{rank.large_column}}">
+						<p class="{{column.class}}">{{column.value}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,26 @@
+<div class="chart">
+	<div class="charts-container main-container" style="height: 300px; position: relative;">
+		<div class="max">MAX {{data.series_data_max | number | replace:',':'.'}}</div>
+	    <div id="android_grow" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+	    <div class="image">
+	    	<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+	    </div>
+	    <div class="grid-content">
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	    </div>
+	</div>
+</div>

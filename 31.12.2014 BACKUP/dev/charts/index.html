@@ -1,0 +1,484 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+		.grid-content {
+		    border-bottom: 2px dashed #f1f1f1;
+		    height: 89%;
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    width: 100%;
+		}
+		.grid-content-vertical {
+		    border-left: 2px dashed #f1f1f1;
+		    height: 99%;
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    width: 100%;
+		}
+		.grid-row + .grid-row {
+		    border-top: 1px solid #f1f1f1;
+		}
+		.grid-row {
+		    height: 32%;
+		    width: 100%;
+		}
+		.grid-row-vertical {
+		    height: 100%;
+		    width: 95%;
+		}
+		.grid-column + .grid-column, .grid-column-vertical + .grid-column-vertical {
+		    border-left: 1px solid #f1f1f1;
+		}
+		.grid-column.last, .grid-column-vertical.last {
+		    border-right: 1px solid #f1f1f1;
+		}
+		.grid-column {
+		    float: left;
+		    height: 100%;
+		    width: 25%;
+		}
+		.grid-column-vertical {
+		    float: left;
+		    height: 100%;
+		    width: 19%;
+		}
+		.main-container .image {
+		    position: absolute;
+		    text-align: center;
+		    top: 20px;
+		    width: 100%;
+		}
+		.main-container-vertical .image {
+		    bottom: 0;
+		    position: absolute;
+		    right: 0;
+		    width: auto;
+		}
+		.charts-container {
+		    margin: 50px 30px !important;
+		}
+		h1 {
+		    color: #77CCF7;
+		    font-weight: bold;
+		    text-align: center;
+		}
+		.max, .max-vertical {
+		    color: #b8bfc8;
+		    font-family: Arial;
+		    font-size: 12px;
+		    position: absolute;
+		}
+		.max {
+		    left: 2%;
+		}
+		.max-vertical {
+		    right: 2%;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1>LINE</h1>
+	
+	<div class="charts-container main-container" style="height: 300px; position: relative;">
+		<div class="max">MAX 103.470.191</div>
+	    <div id="container-grid" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+	    <div class="image">
+	    	<img src="owloo-analytics-charts.png" alt="" />
+	    </div>
+	    <div class="grid-content">
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	    </div>
+	</div>
+	
+	<h1>COLUMN</h1>
+	
+	
+	
+	<div class="charts-container main-container" style="height: 300px; position: relative;">
+		<div class="max">MAX 500</div>
+	    <div id="container-column" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+	    <div class="image">
+	    	<img src="owloo-analytics-charts.png" alt="" />
+	    </div>
+	    <div class="grid-content">
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	        <div class="grid-row">
+	            <div class="grid-column"></div>
+	            <div class="grid-column"></div>
+	            <div class="grid-column last"></div>
+	        </div>
+	    </div>
+	</div>
+	
+	<h1>BAR</h1>
+	
+	
+	
+	<div class="charts-container main-container-vertical" style="height: 300px; position: relative;">
+		<div class="max-vertical">MAX 500</div>
+	    <div id="container-bar" style="height: 300px; min-width: 300px; position: relative; z-index: 2;"></div>
+	    <div class="image">
+	    	<img src="owloo-analytics-charts.png" alt="" />
+	    </div>
+	    <div class="grid-content-vertical">
+	        <div class="grid-row-vertical">
+	            <div class="grid-column-vertical"></div>
+	            <div class="grid-column-vertical"></div>
+	            <div class="grid-column-vertical"></div>
+	            <div class="grid-column-vertical"></div>
+	            <div class="grid-column-vertical last"></div>
+	        </div>
+	    </div>
+	</div>
+	
+	
+	
+	<script src="http://code.highcharts.com/adapters/standalone-framework.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script>
+		function formatNumber(number){
+		    var number = new String(number);
+		    var result = '';
+		    while( number.length > 3 ){
+		        result = '.' + number.substr(number.length - 3) + result;
+		        number = number.substring(0, number.length - 3);
+		    }
+		    return number + result;
+		}
+		/*** LINE ***/
+		
+		var chart = new Highcharts.Chart({
+		    chart: {
+		        renderTo: 'container-grid',
+		        backgroundColor: null
+		    },
+		    
+		    tooltip: {
+		    	shared: true,
+		        backgroundColor: '#000000',
+		        borderWidth: 0,
+		        shadow: false,
+		        borderRadius: 5,
+		        formatter: function() {
+		            return '<b>Cristiano Ronaldo</b><br/>'+
+		                this.x +': '+ formatNumber(this.y) +' fans';
+		        },
+		        style: {
+		            color: '#FFFFFF'
+		        },
+		        hideDelay: 100
+		    },
+		    
+		    xAxis: {
+		        categories: ['09 Nov','10 Nov','11 Nov','12 Nov','13 Nov','14 Nov','15 Nov','16 Nov','17 Nov','18 Nov','19 Nov','20 Nov','21 Nov','22 Nov','23 Nov','24 Nov','25 Nov','26 Nov','27 Nov','28 Nov','29 Nov','30 Nov','01 Dic','02 Dic','03 Dic','04 Dic','05 Dic','06 Dic','07 Dic','08 Dic','09 Dic'],
+		        lineWidth: 0,
+		        gridLineWidth: 0,
+		        tickWidth: 0,
+		        labels: {
+		            step: 6, align: 'center', staggerLines: 1, style: { color: '#b8bfc8' }
+		        }
+		        
+		    },
+		    
+		    yAxis: {
+		        lineWidth: 0,
+		        gridLineWidth: 0,
+		        labels: {
+		            enabled: false
+		        },
+		        title: {
+		            text: ''
+		        }
+		    },
+		    
+		    series: [{
+		        name: 'Cristiano Ronaldo',
+		        data: [101796900,101861827,101923108,101986402,102060411,102129358,102198302,102282825,102360474,102427995,102497771,102559075,102618253,102680637,102754533,102823658,102887186,102950287,102992453,103029193,103066026,103105813,103144106,103180360,103214386,103263134,103307442,103349681,103393805,103433119,103470191]
+		    }],
+		    
+		    title: {
+		        text: ''
+		    },
+		    
+		    plotOptions: {
+		        series: {
+		            lineWidth: 3,
+		            lineColor: '#77CCF7',
+		            shadow: false,
+		            marker: {
+		                enabled: false,
+		                states: {
+		                    hover: {
+		                        fillColor: '#000000',
+		                        lineColor: '#FFFFFF',
+		                        lineWidth: 2,
+		                        radius: 6
+		                    }
+		                }
+		            },
+		            states: {
+		                hover: {
+		                    lineWidth: 3,
+		                    halo: {
+		                        size: 0
+		                    }
+		                }
+		            }
+		        }
+		    },
+		    
+		    legend: {
+		        enabled: false
+		    },
+		    
+		    credits: {
+		        enabled: false
+		    },
+		    
+		    exporting: {
+		        enabled: false
+		    }
+		    
+		});
+		
+		/*** COLUMN ***/
+		var chart = new Highcharts.Chart({
+		    chart: {
+		        renderTo: 'container-column',
+		        backgroundColor: null,
+		        type: 'column'
+		    },
+		    
+		    tooltip: {
+		    	shared: true,
+		        backgroundColor: '#000000',
+		        borderWidth: 0,
+		        shadow: false,
+		        borderRadius: 5,
+		        formatter: function() {
+		            return '<b>Cristiano Ronaldo</b><br/>'+
+		                this.x +': '+ formatNumber(this.y) +' fans';
+		        },
+		        style: {
+		            color: '#FFFFFF'
+		        },
+		        hideDelay: 100
+		    },
+		    
+		    xAxis: {
+		        categories: ['09 Nov','10 Nov','11 Nov','12 Nov','13 Nov','14 Nov','15 Nov','16 Nov','17 Nov','18 Nov','19 Nov','20 Nov','21 Nov','22 Nov','23 Nov','24 Nov','25 Nov','26 Nov','27 Nov','28 Nov','29 Nov','30 Nov','01 Dic','02 Dic','03 Dic','04 Dic','05 Dic','06 Dic','07 Dic','08 Dic','09 Dic'],
+		        lineColor: '#f1f1f1',
+		        lineWidth: 0,
+		        gridLineWidth: 0,
+		        tickWidth: 0,
+		        labels: {
+		            step: 6, align: 'center', staggerLines: 1, style: { color: '#b8bfc8' }
+		        }
+		        
+		    },
+		    
+		    yAxis: {
+		        lineWidth: 0,
+		        gridLineWidth: 0,
+		        labels: {
+		            enabled: false
+		        },
+		        title: {
+		            text: ''
+		        }
+		    },
+		    
+		    series: [{
+		        name: 'Cristiano Ronaldo',
+		        data: [500, 450, 480, 410, 350, 380, 320, 405, 460, 475, 490, 452, 390, 350, 320, 360, 300, 355, 410, 400, 385, 440, 450, 430, 480, 476, 495, 423, 456, 412, 490]
+		    }],
+		    
+		    title: {
+		        text: ''
+		    },
+		    
+		    plotOptions: {
+		        column: {
+		            borderWidth: 1,
+		            bordercolor: '#FFFFFF',
+		            color: '#d2f1f9',
+		            pointPadding: 0,
+		            states: {
+		                hover: {
+		                    color: '#77CCF7'                                                           
+		                }
+		            }
+		        }
+		    },
+		    
+		    legend: {
+		        enabled: false
+		    },
+		    
+		    credits: {
+		        enabled: false
+		    },
+		    
+		    exporting: {
+		        enabled: false
+		    }
+		    
+		});
+		
+		/*** BAR ***/
+		var chart = new Highcharts.Chart({
+		    chart: {
+		        renderTo: 'container-bar',
+		        backgroundColor: null,
+		        type: 'bar'
+		    },
+		    
+		    tooltip: {
+		    	shared: true,
+		        backgroundColor: '#000000',
+		        borderWidth: 0,
+		        shadow: false,
+		        borderRadius: 5,
+		        formatter: function() {
+		            return '<b>Cristiano Ronaldo</b><br/>'+
+		                this.x +': '+ formatNumber(this.y) +' fans';
+		        },
+		        style: {
+		            color: '#FFFFFF'
+		        },
+		        hideDelay: 100
+		    },
+		    
+		    xAxis: {
+		        categories: ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'],
+		        lineColor: '#f1f1f1',
+		        lineWidth: 0,
+		        gridLineWidth: 0,
+		        tickWidth: 0,
+		        labels: {
+		            enabled: false
+		        }
+		    },
+		    
+		    yAxis: {
+		        lineWidth: 0,
+		        gridLineWidth: 0,
+		        labels: {
+		            enabled: false
+		        },
+		        title: {
+		            text: ''
+		        },
+		        stackLabels: {
+		            formatter: function() {
+		                return this.axis.chart.xAxis[0].categories[this.x];
+		            },
+		            enabled: true,           
+		            verticalAlign: 'middle',     
+		            align: 'left',
+		            style: {
+		                color: '#FFFFFF'
+		            }
+		        }
+		    },
+		    
+		    series: [{
+		        name: 'Cristiano Ronaldo',
+		        data: [500, 450, 480, 410, 350, 60, 420]
+		    }],
+		    
+		    title: {
+		        text: ''
+		    },
+		    
+		    plotOptions: {
+		        bar: {
+		            borderWidth: 1,
+		            bordercolor: '#FFFFFF',
+		            color: '#d2f1f9',
+		            pointWidth: 28,
+		            states: {
+		                hover: {
+		                    color: '#77CCF7'                                                           
+		                }
+		            },
+		            stacking: 'normal'
+		        }
+		    },
+		    
+		    legend: {
+		        enabled: false
+		    },
+		    
+		    credits: {
+		        enabled: false
+		    },
+		    
+		    exporting: {
+		        enabled: false
+		    }
+		    
+		});
+
+	</script>
+	
+	
+	<style>
+		.circle .circles-text {
+		    color: #77CCF7;
+		    font-family: Arial;
+		    font-size: 25px !important;
+		}
+	</style>
+	
+	<h1>CIRCLE</h1>
+	
+	<div class="charts-container circle" id="circles-1" style="text-align: center"></div>
+	
+	<script src="circles.min.js"></script>
+	<script>
+		var myCircle = Circles.create({
+		  id:           'circles-1',
+		  radius:       60,
+		  value:        88,
+		  maxValue:     100,
+		  width:        10,
+		  text:         function(value){return value + '%';},
+		  colors:       ['#FFFFFF', '#77CCF7'],
+		  duration:       400,
+		  wrpClass:     'circles-wrp',
+		  textClass:      'circles-text',
+		  styleWrapper: true,
+		  styleText:    true
+		});
+	</script>
+</body>
+</html>

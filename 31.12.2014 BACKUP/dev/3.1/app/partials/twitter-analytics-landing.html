@@ -1,0 +1,136 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content">
+    <div class="section">
+        <div class="sub-section text-center">
+            <div class="row">
+                <div class="column large-12">
+                    <h1>{{'TWITTER_ANALYTICS_TITLE' | translate}}</h1>
+                    <div class="row">
+	                    <div class="column large-offset-3 large-6">
+	                        <p>{{'TWITTER_ANALYTICS_SUBTITLE' | translate}}</p>
+	                    </div>
+	                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr center"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-1 large-6">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'TWITTER_ANALYTICS_FEATURE1_TITLE' | translate}}</h3>
+                        <p class="highlight">{{'TWITTER_ANALYTICS_FEATURE1_DESC1' | translate}}</p>
+                        <p class="highlight">{{'TWITTER_ANALYTICS_FEATURE1_DESC2' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-5 end">
+                <img ng-src="{{::imagesFolder}}/ill/24cc6468969a40cce4d65624e1f247c2.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section text-center">
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-offset-3 large-6">
+                    <h2>{{'TWITTER_ANALYTICS_GROW' | translate}}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-2" ng-repeat="profile in content.twitterLastAdded">
+                    <widget-bubble-account picture='{{profile.picture}}' link='{{url.twitter.analytics.profiles}}/{{profile.screen_name}}' 
+                    name='{{profile.name}}' class='plus'></widget-box-upright>
+                </div>
+            </div>
+        </div>
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-12">
+                    <h3><a href="{{::url.twitter.analytics.profiles}}">{{'TWITTER_ANALYTICS_SEE_MORE' | translate}}</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-12">
+                    <img ng-src="{{::imagesFolder}}/ill/f323da827b0d2a2cf138ed66f65e86f0.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section gray text-center">
+        <img class="middle-icon" ng-src="{{::imagesFolder}}/ill/1d370b9c545d34d3b4416e093f2d5b54.png">
+        <div class="row big">
+            <div class="column large-offset-3 large-6">
+                <h3>{{'TWITTER_ANALYTICS_ADD_PAGE' | translate}}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-offset-2 large-8">
+                <widget-add-account-input placeholder="{{'TWITTER_ANALYTICS_ADD_PAGE_PLACEHOLDER' | translate}}"></widget-add-account-input>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-1 large-5">
+                <img ng-src="{{::imagesFolder}}/ill/40d8ab17c8463d3c916ed5b0c1a305a5.png"/>
+            </div>
+            <div class="column large-5 end">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'TWITTER_ANALYTICS_FEATURE2_TITLE' | translate}}</h3>
+                        <p class="highlight">{{'TWITTER_ANALYTICS_FEATURE2_DESC' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-1 large-5">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'TWITTER_ANALYTICS_FEATURE3_TITLE' | translate}}</h3>
+                        <p class="highlight">{{'TWITTER_ANALYTICS_FEATURE3_DESC' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-5 end">
+                <img ng-src="{{::imagesFolder}}/ill/40d8ab17c8463d3c916ed5b0c1a305a5.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-offset-1 large-5">
+                <img ng-src="{{::imagesFolder}}/ill/40d8ab17c8463d3c916ed5b0c1a305a5.png"/>
+            </div>
+            <div class="column large-5 end">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'TWITTER_ANALYTICS_FEATURE4_TITLE' | translate}}</h3>
+                        <p class="highlight">{{'TWITTER_ANALYTICS_FEATURE4_DESC' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-12 text-center">
+            	<div class="hr"></div>
+                <a class="button bg-blue" href="{{::url.signin}}">{{'OWLOO_BUTTON_SIGNUP' | translate}}</a>
+            </div>
+        </div>
+    </div>
+    
+    <owloo-footer></owloo-footer>
+</div>

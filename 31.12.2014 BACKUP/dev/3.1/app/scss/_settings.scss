@@ -1,0 +1,82 @@
+// Owloo Settings
+// Table of Contents
+
+// Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$default-font-family:		"open-sans", sans-serif;
+$default-font-size:			16px;
+$default-line-height:		1.875;
+$default-font-weight:		300;
+
+$titles-font-family:		"museo", sans-serif;
+$titles-line-height:		1.3;
+$titles-font-weight:		300;
+
+$h1-font-size:				50px;
+$h2-font-size:				35px;
+$h3-font-size:				30px;
+$h4-font-size:				20px;
+
+$small-font-size:			14px;
+$small-line-height:			1.5;
+
+$details-font-size:			13px;
+$details-line-height:		1.5;
+
+// Layout
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$row-width:					1100px;
+$default-border-radius:		3px;
+$logo-width:				120px;
+
+$header-height:				73px;
+
+$section-space:				100px;
+$great-space:				60px;
+$big-space:					40px;
+$medium-space:				30px;
+$default-space:				20px;
+$small-space:				15px;
+$xsmall-space:				10px;
+
+// Colours Definition
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$white:						#FFFFFF;
+$blue:						#77CCF7;
+$light-blue:				#D2F1F9;
+$green:						#93CC76;
+$light-green:				#DAEFB6;
+$red:						#EC5254;
+$light-red:					#F9D2D6;
+$orange:					#F08A52;
+$dark-gray:					#9DA4AE;
+$light-gray:				#F8F8F8;
+
+// Colours Settings
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$font-color:				#748796;
+$light-font-color:			#B8BFC8;
+$dark-font-color:			#526575;
+
+$border-color:				#EAEAEA;
+$gray-icon-color:			#E8E8E8;
+
+$link-color:				$blue;
+$title-colour:				$blue;
+$default-icon-color:		$blue;
+
+$primary-background:		$white;
+$second-background:			$light-gray;
+
+
+// Icons
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$big-icon-size:				130px;
+$medium-icon-size:			100px;
+$default-icon-size:			70px;
+$small-icon-size:			50px;

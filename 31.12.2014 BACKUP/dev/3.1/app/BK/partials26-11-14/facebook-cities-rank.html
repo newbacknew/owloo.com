@@ -1,0 +1,26 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content">
+	<div class="section ranking-page">
+		<div class="row">
+			<div class="column large-3">
+				<div class="ranking sidebar filters">
+					<div class="row small">
+						<div class="column large-12">
+							<label for="country">Pa&iacute;s</label>
+							<div class="select country">
+								<input type="text" name="country" class="select" placeholder="{{country.name}} ">
+								<i class="fa fa-angle-down"></i>
+								<img class="flag" ng-src="{{imagesFolder}}flags/64/{{country.code | uppercase}}.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column large-9">
+				<ranking rank="rank"></ranking>
+			</div>
+		</div>
+	</div>
+    <owloo-footer></owloo-footer>
+</div>

@@ -1,0 +1,546 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content stats-page">
+	<div class="section">
+		<div class="row">
+			<div class="column large-2">
+				<div class="icon circle small">
+					<img ng-src="{{page.picture}}"/>
+				</div>
+			</div>
+			<div class="column large-10 end">
+				<h2>{{page.name}} en Facebook</h2>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="title">
+			<div class="row">
+				<div class="column large-12">
+					<h3>{{'FACEBOOK_PAGE_GRAYBAR1' | translate}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="column large-6">
+					<div class="row">
+						<div class="column large-6">
+							<p>{{'FACEBOOK_PAGE_STATS_TABLE1' | translate}}</p>
+						</div>
+						<div class="column large-6">
+							<p>{{page.likes}}</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-6">
+							<p>{{'FACEBOOK_PAGE_STATS_TABLE2' | translate}}</p>
+						</div>
+						<div class="column large-6">
+							<p>{{page.pta}}%</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-6">
+							<p>{{'FACEBOOK_PAGE_STATS_TABLE3' | translate}}</p>
+						</div>
+						<div class="column large-6">
+							<img class="verified" ng-if="item.is_verified" ng-src="{{imagesFolder}}owloo_fb_page_verified_12x12.png" title="Cuenta verificada"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-6">
+							<p>{{'FACEBOOK_PAGE_STATS_TABLE4' | translate}}</p>
+						</div>
+						<div class="column large-6">
+							<p>{{page.in_owloo_from}}</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-6">
+							<p ng-show="page.location">{{'FACEBOOK_PAGE_STATS_TABLE5' | translate}}</p>
+							<p ng-hide="page.location">{{'FACEBOOK_PAGE_STATS_TABLE5-2' | translate}}</p>
+						</div>
+						<div class="column large-6">
+							<img ng-show="page.location" class="flag" ng-src="{{imagesFolder}}flags/64/{{page.country.code | uppercase}}.png"/>
+							<img ng-hide="page.location" class="flag" ng-src="{{imagesFolder}}flags/64/{{page.first_country.code | uppercase}}.png"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-6">
+							<p>{{'FACEBOOK_PAGE_STATS_TABLE6' | translate | replace:'$1':page.country.name}}</p>
+						</div>
+						<div class="column large-6">
+							<p>{{page.country.ranking}}</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-2">
+							<div class="icon circle small">
+								<img ng-src="{{item.picture}}"/>
+							</div>
+						</div>
+						<div class="column large-10">
+							<p>{{page.country.about}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="column large-6">
+					<div class="row">
+						<div class="column large-12">
+							<p>{{'FACEBOOK_PAGE_STATS_TABLE_RESUME1' | translate | replace:'$1':page.name | replace:'$2':page.likes| replace:'$3':page.talking_about}}</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-12">
+							<p ng-show="page.location">{{'FACEBOOK_PAGE_STATS_TABLE_RESUME2' | translate | replace:'$1':page.name | replace:'$2':page.first_country.name | replace:'$3':page.country.ranking | replace:'$4':page.country.ranking}}</p>
+							<p ng-hide="page.location">{{'FACEBOOK_PAGE_STATS_TABLE_RESUME3' | translate | replace:'$1':page.name | replace:'$2':page.first_country.name | replace:'$3':page.first_country.ranking | replace:'$4':page.first_country.ranking}}</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-12">
+							<img class="cover" ng-src="{{page.cover}}"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-12">
+							<p>{{'FACEBOOK_PAGE_CATEGORY' | translate}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="title">
+			<div class="row">
+				<div class="column large-12">
+					<h3>{{'FACEBOOK_PAGE_GRAYBAR2' | translate | replace:$1:30}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="column large-12">
+					<!-- Grafico de likes -->
+					<!-- datos: page.likes_grow -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="column large-3">
+					<widget-box-horizontal icon='user' class='{{page.likes_grow.grow_1.class}}'
+					value='{{page.likes_grow.grow_1.value}}' percent='{{page.likes_grow.grow_1.percent}}' footer="{{'FACEBOOK_PAGE_STATS_GROWTH_24HOURS' | translate}}">
+					</widget-box-horizontal>
+				</div>
+				<div class="column large-3">
+					<widget-box-horizontal icon='user' class='{{page.likes_grow.grow_7.class}}'
+					value='{{page.likes_grow.grow_7.value}}' percent='{{page.likes_grow.grow_7.percent}}' footer="{{'FACEBOOK_PAGE_STATS_GROWTH_7DAYS' | translate}}">
+					</widget-box-horizontal>
+				</div>
+				<div class="column large-3">
+					<widget-box-horizontal icon='user' class='{{page.likes_grow.grow_15.class}}'
+					value='{{page.likes_grow.grow_15.value}}' percent='{{page.likes_grow.grow_15.percent}}' footer="{{'FACEBOOK_PAGE_STATS_GROWTH_14DAYS' | translate}}">
+					</widget-box-horizontal>
+				</div>
+				<div class="column large-3">
+					<widget-box-horizontal icon='user' class='{{page.likes_grow.grow_30.class}}'
+					value='{{page.likes_grow.grow_30.value}}' percent='{{page.likes_grow.grow_30.percent}}' footer="{{'FACEBOOK_PAGE_STATS_GROWTH_1MONTH' | translate}}">
+					</widget-box-horizontal>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="title">
+			<div class="row">
+				<div class="column large-12">
+					<h3>{{'FACEBOOK_PAGE_GRAYBAR3' | translate}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="column large-4">
+					<!-- Grafico engagement -->
+					<!-- datos: -->
+					<!-- * page.talking_about_percent -->
+					<!-- * page.talking_about_history_30 -->
+				</div>
+				<div class="column large-8">
+					<!-- Grafico historial talkinga about -->
+					<!-- datos: -->
+					<!-- page.talking_about_history_30 -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="column large-6">
+					<div class="row">
+						<div class="column large-2">
+							<i class="fa fa-user"></i>
+						</div>
+						<div class="column large-10">
+							{{'FACEBOOK_PAGE_STATS_POST_ENGAGEMENT_RATE_RESUME' | translate | replace:'$1':page.name | replace:'$2':page.pta}}
+						</div>
+					</div>
+				</div>
+				<div class="column large-6">
+					<div class="row">
+						<div class="column large-6">
+							<div class="widget box horizontal">
+								<div class="body clearfix">
+									<div class="row">
+										<div class="column large-6">
+											<i class="fa fa-user"></i>
+										</div>
+										<div class="column large-6 change {{page.talking_about_grow.grow_7.class}}">
+											<h2 class="value">{{page.talking_about_grow.grow_7.value}}</h2>
+											<p class="percent">
+												<i class="fa fa-{{page.talking_about_grow.grow_7.class}}"></i>
+												{{page.talking_about_grow.grow_7.percent}}%
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="footer country">
+									{{'FACEBOOK_PAGE_STATS_FPER_1WEEK' | translate}}
+								</div>
+							</div>
+						</div>
+						<div class="column large-6">
+							<div class="widget box horizontal">
+								<div class="body clearfix">
+									<div class="row">
+										<div class="column large-6">
+											<i class="fa fa-user"></i>
+										</div>
+										<div class="column large-6 change {{page.talking_about_grow.grow_30.class}}">
+											<h2 class="value">{{page.talking_about_grow.grow_30.value}}</h2>
+											<p class="percent">
+												<i class="fa fa-{{page.talking_about_grow.grow_30.class}}"></i>
+												{{page.talking_about_grow.grow_30.percent}}%
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="footer country">
+									{{'FACEBOOK_PAGE_STATS_FPER_1MONTH' | translate}}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="title">
+			<div class="row">
+				<div class="column large-12">
+					<h3>{{'FACEBOOK_PAGE_GRAYBAR4' | translate}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="column large-7">
+					<div class="row">
+						<div class="column large-6">
+							<div class="row">
+								<div class="column large-12">
+									<p>{{'FACEBOOK_PAGE_STATS_FB_MARKET_SHARE_1' | translate}}</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column large-12">
+									<p ng-show="page.location">
+										<img class="flag" ng-src="{{imagesFolder}}flags/64/{{page.country.code | uppercase}}.png"/>
+										{{page.country.audience}}
+									</p>
+									<p ng-hide="page.location">
+										<img class="flag" ng-src="{{imagesFolder}}flags/64/{{page.first_country.code | uppercase}}.png"/>
+										{{page.first_country.audience}}
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="column large-6">
+							<div class="row">
+								<div class="column large-12">
+									<p>{{'FACEBOOK_PAGE_STATS_FB_MARKET_SHARE_2' | translate}}</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column large-12">
+									<p ng-show="page.location">
+										{{page.country.likes}} / {{page.country.likes}}
+									</p>
+									<p ng-hide="page.location">
+										<img class="flag" ng-src="{{imagesFolder}}flags/64/{{page.first_country.code | uppercase}}.png"/>
+										{{page.first_country.likes}}
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column large-5">
+					<!-- Chart pie -->
+					<!-- datos: -->
+					<!-- page.first_country.market_share_percent  -->
+					<!-- page.first_country.audience  -->
+					<!-- page.local_countries.{page.first_country.code} -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="title">
+			<div class="row">
+				<div class="column large-12">
+					<h3>{{'FACEBOOK_PAGE_GRAYBAR5' | translate}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="column large-6">
+					<div class="ranking main">
+						<div class="row small labels text-left">
+							<div class="column large-4">
+								<p>Pa&iacute;s</p>
+							</div>
+							<div class="column large-4">
+								<p>Fans</p>
+							</div>
+							<div class="column large-4">
+								<p>%</p>
+							</div>
+						</div>
+						<div class="row small"><div class="column large-12"><div class="hr"></div></div></div>
+						<div class="item" ng-repeat="country in page.local_countries">
+							<div class="row small">
+								<div class="column large-4">
+									<a href="{{urlRoot}}facebook-stats/pages/country/{{country.code}}">
+										<img class="flag" ng-src="{{imagesFolder}}flags/64/{{country.code | uppercase}}.png"/>
+									</a>
+								</div>
+								<div class="column large-4">
+									{{country.likes}}
+								</div>
+								<div class="column large-4">
+									{{country.likes_percent}}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column large-6">
+					<div class="row">
+						<div class="column large-6">
+							<div class="widget box horizontal">
+								<div class="body clearfix">
+									<div class="row">
+										<div class="column large-6">
+											<div class="flag">
+												<img class="flag" ng-src="{{::imagesFolder}}flags/64/{{page.local_countries[0].code | uppercase}}.png"/>
+											</div>
+										</div>
+										<div class="column large-6 change">
+											<h2 class="value">{{page.local_countries[0].likes}}</h2>
+											<p class="percent"><i class="fa fa-plus"></i>{{page.local_countries[0].likes_percent}}%</p>
+										</div>
+									</div>
+								</div>
+								<div class="footer country">
+									<p>
+										<a href="{{urlRoot}}/facebook-stats/pages/country/{{page.local_countries[0].code}}/" title="{{page.local_countries[0].name}}">
+											{{page.local_countries[0].name}}
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="column large-6">
+							<div class="widget box horizontal">
+								<div class="body clearfix">
+									<div class="row">
+										<div class="column large-6">
+											<div class="flag">
+												<img class="flag" ng-src="{{::imagesFolder}}flags/64/{{page.local_countries[1].code | uppercase}}.png"/>
+											</div>
+										</div>
+										<div class="column large-6 change">
+											<h2 class="value">{{page.local_countries[1].likes}}</h2>
+											<p class="percent"><i class="fa fa-plus"></i>{{page.local_countries[1].likes_percent}}%</p>
+										</div>
+									</div>
+								</div>
+								<div class="footer country">
+									<p>
+										<a href="{{urlRoot}}/facebook-stats/pages/country/{{page.local_countries[1].code}}/" title="{{page.local_countries[1].name}}">
+											{{page.local_countries[1].name}}
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column large-6">
+							<div class="widget box horizontal">
+								<div class="body clearfix">
+									<div class="row">
+										<div class="column large-6">
+											<div class="flag">
+												<img class="flag" ng-src="{{::imagesFolder}}flags/64/{{page.local_countries[2].code | uppercase}}.png"/>
+											</div>
+										</div>
+										<div class="column large-6 change">
+											<h2 class="value">{{page.local_countries[2].likes}}</h2>
+											<p class="percent"><i class="fa fa-plus"></i>{{page.local_countries[2].likes_percent}}%</p>
+										</div>
+									</div>
+								</div>
+								<div class="footer country">
+									<p>
+										<a href="{{urlRoot}}/facebook-stats/pages/country/{{page.local_countries[2].code}}/" title="{{page.local_countries[2].name}}">
+											{{page.local_countries[2].name}}
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="column large-6">
+							<div class="widget box horizontal">
+								<div class="body clearfix">
+									<div class="row">
+										<div class="column large-6">
+											<div class="flag">
+												<img class="flag" ng-src="{{::imagesFolder}}flags/64/{{page.local_countries[3].code | uppercase}}.png"/>
+											</div>
+										</div>
+										<div class="column large-6 change">
+											<h2 class="value">{{page.local_countries[3].likes}}</h2>
+											<p class="percent"><i class="fa fa-plus"></i>{{page.local_countries[3].likes_percent}}%</p>
+										</div>
+									</div>
+								</div>
+								<div class="footer country">
+									<p>
+										<a href="{{urlRoot}}/facebook-stats/pages/country/{{page.local_countries[3].code}}/" title="{{page.local_countries[3].name}}">
+											{{page.local_countries[3].name}}
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="title">
+			<div class="row">
+				<div class="column large-12">
+					<h3>{{'FACEBOOK_PAGE_GRAYBAR6' | translate}} Indonesia {{'FACEBOOK_PAGE_GRAYBAR6-2' | translate}}</h3>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="column large-12">
+					<!-- Grafico de likes de local_countries -->
+					<!-- traer de facebook_pages_local_fans -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="column large-3">
+					<div class="widget box http.get">
+						<div class="body clearfix">
+							<div class="row">
+								<div class="column large-6">
+									<i class="fa fa-user"></i>
+								</div>
+								<div class="column large-6 change {{page.likes_grow.grow_1.class}}">
+									<h2 class="value">{{page.likes_grow.grow_1.value}}</h2>
+									<p class="percent">
+										<i class="fa fa-{{page.likes_grow.grow_1.class}}"></i>
+										{{page.likes_grow.grow_1.percent}}%
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="footer country">
+							{{'FACEBOOK_PAGE_STATS_GROWTH_24HOURS' | translate}}
+						</div>
+					</div>
+				</div>
+				<div class="column large-3">
+					<div class="widget box http.get">
+						<div class="body clearfix">
+							<div class="row">
+								<div class="column large-6">
+									<i class="fa fa-user"></i>
+								</div>
+								<div class="column large-6 change {{page.likes_grow.grow_7.class}}">
+									<h2 class="value">{{page.likes_grow.grow_7.value}}</h2>
+									<p class="percent">
+										<i class="fa fa-{{page.likes_grow.grow_7.class}}"></i>
+										{{page.likes_grow.grow_7.percent}}%
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="footer country">
+							{{'FACEBOOK_PAGE_STATS_GROWTH_7DAYS' | translate}}
+						</div>
+					</div>
+				</div>
+				<div class="column large-3">
+					<div class="widget box http.get">
+						<div class="body clearfix">
+							<div class="row">
+								<div class="column large-6">
+									<i class="fa fa-user"></i>
+								</div>
+								<div class="column large-6 change {{page.likes_grow.grow_15.class}}">
+									<h2 class="value">{{page.likes_grow.grow_15.value}}</h2>
+									<p class="percent">
+										<i class="fa fa-{{page.likes_grow.grow_15.class}}"></i>
+										{{page.likes_grow.grow_15.percent}}%
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="footer country">
+							{{'FACEBOOK_PAGE_STATS_GROWTH_14DAYS' | translate}}
+						</div>
+					</div>
+				</div>
+				<div class="column large-3">
+					<div class="widget box http.get">
+						<div class="body clearfix">
+							<div class="row">
+								<div class="column large-6">
+									<i class="fa fa-user"></i>
+								</div>
+								<div class="column large-6 change {{page.likes_grow.grow_30.class}}">
+									<h2 class="value">{{page.likes_grow.grow_30.value}}</h2>
+									<p class="percent">
+										<i class="fa fa-{{page.likes_grow.grow_30.class}}"></i>
+										{{page.likes_grow.grow_30.percent}}%
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="footer country">
+							{{'FACEBOOK_PAGE_STATS_GROWTH_1MONTH' | translate}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<owloo-footer></owloo-footer>
+</div>

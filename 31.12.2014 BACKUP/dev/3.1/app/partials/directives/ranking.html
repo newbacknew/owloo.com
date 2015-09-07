@@ -1,0 +1,68 @@
+<div class="ranking table">
+	<div class="table-head">
+		<div class="row small labels">
+			<div class="column large-6 text-left">
+				<div class="position"><span>#</span></div>
+				<span>{{data.main_column}}</span>
+			</div>
+			<div class="column large-6">
+				<div class="row">
+					<div ng-repeat="column in data.second_column" class="column large-{{data.large_column}}">
+						<span>{{column}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="table-body">
+		<div class="item" ng-repeat="item in data.items">
+			<div class="row small">
+				<!-- Link -->
+				<a ng-if="data.type == 'fb_page'" href="{{urlRoot}}/{{data.link}}/{{item.username}}" class="link"></a>
+				<a ng-if="data.subtype == 'fb_region'" href="#{{item.name | lowercase | replace:',':'' | replace:' ':'-' | replace:'ã':'a'}}" class="link"></a>
+				<a ng-if="data.subtype == 'fb_city'" href="#{{item.name | lowercase | replace:',':'' | replace:' ':'-' | replace:'ã':'a'}}" class="link"></a>
+				<a ng-if="data.subtype == 'fb_country'" href="{{urlRoot}}/{{data.link}}/{{item.slug}}" class="link"></a>
+				<!-- Left -->
+				<div class="column large-6 account">
+					<!-- Position -->
+					<div class="position"><p>{{item.position}}</p></div>
+					<!-- Picture -->
+					<div class="circle-icon small" ng-if="data.type == 'fb_page'" >
+						<img ng-src="{{item.picture}}"/>
+					</div>
+					<div class="circle-icon small flag" ng-if="data.subtype == 'fb_country'" >
+						<img ng-src="{{::imagesFolder}}/flags/128/{{item.code}}.png"/>
+					</div>
+					<!-- Verified -->
+					<div ng-if="data.type == 'fb_page'">
+						<img class="verified" ng-if="data.subtype != 'tw_profile' && item.is_verified" ng-src="{{::imagesFolder}}/owloo_fb_page_verified_12x12.png"/>
+						<img class="verified" ng-if="data.subtype == 'tw_profile' && item.is_verified" ng-src="{{::imagesFolder}}/owloo_user_verified_account.png"/>
+					</div>
+					<!-- Name -->
+					<div class="name"><p>{{item.name}}</p></div>
+				</div>
+				<!-- Right -->
+				<div class="column large-6">
+					<div class="row">
+						<!-- Flag -->
+						<div ng-if="data.subtype != 'fb_country' && data.subtype != 'fb_country_page' && data.subtype != 'tw_profile' && data.subtype != 'in_profile'" class="column large-{{data.large_column}}">
+							<a class="flag-icon" ng-if="data.type == 'fb_page' " href="{{url.root}}/{{data.link}}/country/{{item.country.slug | lowercase | replace:' ':'-'}}">
+								<img ng-src="{{::imagesFolder}}/flags/64/{{item.country.code | uppercase}}.png" width="30"/>
+							</a>
+							<a class="flag-icon" ng-if="data.subtype == 'fb_city' || data.subtype == 'fb_region'" href="{{urlRoot}}/{{data.link}}/country/{{item.country_url_name}}">
+								<img ng-src="{{::imagesFolder}}/flags/64/{{item.country_code | uppercase}}.png" width="30"/>
+							</a>
+						</div>
+						<!-- Stats -->
+						<div ng-repeat="column in item.second_column" class="column large-{{data.large_column}}">
+							<p class="{{column.class}}">
+								<span ng-if="column.value != 0">{{column.value}}</span>
+								<span ng-if="column.value == 0">=</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+user-agent: *
+
+disallow: /dev/
+disallow: /userMgmt/
+disallow: /cache/
+disallow: /static/
+disallow: /wservice/
+disallow: /blog/

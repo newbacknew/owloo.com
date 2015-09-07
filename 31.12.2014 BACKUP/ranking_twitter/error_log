@@ -1,0 +1,17 @@
+[12-Nov-2014 16:58:25 America/Asuncion] user_id=153801212&trim_user=1 - 
+[12-Nov-2014 17:38:02 America/Asuncion] insert - user_id=153801212&trim_user=1 - 
+[12-Nov-2014 19:11:58 America/Asuncion] user_id=192287918&trim_user=1 - 
+[12-Nov-2014 19:22:27 America/Asuncion] insert - user_id=153801212&trim_user=1 - 
+[13-Nov-2014 17:23:13 America/Asuncion] user_id=192287918&trim_user=1 - 
+[13-Nov-2014 18:28:34 America/Asuncion] user_id=192287918&trim_user=1 - 
+[13-Nov-2014 18:33:05 America/Asuncion] user_id=192287918&trim_user=1 - 
+[20-Nov-2014 03:09:11 America/Asuncion] insert - user_id=153801212&trim_user=1 - 
+[22-Nov-2014 04:01:23 America/Asuncion] insert - user_id=153801212&trim_user=1 - 
+[22-Nov-2014 10:57:00 America/Asuncion] user_id=192287918&trim_user=1 - 
+[22-Nov-2014 10:59:56 America/Asuncion] user_id=2304305848&trim_user=1 - 
+[22-Nov-2014 11:00:03 America/Asuncion] user_id=2304305848&trim_user=1 - 
+[22-Nov-2014 11:00:36 America/Asuncion] user_id=2304305848&trim_user=1 - 
+[22-Nov-2014 11:00:43 America/Asuncion] user_id=2304305848&trim_user=1 - 
+[22-Nov-2014 11:01:16 America/Asuncion] user_id=2304305848&trim_user=1 - 
+[30-Dec-2014 02:06:07 America/Asuncion] PHP Warning:  [eAccelerator] Can not create shared memory area in Unknown on line 0
+[30-Dec-2014 02:06:07 America/Asuncion] PHP Fatal error:  Unable to start eAccelerator module in Unknown on line 0

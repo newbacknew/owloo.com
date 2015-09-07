@@ -1,0 +1,341 @@
+/*****************************************************************************************
+ * Solid PHP User Management System														 *
+ * Copyright 2012 Mark Eliasen (MrEliasen)												 *
+ *																						 *
+ * CodeCanyon Link: http://codecanyon.net/item/solid-php-user-management-system-/1254295 *
+ * Author Website: http://zolidweb.com													 *
+ * Version: 1.3.1 																		 *
+ *****************************************************************************************/
+@import url("../assets/ui/css/ui-lightness/style.css");
+@import url("../assets/datatables/dataTables.css");
+@import url("forum.css");
+@import url("../assets/zocial/zocial.css");
+
+#alertMessage{
+	position: fixed;
+	top: -40px;
+	left: 0;
+	z-index:999999999;
+	cursor:pointer;
+	width: 100%;
+	min-height: 38px;
+}
+	#alertMessage .alert{
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+.modal{
+	z-index: 1025 !important;
+}
+.modal-backdrop{
+	z-index: 1020 !important;
+}
+
+/* PM SYSTEM RELATED */
+#NewPM,
+#InboxPM,
+#ReadPM{
+	display: none;
+}
+#InboxPM{
+	z-index: 800;
+	margin: -280px 0 0 -250px;
+}
+	#InboxPM .modal-body {
+		height: 360px;
+	}
+		#InboxPM th.inbox_chkbox{
+			width: 30px;
+		}
+		#InboxPM th.inbox_actions{
+			width: 150px;
+		}
+	#InboxPM .status{
+		padding-left: 30px;
+	}
+		#InboxPM .unread{
+			background: url('../images/icons/unread.png') no-repeat left center;
+		}
+		#InboxPM .read{
+			background: url('../images/icons/read.png') no-repeat left center;
+		}
+		
+#ReadPM{
+	display: none;
+	z-index: 850;
+}
+	#ReadPM .message,
+	#NewPM .message{
+		width: 97%;
+		height: 110px;
+	}
+#NewPM{
+	display: none;
+	z-index: 900;
+}
+	
+#storagecount {
+	position: absolute;
+	top: 15px;
+	left: 280px;
+	width: 250px;
+}
+	#storagecount span {
+		display: inline-block;
+		position: absolute;
+		left: 27%;
+		font-weight: bold;
+		color: #000 !important;
+		text-shadow: none !important;
+	}
+/* ** ** ** ** ** ** */
+
+.friend_name{
+	font-weight: bold;
+	text-align: left;
+}
+.friend_accepted,
+.friend_pending{
+	font-weight: bold;
+}
+	.friend_accepted a{
+		color: #13b131;
+	}
+	.friend_pending a{
+		color: #c2791b;
+	}
+
+/* LOADING AND UNLOADING RELATED */
+#loading_overlay {
+	display: none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background: #fff url(../images/warning_bg.png) top right;
+	z-index:1500;
+}
+#loading_loader {
+	display: none;
+	position: fixed;
+	height: 20px;
+	background: #111 url(../images/preloader.gif) no-repeat 12px 10px;
+	left: 50%;
+	top: 50%;
+	margin: -20px 0 0 -55px;
+	padding: 10px;
+	color: #FFF;
+	font-size: 13px;
+	text-align: left;
+	text-indent: 36px;
+	line-height: 20px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	z-index: 1700;
+	opacity:0.80;
+	filter:alpha(opacity=80);
+}
+/* ** ** ** ** ** ** ** ** ** ** */
+
+.draggable .modal-header{
+	cursor: move;
+}
+
+.nav-collapse .dropdown .badge{
+	display: none;
+}
+
+/*
+------------------------------------------------------------
+	profile Setting 
+------------------------------------------------------------
+*/
+#webcam {
+	display:none;
+	margin-top: 20px;
+}
+form.profileform label{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+form.profileform label small{
+	display: block;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+/*
+------------------------------------------------------------
+	Search Related 
+------------------------------------------------------------
+*/
+#serch_members th:first-child{
+	width: 60px;
+	margin-right: 20px;
+	text-align: center;
+}
+#serch_members th{
+	width: 125px;
+	text-align: left;
+}
+
+#serch_members td:first-child{
+	text-align: center;
+}
+
+/*
+------------------------------------------------------------
+	Template Related
+------------------------------------------------------------
+*/
+#footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 35px;
+	background: #2C2C2C url(../images/warning_bg.png) top left;
+}
+	#footer>div{
+		width: 960px;
+		margin: 0 auto;
+		line-height: 35px;
+		color: #fff;
+		font-weight: bold;
+	}
+
+body > .container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.nav_avatar{
+	display: inline-block;
+	max-height: 20px !important;
+}
+
+#formSignup legend{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#formSignup .input-prepend,
+#formSignup > div{
+	margin-bottom: 5px;
+}
+#formSignup .input-prepend a[rel='tooltip']{
+	display: inline-block;
+}
+#formSignup .add-on{
+	min-width: 33px;
+}
+/*
+------------------------------------------------------------
+	Admin Related
+------------------------------------------------------------
+*/
+.tabs-left .subs>ul{
+	list-style: none !important;
+	margin: 0 0 9px 0px !important;
+}
+.icon-subcat {
+	background: url(../images/icons/subcat.gif) no-repeat left center;
+}
+
+#AddNewGroup,
+#EditGroup,
+#adm_newuser{
+	outline: none;
+	display: none;
+}
+
+#user_list{
+	padding-bottom: 50px;
+}
+
+.editcolorpicker{
+	position: absolute;
+	display:none;
+	z-index: 99999999;
+}
+
+#confirmaction{
+	display:none;
+}
+
+/*
+	PRICING TABLES
+*/
+@media (min-width: 1200px) {
+	#pricing > div{
+		width: 32%;
+		float: left;
+	}
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	#pricing > div{
+		width: 48%;
+		float: left;
+	}
+}
+#pricing h2{
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+#pricing .dasher{
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	height: 1px;
+	border-bottom: 1px dashed #555;
+}
+#pricing ul{
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+#pricing li{
+	color: #555;
+	font-size: 16px;
+}
+#pricing p{
+	color: #555;
+	margin-top: 10px;
+	text-align: center;
+}
+#pricing p b{
+	color: #2D8DED;
+	font-size: 16px;
+}
+#pricing p span{
+	font-size: 13px;
+}
+#pricing form{
+	text-align: center;
+}
+
+/*
+	Payment Plans
+*/
+.plan_highlight{
+	border: 1px dashed #000;
+	position: relative;
+	
+	-moz-box-shadow: -2px 3px 6px #535354;
+	-webkit-box-shadow: -2px 3px 6px #535354;
+	box-shadow: -2px 3px 6px #535354;
+	filter: progid:DXImageTransform.Microsoft.Shadow(strength = 3, direction = 210, color = '#535354');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 3, Direction = 210, Color = '#535354')";
+}
+	.plan_highlight .activeplan{
+		position: absolute;
+		width: 52px;
+		height: 52px;
+		background: url('../images/payment-sash.png') no-repeat;
+		top: -3px;
+		right: -3px;
+	}

@@ -1,0 +1,169 @@
+[23-Oct-2014 20:02:49 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 20:04:30 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 20:13:15 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 20:15:29 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 20:42:23 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 20:42:56 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 20:42:59 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/owloo/public_html/dev/3.1/server/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 44
+[23-Oct-2014 22:28:34 UTC] PHP Fatal error:  Non-static method Memcached::add() cannot be called statically, assuming $this from incompatible context in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 13
+[23-Oct-2014 22:29:00 UTC] PHP Fatal error:  Call to undefined method Memcached::put() in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 13
+[24-Oct-2014 16:31:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 449
+[24-Oct-2014 21:03:24 UTC] PHP Parse error:  syntax error, unexpected '$var' (T_VARIABLE) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 573
+[24-Oct-2014 21:03:26 UTC] PHP Parse error:  syntax error, unexpected '$var' (T_VARIABLE) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 573
+[24-Oct-2014 21:25:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 540
+[27-Oct-2014 13:11:36 UTC] PHP Parse error:  syntax error, unexpected ''facebo' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 253
+[28-Oct-2014 20:16:58 UTC] PHP Fatal error:  Call to undefined function convert_string_to_url() in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 464
+[29-Oct-2014 14:03:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 544
+[29-Oct-2014 18:43:21 UTC] PHP Fatal error:  Class 'FacebookCountryResults' not found in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 438
+[29-Oct-2014 18:44:14 UTC] PHP Fatal error:  Class 'FacebookCountryResults' not found in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 438
+[30-Oct-2014 12:21:56 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 659
+[30-Oct-2014 14:57:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 593
+[30-Oct-2014 15:10:09 UTC] PHP Parse error:  syntax error, unexpected '', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 516
+[30-Oct-2014 15:16:11 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 655
+[30-Oct-2014 15:16:28 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 655
+[31-Oct-2014 18:55:56 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:55:56 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:55:56 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:55:56 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:04 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:04 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:04 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:04 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:10 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:10 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:10 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:10 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:14 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:14 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:14 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:14 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:21 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:22 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:22 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:56:22 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:57:19 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:57:58 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 18:58:41 UTC] PHP Parse error:  syntax error, unexpected '{', expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 929
+[31-Oct-2014 19:08:33 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 897
+[04-Nov-2014 12:34:14 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 941
+[18-Nov-2014 20:15:35 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:46 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:46 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:46 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:15:46 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:16:41 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:16:41 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:16:41 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:16:41 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:18:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:18:48 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:18:48 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:18:48 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:19:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:19:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:19:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[18-Nov-2014 20:19:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 413
+[19-Nov-2014 15:12:54 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 175
+[19-Nov-2014 15:12:58 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 175
+[19-Nov-2014 15:13:00 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 175
+[19-Nov-2014 15:13:02 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 175
+[19-Nov-2014 17:35:55 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 165
+[19-Nov-2014 17:35:55 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 165
+[19-Nov-2014 17:36:11 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 165
+[19-Nov-2014 17:36:11 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 165
+[19-Nov-2014 17:55:15 UTC] PHP Parse error:  syntax error, unexpected ''Julio';' (T_ENCAPSED_AND_WHITESPACE) in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 291
+[19-Nov-2014 19:54:30 UTC] PHP Fatal error:  Class 'FacebookRegionAge' not found in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1195
+[24-Nov-2014 18:29:18 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 60
+[24-Nov-2014 18:30:28 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 60
+[24-Nov-2014 21:11:03 UTC] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1598
+[24-Nov-2014 21:45:46 UTC] PHP Fatal error:  Class 'FacebookRegionAge' not found in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1413
+[25-Nov-2014 19:50:48 UTC] PHP Fatal error:  Call to undefined function searchFacebookPageInDB() in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 85
+[25-Nov-2014 20:03:28 UTC] PHP Fatal error:  Call to undefined function getUrlContent() in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 74
+[26-Nov-2014 16:33:35 UTC] PHP Fatal error:  Cannot redeclare OwlooController::searchSocialAccounts() in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 175
+[26-Nov-2014 16:34:56 UTC] PHP Fatal error:  Call to undefined function searchSocialAccountsFunction() in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 180
+[26-Nov-2014 16:41:24 UTC] PHP Fatal error:  Call to undefined function get_url_content() in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 95
+[26-Nov-2014 16:41:29 UTC] PHP Fatal error:  Call to undefined function get_url_content() in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 95
+[01-Dec-2014 13:49:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter.php on line 190
+[01-Dec-2014 14:08:27 UTC] PHP Fatal error:  Cannot use [] for reading in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 11
+[01-Dec-2014 14:14:01 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: counter_data' in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php:45
+Stack trace:
+#0 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php(45): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/owloo/pub...', 45, Array)
+#1 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter.php(54): twitterAccessTokens->__construct()
+#2 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(114): getdata('https://api.twi...', 'screen_name=tex...')
+#3 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(148): OwlooController->twitterSearchUsername('TexasHoldEm')
+#4 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(190): OwlooController->searchAccountFromUrl('TexasHoldEm', 'twitter')
+#5 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(211): Ow in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 45
+[01-Dec-2014 14:14:01 UTC] PHP Fatal error:  Cannot access empty property in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 45
+[01-Dec-2014 14:15:18 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: counter_data' in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php:47
+Stack trace:
+#0 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php(47): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/owloo/pub...', 47, Array)
+#1 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter.php(54): twitterAccessTokens->__construct()
+#2 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(114): getdata('https://api.twi...', 'screen_name=tex...')
+#3 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(148): OwlooController->twitterSearchUsername('TexasHoldEm')
+#4 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(190): OwlooController->searchAccountFromUrl('TexasHoldEm', 'twitter')
+#5 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(211): Ow in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 47
+[01-Dec-2014 14:15:18 UTC] PHP Fatal error:  Cannot access empty property in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 47
+[01-Dec-2014 14:15:42 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: counter_data' in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php:47
+Stack trace:
+#0 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php(47): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/owloo/pub...', 47, Array)
+#1 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter.php(54): twitterAccessTokens->__construct()
+#2 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(114): getdata('https://api.twi...', 'screen_name=tex...')
+#3 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(148): OwlooController->twitterSearchUsername('TexasHoldEm')
+#4 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(190): OwlooController->searchAccountFromUrl('TexasHoldEm', 'twitter')
+#5 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(211): Ow in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 47
+[01-Dec-2014 14:15:42 UTC] PHP Fatal error:  Cannot access empty property in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 47
+[01-Dec-2014 14:16:58 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: counter_data' in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php:47
+Stack trace:
+#0 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php(47): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/owloo/pub...', 47, Array)
+#1 /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter.php(54): twitterAccessTokens->__construct()
+#2 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(114): getdata('https://api.twi...', 'screen_name=tex...')
+#3 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(148): OwlooController->twitterSearchUsername('TexasHoldEm')
+#4 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(190): OwlooController->searchAccountFromUrl('TexasHoldEm', 'twitter')
+#5 /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php(211): Ow in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 47
+[01-Dec-2014 14:16:58 UTC] PHP Fatal error:  Cannot access empty property in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 47
+[01-Dec-2014 14:42:28 UTC] PHP Fatal error:  Using $this when not in object context in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 54
+[01-Dec-2014 14:43:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 54
+[01-Dec-2014 14:45:50 UTC] PHP Fatal error:  Using $this when not in object context in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 54
+[01-Dec-2014 14:48:03 UTC] PHP Fatal error:  Access to undeclared static property: TwitterAccessTokens::$counter_data in /home/owloo/public_html/dev/3.1/server/app/controllers/social_api/twitter/twitterconfig.php on line 54
+[01-Dec-2014 18:44:18 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/owloo/public_html/dev/3.1/server/app/controllers/OwlooController.php on line 137
+[17-Dec-2014 14:00:20 UTC]    Basic data (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Basic data (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Cities (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Cities (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Regions (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Regions (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Ages (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Ages (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Languages (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Languages (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Relationships (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Relationships (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Interests (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Interests (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Comportamientos (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Comportamientos (f): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Mobile device (i): 17 12 2014 14:00:20
+[17-Dec-2014 14:00:20 UTC]    Mobile device (f): 17 12 2014 14:00:20
+[17-Dec-2014 15:45:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1035
+[17-Dec-2014 15:46:23 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1031
+[18-Dec-2014 17:54:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1297
+[18-Dec-2014 17:55:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1296
+[18-Dec-2014 17:55:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1296
+[18-Dec-2014 18:24:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 281
+[18-Dec-2014 19:39:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1291
+[19-Dec-2014 14:37:02 UTC] PHP Parse error:  syntax error, unexpected '!=' (T_IS_NOT_EQUAL), expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1069
+[19-Dec-2014 14:37:27 UTC] PHP Parse error:  syntax error, unexpected '!=' (T_IS_NOT_EQUAL), expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1069
+[19-Dec-2014 15:20:28 UTC] PHP Fatal error:  Call to undefined function mobile_device_has_more_device() in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1109
+[19-Dec-2014 18:41:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 374
+[23-Dec-2014 19:56:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 1434
+[23-Dec-2014 20:02:16 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/FacebookController.php on line 234
+[29-Dec-2014 23:01:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 477
+[29-Dec-2014 23:02:09 UTC] PHP Fatal error:  Cannot redeclare class simple_html_dom_node in /home/owloo/public_html/dev/3.1/server/app/controllers/simple_html_dom.php on line 115
+[29-Dec-2014 23:02:42 UTC] PHP Fatal error:  Call to undefined function str_get_html() in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 474
+[29-Dec-2014 23:03:10 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE), expecting function (T_FUNCTION) in /home/owloo/public_html/dev/3.1/server/app/controllers/TwitterController.php on line 469
+[30-Dec-2014 22:03:14 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/owloo/public_html/dev/3.1/server/app/controllers/InstagramController.php on line 241
+[30-Dec-2014 22:03:38 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/owloo/public_html/dev/3.1/server/app/controllers/InstagramController.php on line 241
+[30-Dec-2014 22:03:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/owloo/public_html/dev/3.1/server/app/controllers/InstagramController.php on line 241

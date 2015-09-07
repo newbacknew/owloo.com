@@ -1,0 +1,849 @@
+[09-Dec-2014 15:01:56 America/Asuncion] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, array given in /home/owloo/public_html/ranking_twitter/cronjob/delete_repeats.php on line 10
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:07:59 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:52 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 37
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 38
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 39
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 52
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 59
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 60
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 61
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 64
+[15-Dec-2014 07:08:53 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/updatehashmention.php on line 72
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:25 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[15-Dec-2014 07:16:26 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:30 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:40 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:02:41 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:48 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'id_str' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 38
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 39
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'created_at' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 40
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'text' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 52
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'entities' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 59
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'hashtags' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 60
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Illegal string offset 'user_mentions' in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 61
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 63
+[29-Dec-2014 07:03:49 America/Asuncion] PHP Warning:  Invalid argument supplied for foreach() in /home/owloo/public_html/ranking_twitter/cronjob/inserthashmention.php on line 70

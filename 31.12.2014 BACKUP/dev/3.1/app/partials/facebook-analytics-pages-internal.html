@@ -1,0 +1,182 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content stats-page">
+	<div class="section">
+		<div class="row header">
+			<div class="column large-4 who">
+				<div class="picture">
+					<div class="circle-icon flag">
+						<img ng-src="{{::content.page.picture}}"/>
+					</div>
+				</div>
+				<div class="name">
+					<h1>{{::content.page.name}}</h1>
+					<p>{{::content.page.category.name}}</p>
+				</div>
+			</div>
+			<div class="column large-7 overview">
+				<div class="row">
+					<div class="column large-4">
+						<h4>Rank en {{::content.page.country.name}}</h4>
+						<p>{{::content.page.country.ranking}}</p>
+					</div>
+					<div class="column large-4">
+						<h4>Likes</h4>
+						<p>{{::content.page.country.audience_str}}</p>
+					</div>
+					<div class="column large-4">
+						<h4>Crecimiento</h4>
+						<p class="grow">
+							<span class="{{::content.page.likes_grow.grow_30.class}}"></span>
+							{{::content.page.likes_grow.grow_30.percent}}%
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-12">
+				<div class="hr"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-4">
+				<p>{{::content.page.about}}</p>
+			</div>
+			<div class="column large-7">
+				<div class="page-cover">
+					<img ng-src="{{::content.page.cover}}"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Last 30 days Growth of total likes for {{::content.page.name}} on Facebook</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="chart">
+						<div class="charts-container main-container" style="height: 300px; position: relative;">
+							<div class="max">
+								<h4>Mayor crecimiento: {{::content.page.likes_history_30.series_data_max | number | replace:',':'.'}}</h4>
+							</div>
+							<div id="likes_history" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+							<div class="image">
+								<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+							</div>
+							<div class="grid-content">
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column last"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column last"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column last"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-3 text-right">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="column large-offset-1 large-8">
+					<div class="circle-data">
+						<div class="circle {{::content.page.likes_grow.grow_1.class}}">
+							<div class="data">
+								<p>{{::content.page.likes_grow.grow_1.value}}</p>
+							</div>
+						</div>
+						<h4>Growth last 24 hours</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle {{::content.page.likes_grow.grow_7.class}}">
+							<div class="data">
+								<p>{{::content.page.likes_grow.grow_7.value}}</p>
+							</div>
+						</div>
+						<h4>Growth last 7 days</h4>
+					</div>
+					<div class="circle-data">
+						<div class="circle {{::content.page.likes_grow.grow_15.class}}">
+							<div class="data">
+								<p>{{::content.page.likes_grow.grow_15.value}}</p>
+							</div>
+						</div>
+						<h4>Growth last 15 days</h4>
+					</div>
+					<div class="circle-data" >
+						<div class="circle {{::content.page.likes_grow.grow_30.class}}">
+							<div class="data">
+								<p>{{::content.page.likes_grow.grow_30.value}}</p>
+							</div>
+						</div>
+						<h4>Growth in last month</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row"><div class="column large-12"><div class="hr"></div></div></div>
+	<div class="section">
+		<div class="sub-section">
+			<div class="row text-center">
+				<div class="column large-12">
+					<h2>Latst month engagement rate by {{::content.page.name}} on Facebook</h2>
+				</div>
+			</div>
+		</div>
+		<div class="sub-section">
+			<div class="row">
+				<div class="column large-12">
+					<div class="chart">
+						<div class="charts-container main-container" style="height: 300px; position: relative;">
+							<div class="max">
+								<h4>Mayor crecimiento: {{::content.page.talking_about_history_30.series_data_max | number | replace:',':'.'}}</h4>
+							</div>
+							<div id="talking_about_history" style="min-width: 300px; height: 300px; margin: 1em; position: relative; z-index: 2;"></div>
+							<div class="image">
+								<img src="{{::imagesFolder}}/owloo-analytics-charts.png"/>
+							</div>
+							<div class="grid-content">
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column last"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column last"></div>
+								</div>
+								<div class="grid-row">
+									<div class="grid-column"></div>
+									<div class="grid-column"></div>
+									<div class="grid-column last"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<owloo-footer></owloo-footer>
+</div>

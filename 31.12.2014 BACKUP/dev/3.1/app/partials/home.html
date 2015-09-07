@@ -1,0 +1,139 @@
+<div class="app-content">
+    <div class="section slider text-center">
+        <div class="slide">
+            <img ng-src="{{::imagesFolder}}/people{{slide}}.jpg"/>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="social column large-offset-3 large-6">
+                    <div class="row">
+                        <h1>Analiza las redes sociales<br>Ahora más potente que nunca</h1>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12">
+                            <a class="button bg-blue" href="{{urlRoot}}/facebook-statistics">INICIAR TOUR</a>
+                            <a class="button bg-gray" href="{{urlRoot}}/features">COMO FUNCIONA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight bg-blue text-center">
+                <h4>Más de <span id="owloo_user_count">{{::totalOwlooUsers}}</span> profesionales, medios y agencias registradas</h4>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-3 text-center">
+                <div class="row">
+                    <div class="column large-10">
+                        <img ng-src="{{::imagesFolder}}/ill/d78bdb9505d289d0cc8bd6109ed57e6f.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-10">
+                        <h4>{{'MOST_FACEBOOK_PAGES_GROWTH' | translate | replace:'$1':'Hispanoamérica'}}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-10">
+                        <a href="{{url.facebook.analytics.root}}" class="underline">Facebook Analytics</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-9">
+                <div class="row">
+                    <div class="column large-3" ng-repeat="page in facebookGrowRank">
+                        <widget-box-upright picture='{{page.picture}}' grownumber='{{page.grow_30}}' growpercent='{{page.percent}}' 
+                        link='{{url.facebook.analytics.pages}}/{{page.username}}' name='{{page.name}}' class='plus'></widget-box-upright>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-3 text-center">
+                <div class="row">
+                    <div class="column large-10">
+                        <img ng-src="{{::imagesFolder}}/ill/a6bf41f9a10af7e61bd6d2f047a20e7f.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-10">
+                        <h4>{{'MOST_TWITTER_ACCOUNT_GROWTH' | translate | replace:'$1':'Hispanoamérica'}}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-10">
+                        <a href="{{url.twitter.analytics.root}}" class="underline">Twitter Analytics</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-9">
+                <div class="row">
+                    <div class="column large-3" ng-repeat="profile in twitterGrowRank">
+                        <widget-box-upright picture='{{profile.picture}}' grownumber='{{profile.grow_30}}' growpercent='{{profile.percent}}' 
+                        link='{{url.twitter.analytics.profiles}}/{{profile.screen_name}}' name='{{profile.name}}' class='plus'></widget-box-upright>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-3 text-center">
+                <div class="row">
+                    <div class="column large-10">
+                        <img ng-src="{{::imagesFolder}}/ill/6b8e01cbd14dec4bb4a5aacafd53aa45.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-10 end">
+                        <h4>{{'MOST_INSTAGRAM_ACCOUNT_GROWTH' | translate | replace:'$1':'Hispanoamérica'}}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-10">
+                        <a href="{{::url.instagram.analytics.root}}" class="underline">Instagram Analytics</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-9">
+                <div class="row">
+                    <div class="column large-3" ng-repeat="profile in instagramGrowRank">
+                        <widget-box-upright picture='{{profile.picture}}' grownumber='{{profile.grow_30}}' growpercent='{{profile.percent}}' 
+                        link='{{url.instagram.analytics.accounts}}/{{profile.username}}' name='{{profile.name}}' class='plus'></widget-box-upright>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+		<div class="row big">
+			<div class="column large-4">
+                <div class="row">
+                    <div class="column large-12">
+                        <h4>{{'MOST_FACEBOOK_COUNTRIES_GROWTH' | translate | replace:'$1':'Hispanoamérica'}}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column large-12">
+                        <a href="{{url.facebook.research.root}}" class="underline">Facebook Research</a>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column large-3" ng-repeat="country in countryGrowRank">
+				<widget-box-horizontal icon='flag_{{country.code}}' class='plus'
+				value='{{country.grow_90.value}}' percent='{{country.grow_90.percent}}' link='{{::url.facebook.research.country}}{{country.link}}' footer="{{country.name}}">
+				</widget-box-horizontal>
+			</div>
+		</div>
+	</div>
+    <owloo-footer></owloo-footer>
+</div>

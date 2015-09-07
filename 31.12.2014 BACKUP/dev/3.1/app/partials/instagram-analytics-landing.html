@@ -1,0 +1,125 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content">
+    <div class="section text-center">
+        <div class="row">
+        	<div class="column large-12">
+	        	<div class="row big">
+		            <div class="column large-12">
+		                <h1>{{'INSTAGRAM_ANALYTICS_TITLE' | translate}}</h1>
+		            </div>
+	            </div>
+	        	<div class="row big">
+	            	<div class="column large-12">
+	            		<img ng-src="{{::imagesFolder}}/ill/5e04c6859731027a163ac26be477713b.png"/>
+	            	</div>
+	            </div>
+	            <div class="row big">
+	                <div class="column large-offset-3 large-6">
+	                    <p>{{'INSTAGRAM_ANALYTICS_SUBTITLE' | translate}}</p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="column large-12">
+	                    <a class="button bg-blue" href="#">{{'INSTAGRAM_ANALYTICS_BOTTON_TOUR' | translate}}</a>
+	                </div>
+	            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="hr"></div>
+    <div class="section text-center">
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-offset-3 large-6">
+                    <h2>{{'INSTAGRAM_ANALYTICS_GROW' | translate}}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-2" ng-repeat="profile in instagramGrowRank">
+                    <widget-bubble-account picture='{{profile.picture}}' grownumber='{{profile.grow_30}}' growpercent='{{profile.percent}}' 
+                    link='{{urlRoot}}/facebook-stats/pages/{{profile.username}}' name='{{profile.name}}' class='plus'></widget-box-upright>
+                </div>
+            </div>
+        </div>
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-offset-3 large-6">
+                    <h2>{{'INSTAGRAM_ANALYTICS_LAST_ADDED' | translate}}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-2" ng-repeat="profile in instagramLastAdded">
+                    <widget-bubble-account picture='{{profile.picture}}' 
+                    link='{{urlRoot}}/facebook-stats/pages/{{profile.username}}' name='{{profile.name}}' class='plus'></widget-box-upright>
+                </div>
+            </div>
+        </div>
+        <div class="sub-section">
+            <div class="row big">
+                <div class="column large-12">
+                    <h3><a href="{{::url.instagram.analytics.accounts}}">{{'INSTAGRAM_ANALYTICS_SEE_MORE' | translate}}</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column large-12">
+                    <img ng-src="{{::imagesFolder}}/ill/f323da827b0d2a2cf138ed66f65e86f0.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section gray text-center">
+        <img class="middle-icon" ng-src="{{::imagesFolder}}/ill/614a0199e0d9dd7419c079752f6c0e0a.png">
+        <div class="row big">
+            <div class="column large-offset-3 large-6">
+                <h3>{{'INSTAGRAM_ANALYTICS_ADD_PAGE' | translate}}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-offset-2 large-8">
+                <widget-add-account-input placeholder="{{'INSTAGRAM_ANALYTICS_ADD_PAGE_PLACEHOLDER' | translate}}"></widget-add-account-input>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section blue">
+        <div class="row">
+            <div class="column large-offset-1 large-5 end">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'INSTAGRAM_ANALYTICS_SECTION1_TITLE' | translate}}</h3>
+                        <p class="highlight">{{'INSTAGRAM_ANALYTICS_SECTION1_DESC1' | translate}}</p>
+                        <p class="highlight">{{'INSTAGRAM_ANALYTICS_SECTION1_DESC2' | translate}}</p>
+                        <p class="highlight">{{'INSTAGRAM_ANALYTICS_SECTION1_DESC3' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column large-5">
+                <img ng-src="{{::imagesFolder}}/ill/7a77b4e7670b5e9cf9a5b2e1b171bc03.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="section">
+        <div class="row">
+            <div class="column large-5">
+                <img ng-src="{{::imagesFolder}}/ill/0e75bafcf01cc6e8787f4fcb618bb7c7.png"/>
+            </div>
+            <div class="column large-5 large-offset-1 end">
+                <div class="row">
+                    <div class="column large-11">
+                        <h3>{{'INSTAGRAM_ANALYTICS_SECTION2_TITLE' | translate}}</h3>
+                        <p class="highlight">{{'INSTAGRAM_ANALYTICS_SECTION2_DESC1' | translate}}</p>
+                        <p class="highlight">{{'INSTAGRAM_ANALYTICS_SECTION2_DESC2' | translate}}</p>
+                        <p class="highlight">{{'INSTAGRAM_ANALYTICS_SECTION2_DESC3' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <owloo-footer></owloo-footer>
+</div>

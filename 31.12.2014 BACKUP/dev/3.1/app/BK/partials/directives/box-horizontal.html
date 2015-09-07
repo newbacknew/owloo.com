@@ -1,0 +1,21 @@
+<div class="widget box horizontal">
+	<div class="body clearfix">
+		<div class="row">
+			<div class="column large-6">
+				<div class="icon small gray" ng-if="icon_text == 'user'"><i class="fa fa-user"></i></div>
+				<div class="icon small gray" ng-if="icon_text == 'flag'"><img class="flag" ng-src="{{imagesFolder}}flags/64/{{code | uppercase}}.png" /></div>
+			</div>
+			<div class="column large-6 change {{class}}">
+				<h2 class="value">{{value}}</h2>
+				<p class="percent">
+					<i class="fa fa-{{class}}"></i>
+					{{percent}}%
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer country">
+		<p ng-if="link.length > 0"><a href="{{link}}" title="{{footer}}">{{footer}}</a></p>
+		<p ng-if="link.length == 0">{{footer}}</p>
+	</div>
+</div>

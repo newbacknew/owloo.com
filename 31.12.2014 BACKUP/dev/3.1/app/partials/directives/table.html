@@ -1,0 +1,101 @@
+<div class="section">
+	<div class="row">
+        <div class="column large-12">
+			<div class="table-country">
+				<div class="table-head">
+					<div class="column large-6">
+						<div class="row large-12">
+							<div class="column large-12" ng-init='tab=1'>
+								<button class="button-tab small" ng-class='{"active":tab==1}' ng-click='tab=1'>Intereses</button>
+								<button class="button-tab small" ng-class='{"active":tab==2}' ng-click='tab=2'>Comportamientos</button>
+							</div>
+						</div>
+					</div>
+					<div class="column large-2 text-right">
+						<span>Grow last 7 days</span>
+					</div>
+					<div class="column large-2 text-right">
+						<span>Audiencia</span>
+					</div>
+					<div class="column large-2 text-right">
+						<span>Porcentaje</span>
+					</div>
+				</div>
+				
+				<div class="table-body">
+					<div class="row">
+						<div class="column large-12">
+							<div id="tab-1" class="tabs-content" ng-class='{"active":tab==1}'>
+								<div ng-animate="'move-right'" class="item ng-scope" ng-repeat="i in [1, 2, 3, 4, 5]">
+									<div class="row small">
+										<div class="column large-6 account">
+											<div class="row large-12">
+												<div class="column large-8">
+													<p>Acondicianamiento físico / Bienestar</p>
+												</div>
+												<div class="column large-4">
+													<p>
+														<a href="#" class="ng-binding show-more">
+															Ver análisis de la ciudad
+														</a>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="column large-6">
+											<div class="row">
+												<div class="column large-4 text-right">
+													<p class="plus">+200.000</p>
+												</div>
+												<div class="column large-4 text-right">
+													<p>2.800.000</p>
+												</div>
+												<div class="column large-4 text-right">
+													<p>1,52%</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div id="tab-2" class="tabs-content" ng-class='{"active":tab==2}'>
+								<div ng-animate="'move-right'" class="item ng-scope" ng-repeat="i in [1, 2, 3, 4, 5]">
+									<div class="row small">
+										<div class="column large-6 account">
+											<div class="row large-12">
+												<div class="column large-8">
+													<p>Escuchar música</p>
+												</div>
+												<div class="column large-4 text-right">
+													<p>
+														<a href="#" class="ng-binding interest-show-more">
+															Ver análisis completo
+														</a>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="column large-6">
+											<div class="row">
+												<div class="column large-4 text-right">
+													<p class="plus">+200.000</p>
+												</div>
+												<div class="column large-4 text-right">
+													<p>2.800.000</p>
+												</div>
+												<div class="column large-4 text-right">
+													<p>1,52%</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+   </div>
+</div>

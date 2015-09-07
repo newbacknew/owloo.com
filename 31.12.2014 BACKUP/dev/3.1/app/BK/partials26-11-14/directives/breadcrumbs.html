@@ -1,0 +1,12 @@
+<div class="section breadcrumbs">
+	<div class="row small">
+		<div class="column large-12">
+			<a href="{{urlRoot}}/">Owloo</a>
+			<i class="fa fa-angle-right"></i>
+			<span ng-repeat="item in links">
+				<a href="{{urlRoot}}/{{item.link}}">{{item.text | translate}}</a>
+				<i class="fa fa-angle-right" ng-if="$last != true"></i>
+			</span>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,69 @@
+.header h1 {
+    display: inline-block;
+    font-family: 'opensans-bold',sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0 0 5px 142px;
+}
+h3 {
+    font-family: 'opensans-bold',sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 10px 0 0;
+}
+.info-bill > div {
+    float: left;
+}
+.info-bill {
+    overflow: hidden;
+}
+.bill-code {
+    margin-left: 173px;
+    overflow: hidden;
+}
+.value {
+    display: inline-block;
+}
+.bill-code .col {
+}
+.bill-code > div {
+    float: left;
+}
+.col {
+    clear: left;
+    width: 140px;
+}
+.content-bills {
+    font-family: 'opensans',sans-serif;
+    font-size: 13px;
+}
+.info-client {
+    margin: 15px 0;
+}
+table.mediacenter {
+    border-collapse: collapse;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: #333333;
+    font-family: 'OpenSans',Arial;
+    font-size: 11px;
+    padding: 4px 10px;
+    width: 100%;
+}
+table.mediacenter th {
+    background: url("../assets/bootstrap/images/owloo_gb_body.jpg") repeat scroll 0 0 #EEE;
+    border-bottom: 1px solid #DDDDDD;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: normal;
+    padding: 4px 10px;
+	text-align:left;
+}
+table.mediacenter td {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 4px 10px;
+}
+table.mediacenter tr:hover td {
+    background: none repeat scroll 0 0 #FBFBFB;
+}

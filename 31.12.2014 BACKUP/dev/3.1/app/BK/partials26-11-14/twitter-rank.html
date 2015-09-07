@@ -1,0 +1,22 @@
+<breadcrumbs links="breadcrumbs"></breadcrumbs>
+
+<div class="app-content">
+	<div class="section ranking-page">
+		<div class="row">
+			<div class="column large-3">
+				<div class="ranking sidebar filters">
+					<div class="row small">
+						<div class="column large-12">
+							<p><a href="{{urlRoot}}/twitter-stats/rank/world" ng-class="{current:where == 'world'}">Mundial</a>
+							<a href="{{urlRoot}}/twitter-stats/rank/hispanic" ng-class="{current:where == 'hispanic'}">Hispano</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column large-9">
+				<ranking rank="rank"></ranking>
+			</div>
+		</div>
+	</div>
+    <owloo-footer></owloo-footer>
+</div>
